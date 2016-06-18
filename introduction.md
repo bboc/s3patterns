@@ -2,56 +2,44 @@
 title: Introduction
 ---
 
+## What is Sociocracy 3.0?
 
-## Sociocracy 3.0... ##
+Sociocracy 3.0 (also known as S3) is a **framework of patterns for collaboration in organizations** that wish to grow more **effective, agile and resilient**.
 
-...is a method for growing **effective, agile and resilient organization**s of **any size,** from small start-ups to large international networks and nationwide, multi-agency collaboration.
+It be applied in organizations of **any size,** from small start-ups to large international networks and nationwide, multi-agency collaboration.
 
-...provides a collection of **principles and patterns** to **dynamically steer and evolve organizations**.
+S3 contains patterns ready to use for many different aspects of collaboration, including patterns that enable organizations to discover and develop new patterns according to their needs. 
 
-...incrementally processes **available information** into **continuous improvement of products, processes and skills**.
+The patterns in S3 form a pattern language, i.e. while each pattern can be applied independently, patterns mutually reinforce each other, because they are all based on the same set of principles (see the *Seven Principles* at the end of the introduction). 
 
-...helps organizations making **the best use of the talent already present**, and to grow flexible organizational **structures that support effective travel of information**.
+S3 patterns facilitate positive transformation for individuals, teams and whole organizations by enabling people to..:
 
-...contains a **soft, iterative approach to implementation** that **meets organizations where they** are and helps them move forward at their own pace.
+* ...**dynamically steer and evolve** their organizations.
+* ...commit to agreements and account for the consequences
+* ...learn, transform and grow
+* ...incrementally process available information into **continuous improvement of products, processes and skills***.
+* ... make the best use of the skills already present
+* ... grow flexible organizational structures in support of effective flow of information.
+* ...take an **open, iterative approach to adoption** that meets organizations where they are and enables them to move forward at their own pace. 
+* ...draw on the *collective intelligence* of the group.
+* ...develop creative strategies that are “**good enough for now**” and “**safe enough to try**”.
 
- ...draws on the *collective intelligence* of the group
-
-...facilitates the development of strategies that are “*good enough for now*” and “*safe enough to try*”
-
-...fosters accountability and a sense of engagement
-...is a transformational mechanism for both individuals and the whole organization
+The focus of this handbook is  mostly on S3 in the context of organizations. The patterns themselves are valuable to any group of people who wish to collaborate effectively, including communities, municipalities, families, and even one-to-one relationships.
 
 
-Sociocracy 3.0 may be applied within...
-
-* ...startups
-* ...small and medium businesses
-* ...large international, networked organizations
-* ...families
-* ...investor-funded organizations
-* ...communities
+## A Brief History of Sociocracy  from 1851 to today ##
 
 **What’s in a word?**
 
-* *socio* 
-    * from Latin *socius* - companion, friend
-* *-cracy* 
-    * from Ancient Greek krátos - “power, rule”
-* different to the rule of the *demos*
-    * the general mass of people with voting privileges
-
----
-
-## A Brief History of Sociocracy  From 1851 to Today ##
-
+* *socio-* from Latin *socius* - companion, friend
+* *-cracy*  from Ancient Greek krátos - “power, rule”
+* different to the rule of the *demos* (i.e. the general mass of people with voting privileges)
 
 ![](img/general/history.png)
 
-
 * 1851 – Auguste Comte
     * Scientific method applied to society
-    * Sociocracy is “*the social order of the future*” - not yet achievable but inevitable
+    * Sociocracy is “*the social order of the future*” - not yet achievable but inevitable!
 * 1881 – Lester Frank Ward
     * redefined the term Sociocracy to describe the rule of the people with relationships with each other 
 * 1926 -1954 - Kees Boeke
@@ -71,147 +59,72 @@ Sociocracy 3.0 may be applied within...
 * 2014 The Sociocracy 3.0 Movement is born
 
 
-**The Sociocracy 3.0 Movement...**
+## The S3 Movement ##
 
-* ...develops and evolves Sociocracy 3.0 to make it available and applicable to as many organizations as possible.
-* ...provides resources under a Creative Commons Free Culture License to learn, practice and teach Sociocracy 3.0.
-* ...is a distributed network of pioneering consultants and trainers from a variety of fields, who:
-    * share a deep appreciation for the transformational potential of sociocracy to help organizations and their members thrive
-    * dedicate some of their time to developing and evolving Sociocracy 3.0
+The S3 Movement is a **distributed network consultants and trainers** from a variety of fields, who...
+
+* ...dedicate their time to developing and evolving S3 to make it **available and applicable to as many organizations as possible**.
+
+* ...provide resources under a **Creative Commons Free Culture License** to learn, practice and teach Sociocracy 3.0.
+
+* ...share a deep appreciation for the transformational potential of S3 to help organizations and their members thrive. 
+
 
 ## Why "Sociocracy 3.0" ##
 
-Respect to the lineage, and a step forward.
+**Respect to the lineage of Sociocracy, and a step forward:**
 
-* un-centralized distribution
-    * **open**: principle-based and modular patterns make it easy to adapt the method
-    * **free**: eliminates barriers to entry
-* a change method that meets organizations where they are
-* condensed to the essentials
+* an approach towards organizational change that meets organizations where they are
 * integrated with lean and agile thinking
 * new ways to evolve organizational structure
+* patterns for all aspects of collaboration, not just for governance
 
-## Design Goals ##
+
+### Design Goals ###
 
 ![](img/general/design-goals.png)
 
-* **open**:
-	* Do with it what you want
-	* Take just what you need
-	* Remix, extend and adapt it as you like
-* **free**
-	* Free resources
-	* no hidden fees
-	* no certifications
-	* no small print!
-* **effective**:
-	* Principles and tools have been tried and tested for decades in many organizations.
-	* need-driven, value-driven, customer focus
+**Open**: Principle-based and modular patterns make it easy to choose and adapt according to context
 
-* **actionable**:
-	 * There's something that YOU can use right now, regardless of your unique context
-	* Sociocracy 3.0 contains lots of ideas you can try out within your area of influence.
-* **lightweight**:
-	* just the essentials: Common-sense practices, bare-bone processes.
-	* no stuff that gets in the way
-	* no busywork
+* do with it what you want
+* take just what you need
+* remix, extend and adapt it as you like
+
+**Free**: Un-centralized distribution and a Commons license eliminates barriers to entry:
+
+* free and accessible resources
+* no hidden fees
+* no  certifications 
+* no small print
+
+**Effective**: Principles and patterns have been tried and tested in many organizations, often for decades.
+
+* need-driven
+* value-driven
+* customer/user  focus
+	
+**Actionable**: There's something any organization can use right now, regardless of their unique context. S3 contains lots of ideas anyone can try out within their area of influence.
+
+* patterns for individuals
+* patterns for groups
+* patterns for organizations
+
+**Lightweight**: Just the essentials: common-sense practices, bare-bone processes:
+
+* free of stuff that gets in the way
+* no busywork or unnecessary bureaucracy
+
+{{seven-principles.md}}
 
 
 ## Patterns ##
 
-**Definition**: *A pattern is a template for successfully navigating a specific context.* 
+A **pattern** is a template for successfully navigating a specific context. 
 
-* patterns are discovered through observing many organizations as they solve problems
-* patterns may need to be adapted and evolved to suit differing contexts.
+S3 patterns are discovered through observing many organizations as they solve problems, innovate, and respond to opportunities. Patterns may need to be adapted and evolved to suit differing contexts and needs.
 
+The more than 60 patterns on S3 are organized in 7 pattern groups. 
 
-## Principles behind Sociocracy 3.0 ##
+![](img/general/s3-pattern-groups.png)
 
-* Sociocracy is built on 7 core principles 
-* the core principles are also values that shape organizational culture
-* understanding these principles is paramount to adopting and adapting Sociocracy 3.0 patterns
-*  practicing Sociocracy 3.0 helps people appreciate the essential value that these core principles bring,  both to individuals and organizations
-
-![](img/general/s3-principles-plain.png)
-
-
-### Principle: Empiricism ###
-
-**Knowledge in an organization can only be gained through experience, as it is highly dependent on context.**
-
-* basis of the scientific method
-* in a complex adaptive system all knowledge is tentative
-* embrace change: continuous revision and falsification
-* reality vs. assumptions
-* learning organization
-
-
-### Principle: Consent ###
-
-**Decisions are made only in the absence of reasoned objection from those affected by them.**
-
-* when dealing with complexity, group wisdom exceeds individual abilities
-* deliberately seeking objections invites collective intelligence:
-    *  allows for harvesting information to improve the decision 
-    *  helps identify misunderstanding early 
-    *  fosters support and accountability for decisions
-
-
-### Principle: Effectiveness ###
-
-**Devote time only to that which brings you closer to achieving your objectives.**
-
-* avoid waste
-* remove impediments
-* good enough for now, safe enough to try
-
-
-### Principle: Equivalence ###
-
-**Everyone affected by a decision has the power to withdraw consent on the basis of reasoned objection.**
-
-* position, rank, function or role has no special influence in decision making
-
----
-
-### Principle: Transparency ###
-
-**All information is accessible to anyone in an organization. Confidentiality requires consent.**
-
-* all relevant information is kept up-to-date
-* historical information is archived for reference
-
-
-### Principle: Continuous Improvement ###
-
-**Evolution is more effective than revolution (most of the time).**
-
-* applies to everything (e.g. strategies, guidelines, products, skills, processes and tools)
-* respond to change by building on and transforming what is already there
-* small steps create less resistance, lower risk, and accommodate steady empirical learning
-
----
-  
-### Principle: Accountability ###
-
-**The process of entering and keeping agreements, and managing  expectations in any relationship.** 
-
-* an obligation or willingness to do what we agree to and to answer for when we don’t
-* a principle relevant to groups, organizations and individuals
-* a shift from being *held to account*, and towards a culture of *self-accountability*
-
-## Organizations ##
-  
-An organization is defined by its values, driver and strategy.
-
-* an organizations values define **culture** and set parameters for **action**
-* an organizations **existence** is motivated by its driver
-* an organizations **service** is defined by its strategy
-
-* organizations are aligned towards values, driver and strategy
-*  with Sociocracy 3.0, *purpose* is implicit (to satisfy drivers)
-* to transition towards Sociocracy 3.0 an organization:
-    *  identifies values and driver of the organization
-    *  incorporates vision, mission, aims or objectives in the strategy
-    *  seeks out drivers for all existing policy and agreements (including circles and roles)
 

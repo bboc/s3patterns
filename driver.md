@@ -2,41 +2,53 @@
 title: Driver
 ---
 
-**Definition:**: _A driver is that which motivates us into action: what is happening in a specific situation and what’s needed._
 
-# Responses to a Driver #
+The **driver** is the reason and the motivation for action in a specific situation: the needs a team or organization identifies and chooses to address, and the conditions relevant to understanding these needs.
 
-* the response to a driver always involves the **adaptation of an existing agreement, or creation of a new one**, including:
-    * changing the plan: adding a task or project
-    * adaptation  or creation of a role
-    * creation of a new circle
-        * driver review is delegated to new circle
+{>> older version: A **driver** is what motivates us into action in a specific situation: the **needs** we perceive, and the **conditions** from which these needs arise. <<}
 
+A driver can apply to an individual, or describe **collective motivation for a group**. Developing shared understanding of drivers fosters **alignment towards the motive** instead of towards our assumptions about the future. The response to a driver always involves the **adaptation of an existing agreement, or creation of a new one**, including:
 
-## Drivers Are Subject to Regular Review ##
+* changing the plan: adding a task or project
+ * adaptation  or creation of a role
+ * creation of a new circle
 
-* Is the description of the current reality correct?
-* Do we still associate the same needs with the current reality?
-* Is the driver still within our domain?
-* Is the driver still relevant?
+However, sometimes we may decide against responding to a driver, because there is more important things to tend to.
 
 
+### Needs and Conditions ###
 
-## Sociocracy 3.0 and Lean Thinking ##
+A **need** is the lack of something that is necessary (required?) or important
+
+Needs are identified when analyzing a situations, and may related to the organization itself, its members, stakeholders, customers or the environment. 
+Needs can be objective (physical) or subjective (psychological), and may be controversial on a social level. An organization's values may help resolving controversies
+
+Some examples for needs, from more abstract needs to personal needs: 
+
+* revenue, profit, shareholder value, capital
+* customer value
+* autonomy, mastery, purpose
+* connection, collaboration, recognition
+* sustenance, happiness
+
+Each need emerges through one or several conditions. In order to understand a driver, we need to identify relevant and important conditions for each need, and describe them,  usually as facts or observations.
+
+Over time, we will develop better understanding of a driver, and, as the needs and conditions change, update the driver's description. 
+
+We review a review whenever we review a strategies or agreements which respond to that driver. In a driver review we discover new or changed needs and conditions, sometimes the driver no longer falls into our domain, or is no longer relevant.
+
+
+## Drivers and Lean Thinking ##
 
 
 ### Value and Waste ###
 
-**Definition**:  _The importance, worth or usefulness of something for satisfaction of a driver._
+Lean Thinking is centered around the ideas of value and waste, both can easily be defined in relation to a driver: 
 
-**Value**:
+* **value** is the importance, worth or usefulness of something for responding to a driver.
+* **waste** is anything not necessary (or essential) for - or standing in the way of - effective response to a driver.
 
-* value is **not** an **inherent** property as it only exists in relation to a driver
-* value can be quantified by **measuring the progression** towards satisfaction of a driver
-    * value is not necessarily expressed in currency or time
-* **continuous improvement of processes is focused on optimizing the flow of value through an organization**
-
-**Definition:** _Waste is anything not necessary (essential) for - or standing in the way of - effective satisfaction of a driver._
+In this context, value is **not** an **inherent** property as it only exists in relation to a driver. This is why value is not necessarily expressed in currency or time, but it often can be quantified by identifying metrics related to the needs or conditions contained in a driver. 
 
 Adopting the concept of value and waste makes many tools and ideas from **lean production** and **lean software development** available to support organizations running on Sociocracy 3.0:
 
@@ -45,19 +57,11 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 * the Kanban Method
 
 
-### Waste and Continuous Improvement ###
+###  Waste and Continuous Improvement
 
-* Establishing a process for ongoing elimination of waste enables natural evolution of an organization towards greater effectiveness
-* Adaptation to changing environment is built into the process
+![Identifying Waste](img/workflow-and-value/drivers-value-waste.png)
 
+Waste exist in many different forms and on different levels of abstraction, e.g. in tasks, agreements, work processes, organizational structure or mental models. Waste makes itself known as tensions, learning learning to identify waste is a long journey, but along the way we also discover wisdom that helps us evolve our understanding of our drivers.
 
-### Identifying Waste ###
-
-![](img/workflow-and-value/drivers-value-waste.png)
-
-* waste exist in many different forms and on different levels of abstraction
-    * tasks, processes, organizational structure, mental models...
-* some tensions reveal waste
-* learning to identify waste is a journey
-    * along the way we also learn how to evolve our drivers
+Establishing a process for ongoing elimination of waste enables the natural evolution of an organization towards greater effectiveness, optimizing the flow of value through an organization. As a side effect, the organization will so naturally adapt  to changes in the environment.
 
