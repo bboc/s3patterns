@@ -38,7 +38,6 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level=1):
 
     begin_front_matter = False
     end_front_matter = False
-
     with codecs.open(filename, 'r', 'utf-8') as source:
         with codecs.open(result_path, 'w', 'utf-8') as target:
             lw = LineWriter(target, source.newlines)
@@ -48,7 +47,10 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level=1):
                     if l == '---':
                         end_front_matter = True
                     else:
-                        key, value = l.split(':', 1)
+                        try: 
+                            key, value = l.split(':', 1)
+                        except ValueError:
+                            raise Exception("metadata must be in the format 'key: value' (%s)" % filename)
                         if key.strip() == 'title':
                             lw.write('%(hashes)s %(title)s %(hashes)s' % {
                                      'hashes': '#'*headline_level, 'title': value.strip()})
