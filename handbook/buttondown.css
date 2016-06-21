@@ -84,7 +84,9 @@ h1, h2, h3, h4, h5, h6
     font-family: "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif; /* Sans-serif headers */
 
     /* font-family: "Liberation Serif", "Georgia", "Times New Roman", serif; /* Serif headers */
-
+}
+h4, h5, h6
+{
     page-break-after: avoid; /* Firefox, Chrome, and Safari do not support the property value "avoid" */
 }
 
@@ -92,7 +94,7 @@ h1, h2, h3, h4, h5, h6
 
 div div, section section /* Nested sections */
     {
-    margin-left: 2em; /* This will increasingly indent nested header sections */
+    /* margin-left: 2em; /* This will increasingly indent nested header sections */
     }
 
 p {}

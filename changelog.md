@@ -2,8 +2,13 @@
 title: Changelog
 ---
 
+**2016-06-20**
 
-**2016-2-29**
+* added Bernhard's drafts and pattern descriptions
+* new format for pdf and epub
+* many small fixes and corrections
+
+**2016-02-29**
 
 * cleaned up image folder
 
