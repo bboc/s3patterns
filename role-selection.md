@@ -17,7 +17,7 @@ There is no emergent group wisdom in volunteering or assignment, both methods ha
 
 ## How to implement it? ##
 
-![Slection process](img/people-and-roles/selection.png)
+![Selection process](img/people-and-roles/selection.png)
 
 The facilitator guides the group through the stages of the election process, and actively prevents discussion or dialog. 
 
@@ -41,9 +41,7 @@ It's important to never elect for unlimited terms, a new election after a term h
 
 Each member of the group writes down their name and the name of their desired candidate (or "no nomination" or "hire from the outside") hands in their nomination to the facilitator. 
 
-You can use sticky notes with  the following format:
-
-![Sticky note as election slip](img/election-slip.png)
+You can use sticky notes with  the following format: name of the candidate large and in the center, your name on the bottom in smaller print.
 
 That way the facilitator can easily work with the nominations in the following rounds.
 
@@ -71,21 +69,18 @@ This round gives participants the chance to change their nominations on the basi
 On changing a nomination, participants fill in a new election slip for the facilitator.
 
 
-### Nomination ###
+### Facilitator Proposes Nominee ###
 
 Now the facilitator summarises the nominations and the arguments and proposes the candidate with the strongest arguments as a nominee for selection.
 
 At this point, a discussion of the presented candidate is not necessary, the facilitator may remind the group that there is value in moving forward quickly and they can raise concerns or objections in the consent round that follows.
 
 
-### Consent Round ###
+### Hear Objections ###
 
-"_Do you haven an objections to selecting ... for this role ?_"
+"_Do you haven any objections to selecting ... for this role ?_"
 
 The facilitator begins the consent round next to the candidate so the candidate is asked last. Participants answer the question with either "_yes_" or  "_no_", the objection itself is shared in the next stage.
-
-![Consent Round in the Election Process](img/election-consent.png)
-
 
 ### Resolving Objections ###
 

@@ -67,14 +67,11 @@ It is possible to establish consent without a formal process, but a following a 
 The principle of consent can be applied with any decision or agreement, including, but not limited to  [Proposal Forming][], processing agenda items in the [Governance Meeting][], evaluating implemented agreements, the creation of [Roles][], selection of individuals to a role, or effectiveness reviews.
 
 
-## Consent Decision Making ##
+## The Consent Decision Making Format ##
 
-![The Phases of Consent Decicsion Making](img/cdm-small.png)
-
-  
 ### What is it? ###
 
-_Consent Decision Making_ (or CDM) is a facilitated decision making process that allows to effectively capture emergent wisdom from the group and integrate it into synergistic solutions.
+_Consent Decision Making_ (or CDM) is a facilitated decision making format that allows to effectively capture emergent wisdom from the group and integrate it into synergistic solutions.
 
 The aim of CDM is to quickly arrive at a decision that is good enough for everyone in the group, e.g. everyone "can live with" this decision. This is achieved by following a simple facilitated process and mindful participation of the group.
 
@@ -102,8 +99,7 @@ With a new group, the facilitator first explains the process to the group. The C
 
 It is important for the group to know that there will be no discussion and the facilitator will invite everyone to speak when it is their turn. The facilitator reminds the group that goal is a good-enough decision everyone can live with, not a perfect solution .
 
-
-![Consent Decision Making Process](img/foundation/cdm-small.png)
+![The Phases of Consent Decicsion Making](img/cdm-small.png)
 
 #### Phase 1: Present the Proposal ####
 
