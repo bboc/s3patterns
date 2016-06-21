@@ -3,8 +3,6 @@
 
 # Groups:
 
-
-
 handbook_group_order = [
 
     "making and evolving agreements",

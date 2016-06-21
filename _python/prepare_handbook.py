@@ -37,6 +37,7 @@ def convert_and_copy_all_files_to_tmp(dst_dir, patterns):
             dst_dir, '%s--content.md' % make_pathname(group), 2)
 
     copy_and_fix_headlines(dst_dir, 'introduction.md', 1)
+    copy_and_fix_headlines(dst_dir, 'seven-principles.md', 2)
     copy_and_fix_headlines(dst_dir, 'changelog.md', 2)
 
 

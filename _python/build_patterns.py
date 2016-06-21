@@ -30,6 +30,7 @@ def cmd_export(args):
     additional_content = ['introduction', 'changelog']
     artefacts = [
         '_DROPBOX_WORKFLOW.md',
+        '_TODO.md',
         'README.md',
         'S3-patterns-handbook.epub',
         'S3-patterns-handbook.pdf',
