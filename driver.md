@@ -5,8 +5,6 @@ title: Driver
 
 The **driver** is the reason and the motivation for action in a specific situation: the needs a team or organization identifies and chooses to address, and the conditions relevant to understanding these needs.
 
-{>> older version: A **driver** is what motivates us into action in a specific situation: the **needs** we perceive, and the **conditions** from which these needs arise. <<}
-
 A driver can apply to an individual, or describe **collective motivation for a group**. Developing shared understanding of drivers fosters **alignment towards the motive** instead of towards our assumptions about the future. The response to a driver always involves the **adaptation of an existing agreement, or creation of a new one**, including:
 
 * changing the plan: adding a task or project

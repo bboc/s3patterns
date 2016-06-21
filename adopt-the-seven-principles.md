@@ -12,7 +12,7 @@ title: Adopt S3 Principles
 
 All patterns contained in S3 are built on seven core principles: consent, empiricism, equivalence, accountability, effectiveness, transparency and continuous improvement. 
 
-![](img/collaboration-values/values-step3.png)
+![Organiational Values and the Seven Principles Guide Collaboration](img/collaboration-values/values-step3.png)
 
 
 When we **Agree On Values**, we need to check how our chosen values relate to S3's principles, if there's a conflict, this will most likely result tensions with at least some of S3's patterns . 

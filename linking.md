@@ -2,7 +2,13 @@
 title: Linking
 ---
 
-## Connecting two circles ##
+Linking is the practice of one circle selecting a delegate who takes part in all important decisions of another circle to make sure their needs are being met.
 
-![](img/structural-patterns/link.png)
+![Linking two circles](img/structural-patterns/link.png)
 
+
+##Related patterns
+
+* [Double Linking][]
+* [Delegate Circle][]
+* [Service Circle][]

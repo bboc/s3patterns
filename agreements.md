@@ -15,8 +15,8 @@ We respond to drivers through agreements.
     *  agreements are reviewed in context to its driver
 
 
-![](img/tension-driver-domain/driver-agreement-improvement.png)
+![Evolution of Agreements and the Drivers they Respond to](img/tension-driver-domain/driver-agreement-improvement.png)
 
 ## Template for Agreements
 
-![](img/agreements/agreement-template.png)
+![A Simple Template for Documenting Agreements](img/agreements/agreement-template.png)

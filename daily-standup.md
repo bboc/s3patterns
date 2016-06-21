@@ -4,16 +4,11 @@ title: Daily Standup
 
 A pattern for enabling self-organization.
 
-{>> removed "in daily activity", as the standup also enables self-organization beyond daily activity -- Bernhard <<}
-
 **Motivation for this pattern:** Teams need to coordinate work, identify impediments and opportunities, and adapt processes according to changing context.
 
 The **daily standup** is a short, daily meeting where a team coordinates daily work and identifies impediments and opportunities to improve their work process.
 
-{>> fixed a lot of style: line breaks within paragraphs, line breaks between elements of a list, lists elements beginning with dash and tab instead of asterisk and blank. Other than that, no changes in the text. -- Bernhard <<}
-
 ## The details
-
 
 For the daily standup, the team gathers around a task board every day at the same time, and makes decisions about how to move forward with their work items.
 
