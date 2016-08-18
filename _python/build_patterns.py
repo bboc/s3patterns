@@ -224,11 +224,36 @@ def cmd_slides(args):
     patterns = all_patterns()
 
     if args.skeleton: 
-        print "write skeleton files -- not implemented"
+        create_source_files_for_slides(args)
     if args.reveal: 
         print "build reveal.js slides -- not implemented"
     if args.deckset: 
         print "build deckset slides -- not implemented"
+
+
+def create_source_files_for_slides(args):
+    """Create dummy source files for slides. If file or folder exists, don't touch it."""
+
+    create_directory(args.source)
+
+    def make_file(root, filename_root, title_root):
+        """Create file if it does not exist."""
+        filename = os.path.join(root, '%s.md' % make_pathname(filename_root))
+        if not os.path.exists(filename):
+            with file(filename, 'w+') as fp:
+                fp.write('# %s\n\n' % make_title(title_root))
+        else: 
+            print "skipped %s" % title_root
+
+    for group in s3_patterns.keys():
+        # create group dir
+        group_root = os.path.join(args.source, make_pathname(group))
+        create_directory(group_root)
+        # create group index file
+        make_file(group_root, "index", group)
+        # create individual patterns (add pattern name as headline)
+        for pattern in s3_patterns[group]:
+            make_file(group_root, pattern, pattern)
 
 
 if __name__ == "__main__":
@@ -265,6 +290,9 @@ if __name__ == "__main__":
                         help='Build reveal.js presentation.')
     export.add_argument('--deckset', action='store_true',
                         help='Build deckset presentation.')
+    export.add_argument('source', 
+                        help='Directory for source files.')
+    
     export.set_defaults(func=cmd_slides)
 
     update = subparsers.add_parser('update',
