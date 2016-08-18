@@ -8,9 +8,12 @@ The image folder is symlinked to all subfolders, so images can easily be added w
 
 [Reveal.js docs](https://github.com/hakimel/reveal.js/blob/master/README.md)
 
-## TODOs
+Build:
 
-TODO: configure reveal.js
+python build_patterns.py slides --reveal --target=../slides/reveal.js/slides.html ../slides/src/
+
+
+## TODOs
 
 TODO: create build script for deckset
 TODO: compile content
