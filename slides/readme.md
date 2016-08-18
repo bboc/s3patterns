@@ -15,6 +15,5 @@ python build_patterns.py slides --reveal --target=../slides/reveal.js/slides.htm
 
 ## TODOs
 
-TODO: create build script for deckset
 TODO: compile content
 

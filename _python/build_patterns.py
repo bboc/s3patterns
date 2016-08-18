@@ -228,7 +228,7 @@ def cmd_slides(args):
     if args.reveal: 
         build_reveal_slides(args)
     if args.deckset: 
-        print "build deckset slides -- not implemented"
+        build_deckset_slides(args)
 
 
 def create_source_files_for_slides(args):
@@ -256,6 +256,12 @@ def create_source_files_for_slides(args):
         for pattern in s3_patterns[group]:
             make_file(group_root, pattern, pattern, '##')
 
+def build_deckset_slides(args):
+    """Create a source file for a deckset presentation."""
+    r = DecksetWriter(args)
+    r.build()   
+
+
 def build_reveal_slides(args):
     """
     Build reveal.js presentation. <target> is a file inside the reveal.js folder, 
@@ -265,15 +271,14 @@ def build_reveal_slides(args):
     r.build()   
 
 
-class RevealJsWriter(object):
-
+class SlideWriter(object):
     CONTENT_MARKER = "<!-- INSERT-CONTENT -->"
+
 
     def __init__(self, args):
         self.args = args
-        self.template_path = os.path.join(os.path.dirname(self.args.target), 'template.html')
         self.source = self.args.source
-
+    
     def build(self):
    
         with file(self.args.target, 'w+') as self.target:
@@ -297,41 +302,18 @@ class RevealJsWriter(object):
         for line in self.template:
             self.target.write(line)
 
-    def _start_section(self):    
-        self.target.write('<section>')
-
-    def _end_section(self):    
-        self.target.write('</section>')
-
-    def _start_md_slide(self):
-        self.target.write('<section data-markdown>')
-        self.target.write('<script type="text/template">')
-
-    def _end__md_slide(self):
-        self.target.write('</script>')
-        self.target.write('</section>')
-
-    def _copy_markdown(self, folder, name):
-        with file(os.path.join(folder, name), 'r') as section:
-            for line in section:
-                if line.strip() == '---':
-                    self._end__md_slide()
-                    self._start_md_slide()
-                else:
-                    self.target.write(line)
-
     def insert_title(self):
         self._start_section()
-        self._start_md_slide()
+        self._start_slide()
         self._copy_markdown(self.source, 'title.md')
-        self._end__md_slide()
+        self._end_slide()
         self._end_section()
 
     def insert_closing(self):
         self._start_section()
-        self._start_md_slide()
+        self._start_slide()
         self._copy_markdown(self.source, 'closing.md')
-        self._end__md_slide()
+        self._end_slide()
         self._end_section()
 
     def insert_group(self, group):
@@ -339,16 +321,73 @@ class RevealJsWriter(object):
         
         self._start_section()
         
-        self._start_md_slide()
+        self._start_slide()
         self._copy_markdown(folder, 'index.md')
-        self._end__md_slide()
+        self._end_slide()
         
         for pattern in sorted(s3_patterns[group]):
-            self._start_md_slide()
+            self._start_slide()
             self._copy_markdown(folder, '%s.md' % make_pathname(pattern))
-            self._end__md_slide()
+            self._end_slide()
         
         self._end_section()
+
+
+class RevealJsWriter(SlideWriter):
+    def __init__(self, args):
+        super(RevealJsWriter, self).__init__(args)
+        self.template_path = os.path.join(os.path.dirname(self.args.target), 'template.html')
+        
+
+    def _start_section(self):    
+        self.target.write('<section>')
+
+    def _end_section(self):    
+        self.target.write('</section>')
+
+    def _start_slide(self):
+        self.target.write('<section data-markdown>')
+        self.target.write('<script type="text/template">')
+
+    def _end_slide(self):
+        self.target.write('</script>')
+        self.target.write('</section>')
+
+    def _copy_markdown(self, folder, name):
+        with file(os.path.join(folder, name), 'r') as section:
+            for line in section:
+                if line.strip() == '---':
+                    self._end_slide()
+                    self._start_slide()
+                else:
+                    self.target.write(line)
+
+class DecksetWriter(SlideWriter):
+    def __init__(self, args):
+        super(DecksetWriter, self).__init__(args)
+        self.template_path = os.path.join(os.path.dirname(self.args.target), 'deckset_template.md')
+        
+
+    def _break(self):
+        self.target.write('\n\n---\n\n')
+
+    def _start_section(self):    
+        pass
+
+    def _end_section(self):    
+        pass
+
+    def _start_slide(self):
+        pass
+    
+    def _end_slide(self):
+        pass
+    
+    def _copy_markdown(self, folder, name):
+        with file(os.path.join(folder, name), 'r') as section:
+            for line in section:
+                self.target.write(line)
+        self._break()
 
 
 if __name__ == "__main__":
