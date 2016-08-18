@@ -4,7 +4,7 @@ import argparse
 import os
 import shutil
 
-from s3_patterns import s3_patterns, all_patterns, groups_to_rename, patterns_to_rename
+from s3_patterns import s3_patterns, all_patterns, groups_to_rename, handbook_group_order, patterns_to_rename
 from common import make_pathname, make_title, create_directory
 
 
@@ -226,7 +226,7 @@ def cmd_slides(args):
     if args.skeleton: 
         create_source_files_for_slides(args)
     if args.reveal: 
-        print "build reveal.js slides -- not implemented"
+        build_reveal_slides(args)
     if args.deckset: 
         print "build deckset slides -- not implemented"
 
@@ -254,6 +254,95 @@ def create_source_files_for_slides(args):
         # create individual patterns (add pattern name as headline)
         for pattern in s3_patterns[group]:
             make_file(group_root, pattern, pattern)
+
+def build_reveal_slides(args):
+    """
+    Build reveal.js presentation. <target> is a file inside the reveal.js folder, 
+    template.html is expected in the same folder.
+    """
+
+    r = RevealJsWriter(args)
+    r.build()   
+
+
+class RevealJsWriter(object):
+
+    CONTENT_MARKER = "<!-- INSERT-CONTENT -->"
+
+    def __init__(self, args):
+        self.args = args
+        self.template_path = os.path.join(os.path.dirname(self.args.target), 'template.html')
+        self.source = self.args.source
+
+    def build(self):
+   
+        with file(self.args.target, 'w+') as self.target:
+            with file(self.template_path, 'r') as self.template:
+
+                self.copy_template_header()
+                self.insert_title()
+            
+                for group in handbook_group_order:
+                    self.insert_group(group)
+
+                self.copy_template_footer()
+
+    def copy_template_header(self):
+        for line in self.template:
+            if line.strip() == self.CONTENT_MARKER:
+                break
+            else: 
+                self.target.write(line)
+
+    def copy_template_footer(self):
+        for line in self.template:
+            self.target.write(line)
+
+    def _start_section(self):    
+        self.target.write('<section>')
+
+    def _end_section(self):    
+        self.target.write('</section>')
+
+    def _start_md_slide(self):
+        self.target.write('<section data-markdown>')
+        self.target.write('<script type="text/template">')
+
+    def _end__md_slide(self):
+        self.target.write('</script>')
+        self.target.write('</section>')
+
+    def _copy_markdown(self, folder, name):
+        with file(os.path.join(folder, name), 'r') as section:
+            for line in section:
+                if line.strip() == '---':
+                    self._end__md_slide()
+                    self._start_md_slide()
+                else:
+                    self.target.write(line)
+
+    def insert_title(self):
+        self._start_section()
+        self._start_md_slide()
+        self._copy_markdown(self.source, 'title.md')
+        self._end__md_slide()
+        self._end_section()
+
+    def insert_group(self, group):
+        folder = os.path.join(self.source, make_pathname(group))
+        
+        self._start_section()
+        
+        self._start_md_slide()
+        self._copy_markdown(folder, 'index.md')
+        self._end__md_slide()
+        
+        for pattern in sorted(s3_patterns[group]):
+            self._start_md_slide()
+            self._copy_markdown(folder, '%s.md' % make_pathname(pattern))
+            self._end__md_slide()
+        
+        self._end_section()
 
 
 if __name__ == "__main__":
@@ -292,6 +381,8 @@ if __name__ == "__main__":
                         help='Build deckset presentation.')
     export.add_argument('source', 
                         help='Directory for source files.')
+    export.add_argument('target', 
+                        help='Target file (for reveal.js and deckset builds.')
     
     export.set_defaults(func=cmd_slides)
 

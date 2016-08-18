@@ -10,7 +10,8 @@ The image folder is symlinked to all subfolders, so images can easily be added w
 
 ## TODOs
 
-TODO: create build script for deckset
+TODO: configure reveal.js
 
+TODO: create build script for deckset
 TODO: compile content
 
