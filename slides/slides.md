@@ -17,6 +17,7 @@ Some Interesting Information goes here.
 
 # Making And Evolving Agreements
 
+TODO: add content
 
 
 ---
@@ -109,6 +110,7 @@ A circle...
 
 ## Deliverables
 
+TODO: add content
 
 
 ---
@@ -181,18 +183,22 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 
 ## Evaluate Agreements
 
+TODO: add content
+
 
 
 ---
 
 ## Evaluation Criteria
 
+TODO: add content
 
 
 ---
 
 ## Intended Outcome
 
+TODO: add content
 
 
 ---
@@ -302,31 +308,33 @@ We consider why, how and when to respond to a stimulus, instead of defaulting to
 
 ## Strategy
 
+TODO: add content
 
 
 ---
 
 ## Those Affected Decide
 
+TODO: add content
 
 
 ---
 
 # Governance
 
+TODO: add content
 
 
 ---
 
 ## Governance Backlog
 
+TODO: add content
 
 
 ---
 
 ## Governance Meeting
-
-
 
 Circles meet at regular intervals to create and evolve agreements in response to drivers.
 
@@ -384,18 +392,21 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 # Effective Meetings
 
+TODO: add content
 
 
 ---
 
 ## S3 Facilitator
 
+TODO: add content
 
 
 ---
 
 ## Artful Participation
 
+TODO: add content
 
 
 ---
@@ -403,6 +414,10 @@ Circles meet at regular intervals to create and evolve agreements in response to
 ## Logbook
 
 A logbook is a (digital) system to store all information relevant for the running an organizations or circle. The logbook is accessible to all members of an organization, information is hidden only when there is a good reason to do so.
+
+---
+
+## Logbook Contents
 
 * Organization: 
     * driver, strategy
@@ -415,6 +430,10 @@ A logbook is a (digital) system to store all information relevant for the runnin
     * agreements
     * role definitions and role improvement plans
 
+---
+
+## Logbook Contents (cont.)
+
 * Personal logbooks
     * role descriptions
     * tasks
@@ -426,23 +445,29 @@ A logbook is a (digital) system to store all information relevant for the runnin
 
 ## Logbook Keeper
 
+TODO: add content
+
 
 
 ---
 
 ## Meeting Evaluation
 
+TODO: add content
 
 
 ---
 
 ## Meeting Facilitation
 
+TODO: add content
 
 
 ---
 
 ## Meeting Host
+
+TODO: add content
 
 
 
@@ -467,18 +492,21 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 
 # Coordinating Work
 
+TODO: add content
 
 
 ---
 
 ## Coordination Meeting
 
+TODO: add content
 
 
 ---
 
 ## Coordinator Role
 
+TODO: add content
 
 
 ---
@@ -499,18 +527,21 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 
 ## Planning And Review Meetings
 
+TODO: add content
 
 
 ---
 
 ## Prioritized Backlog
 
+TODO: add content
 
 
 ---
 
 ## Pull-System For Work
 
+TODO: add content
 
 
 ---
@@ -567,11 +598,14 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 ## Visualize Work
 
+TODO: add content
 
 
 ---
 
 # Building Organizations
+
+TODO: add content
 
 
 
@@ -604,17 +638,21 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 ## Open Systems
 
+TODO: add content
 
 
 ---
 
 ## Organize In Nested Domains
 
+TODO: add content
 
 
 ---
 
 # People And Roles
+
+TODO: add content
 
 
 
@@ -641,6 +679,7 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 * a process to harvest appreciations, identify opportunities for improvement and evolve the role
 * the individual holding the role initiates the process and begins each step
 
+---
 
 ## Steps
 
@@ -659,6 +698,8 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 ---
 
 ## Role
+
+TODO: add content
 
 
 
@@ -701,6 +742,8 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 ## Support Roles
 
+TODO: add content
+
 
 
 ---
@@ -740,6 +783,7 @@ A pattern for multi-stakeholder projects or services.
 
 ## Coordination Circle
 
+TODO: add content
 
 
 ---
@@ -788,6 +832,8 @@ A Pattern for learning, coordination and alignment across organizational boundar
 ---
 
 ## Helping Circle
+
+TODO: add content
 
 
 
@@ -841,35 +887,42 @@ A pattern for outsourcing shared services
 
 # Bringing In S3 Patterns
 
+TODO: add content
 
 
 ---
 
 ## Adapt Patterns To Context
 
+TODO: add content
 
 
 ---
 
 ## Be The Change
 
+TODO: add content
 
 
 ---
 
 ## Continuous Improvement Of Work Process
 
+TODO: add content
 
 
 ---
 
 ## Open S3 Adoption
 
+TODO: add content
 
 
 ---
 
 ## Pull-System For Organizational Change
+
+TODO: add content
 
 
 
@@ -877,6 +930,7 @@ A pattern for outsourcing shared services
 
 # Alignment
 
+TODO: add content
 
 
 ---
@@ -922,6 +976,7 @@ A pattern for outsourcing shared services
 
 ## Bylaws
 
+TODO: add content
 
 
 ---
@@ -964,9 +1019,16 @@ A pattern for outsourcing shared services
 
 ---
 
-# Copyright and links
+# Links
 
-...
+TODO: add content
+
+---
+
+# License
+
+TODO: add content
+
 
 ---
 

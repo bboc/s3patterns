@@ -1,7 +1,5 @@
 ## Governance Meeting
 
-
-
 Circles meet at regular intervals to create and evolve agreements in response to drivers.
 
 * usually ~60 min

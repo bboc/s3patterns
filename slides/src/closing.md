@@ -1,3 +1,9 @@
-# Copyright and links
+# Links
 
-...
+TODO: add content
+
+---
+
+# License
+
+TODO: add content

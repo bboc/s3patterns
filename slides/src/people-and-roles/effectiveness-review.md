@@ -3,6 +3,7 @@
 * a process to harvest appreciations, identify opportunities for improvement and evolve the role
 * the individual holding the role initiates the process and begins each step
 
+---
 
 ## Steps
 

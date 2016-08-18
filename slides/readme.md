@@ -11,7 +11,9 @@ The image folder is symlinked to all subfolders, so images can easily be added w
 
 ## TODOs
 
+TODO: copy over content from presentation-temp
 
+TODO: fix headline levels (see to of slides.md)
 TODO: review all slide breaks
  
 TODO: fix all images (test alignment with reveal.js)
@@ -20,11 +22,12 @@ TODO: review compiled content
 
 TODO: add all images to patterns
 
-
 TODO: make all existing slides look good
-
-TODO: add TODO to each unfinished pattern
 
 TODO: add license and links
 
 TODO: write stubs for unfinished patterns
+
+
+
+
