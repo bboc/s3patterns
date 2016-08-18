@@ -1,2 +1,2 @@
-# Adopt The Seven Principles
+## Adopt The Seven Principles
 

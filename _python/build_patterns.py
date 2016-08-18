@@ -236,12 +236,12 @@ def create_source_files_for_slides(args):
 
     create_directory(args.source)
 
-    def make_file(root, filename_root, title_root):
+    def make_file(root, filename_root, title_root, markup = '#'):
         """Create file if it does not exist."""
         filename = os.path.join(root, '%s.md' % make_pathname(filename_root))
         if not os.path.exists(filename):
             with file(filename, 'w+') as fp:
-                fp.write('# %s\n\n' % make_title(title_root))
+                fp.write('%s %s\n\n' % (markup, make_title(title_root)))
         else: 
             print "skipped %s" % title_root
 
@@ -250,17 +250,16 @@ def create_source_files_for_slides(args):
         group_root = os.path.join(args.source, make_pathname(group))
         create_directory(group_root)
         # create group index file
-        make_file(group_root, "index", group)
+        make_file(group_root, "index", group, '#')
         # create individual patterns (add pattern name as headline)
         for pattern in s3_patterns[group]:
-            make_file(group_root, pattern, pattern)
+            make_file(group_root, pattern, pattern, '##')
 
 def build_reveal_slides(args):
     """
     Build reveal.js presentation. <target> is a file inside the reveal.js folder, 
     template.html is expected in the same folder.
     """
-
     r = RevealJsWriter(args)
     r.build()   
 
@@ -379,10 +378,10 @@ if __name__ == "__main__":
                         help='Build reveal.js presentation.')
     export.add_argument('--deckset', action='store_true',
                         help='Build deckset presentation.')
+    export.add_argument('--target', 
+                        help='Target file (for reveal.js and deckset builds.')
     export.add_argument('source', 
                         help='Directory for source files.')
-    export.add_argument('target', 
-                        help='Target file (for reveal.js and deckset builds.')
     
     export.set_defaults(func=cmd_slides)
 

@@ -1,2 +1,2 @@
-# Strategy
+## Strategy
 

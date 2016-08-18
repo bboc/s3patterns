@@ -1,2 +1,2 @@
-# Daily Standup
+## Daily Standup
 

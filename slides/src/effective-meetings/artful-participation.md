@@ -1,2 +1,2 @@
-# Artful Participation
+## Artful Participation
 

@@ -1,2 +1,2 @@
-# Transparent Salary
+## Transparent Salary
 

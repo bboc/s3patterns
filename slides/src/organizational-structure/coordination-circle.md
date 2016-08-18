@@ -1,2 +1,2 @@
-# Coordination Circle
+## Coordination Circle
 

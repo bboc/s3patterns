@@ -1,2 +1,2 @@
-# Open Systems
+## Open Systems
 
