@@ -18,7 +18,7 @@ TODO: review all slide breaks
  
 TODO: fix all images (test alignment with reveal.js)
 
-TODO: review compiled content 
+TODO: review compiled content (remove definitions)
 
 TODO: add all images to patterns
 
