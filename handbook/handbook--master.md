@@ -2,7 +2,7 @@
 
 **Note**: This document is intended as handout for my workshops, and as a preliminary implementation guide for organizations, until the  "official" Sociocracy 3.0 handbook is ready. "Official" pattern descriptions will be added as they are finished.
 
-Parts of the book are copied or adapted from "A brief Introduction to Sociocracy 3.0" by Bernhard Bockelbrink, and from "The Sociocracy 3.0 Handbook" by Bernhard Bockelbrink and James Priest.
+Parts of the this document are copied or adapted from "A brief Introduction to Sociocracy 3.0" by Bernhard Bockelbrink and James Priest, and from "The Sociocracy 3.0 Handbook" by Bernhard Bockelbrink and James Priest.
 
 [cc-by-sa]: img/by-sa.png "Creative Commons Attribution-ShareAlike 4.0 International License" height=24px
 
