@@ -219,6 +219,16 @@ def match_and_rename(root, filename):
     process_class(groups_to_rename, GROUP_TEMPLATES, GROUP_PREFIX_TEMPLATES)
     process_class(patterns_to_rename, PATTERN_TEMPLATES, PATTERN_PREFIX_TEMPLATES)
 
+def cmd_slides(args):
+    """Build slides decks"""
+    patterns = all_patterns()
+
+    if args.skeleton: 
+        print "write skeleton files -- not implemented"
+    if args.reveal: 
+        print "build reveal.js slides -- not implemented"
+    if args.deckset: 
+        print "build deckset slides -- not implemented"
 
 
 if __name__ == "__main__":
@@ -245,8 +255,17 @@ if __name__ == "__main__":
                                    help="Export content files to share on dropbox.")
     export.add_argument('--dropbox', action='store_true',
                         help='Suffix files with "--original", add images and pdf/epub versions.')
-
     export.set_defaults(func=cmd_export)
+
+    export = subparsers.add_parser('slides',
+                        help="Build slide deck.")
+    export.add_argument('--skeleton', action='store_true',
+                        help='Build skeleton directories and files for slides.')
+    export.add_argument('--reveal', action='store_true',
+                        help='Build reveal.js presentation.')
+    export.add_argument('--deckset', action='store_true',
+                        help='Build deckset presentation.')
+    export.set_defaults(func=cmd_slides)
 
     update = subparsers.add_parser('update',
                                    help="Update filenames in one or several locations.")
