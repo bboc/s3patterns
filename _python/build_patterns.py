@@ -242,8 +242,9 @@ def create_source_files_for_slides(args):
         if not os.path.exists(filename):
             with file(filename, 'w+') as fp:
                 fp.write('%s %s\n\n' % (markup, make_title(title_root)))
-        else: 
-            print "skipped %s" % title_root
+        else:
+            if args.verbose: 
+                print "skipped %s" % title_root
 
     for group in s3_patterns.keys():
         # create group dir
@@ -280,10 +281,9 @@ class RevealJsWriter(object):
 
                 self.copy_template_header()
                 self.insert_title()
-            
                 for group in handbook_group_order:
                     self.insert_group(group)
-
+                self.insert_closing()
                 self.copy_template_footer()
 
     def copy_template_header(self):
@@ -324,6 +324,13 @@ class RevealJsWriter(object):
         self._start_section()
         self._start_md_slide()
         self._copy_markdown(self.source, 'title.md')
+        self._end__md_slide()
+        self._end_section()
+
+    def insert_closing(self):
+        self._start_section()
+        self._start_md_slide()
+        self._copy_markdown(self.source, 'closing.md')
         self._end__md_slide()
         self._end_section()
 
