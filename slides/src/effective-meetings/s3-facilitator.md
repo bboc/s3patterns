@@ -1,6 +1,6 @@
 ## S3 Facilitator
 
-![right](img/circle/facilitator.png)
+![right,fit](img/circle/facilitator.png)
 
 The facilitator facilitates all meeting formats, e.g.
 

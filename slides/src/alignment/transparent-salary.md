@@ -1,6 +1,6 @@
 ## Transparent Salary
 
-![right](img/circle/transparent-salary.png)
+![right,fit](img/circle/transparent-salary.png)
 
 * transparent salaries need to be fair
 * fairness has several orthogonal dimensions    

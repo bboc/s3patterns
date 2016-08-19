@@ -1,6 +1,6 @@
 ## Rounds
 
-![right](img/circle/rounds.png) 
+![right,fit](img/circle/rounds.png) 
 
 A group facilitation technique to maintain equivalence.
 
