@@ -1,5 +1,6 @@
 ## Daily Standup
 
+![right,fit](img/meetings/planning-review-standup.png)
 
 **Speed up learning and improvement.**
 

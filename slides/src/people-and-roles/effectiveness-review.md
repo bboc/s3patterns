@@ -1,7 +1,8 @@
 ## Effectiveness Review
 
-* a process to harvest appreciations, identify opportunities for improvement and evolve the role
+* development in roles supported by peers
 * the individual holding the role initiates the process and begins each step
+* harvest appreciations, identify opportunities for improvement and evolve the role
 
 ---
 
@@ -15,6 +16,3 @@
     * personal development
     * updates to role description, function or driver 
 4. Co-create and consent to a development plan
-
-
-

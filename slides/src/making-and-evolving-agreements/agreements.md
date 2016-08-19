@@ -10,12 +10,6 @@ _An **agreement** is an agreed upon guideline, pattern, process or protocol desi
 
 ---
 
-## Agreements
-
-![inline,fit](img/agreements/agreement-lifecycle-long.png)
-
----
-
 ## Template for Agreements
 
 ![inline,fit](img/agreements/agreement-template.png)

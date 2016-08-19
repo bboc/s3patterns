@@ -1,4 +1,4 @@
-## Logbook Keeper
+## Role: Logbook Keeper
 
 The logbook keeper is responsible for maintaining a circle's logbook:
 

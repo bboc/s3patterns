@@ -13,7 +13,7 @@ A circle...
 
 ---
 
-## Circle
+## Circle (cont.)
 
 * ...**semi-autonomous**: 
     * each has a unique driver and can create value independently
