@@ -280,7 +280,17 @@ Often a tensions is **outside the domain** we can address, or not important enou
 
 ## Strategy
 
-^TODO: add content
+![right,fit](img/tension-driver-domain/domain-model.png)
+
+_A **strategy** is the approach towards creating value within a domain._
+
+
+* describes high level approach 
+    * not a detailed plan or a full product description
+* includes a description of the intended outcome (a.k.a. "vision")
+* is regularly reviewed and updated as necessary
+* helps in the decision whether to continue or change course (*pivot or persevere*)
+
 
 
 ---
@@ -368,7 +378,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 ## S3 Facilitator
 
-![right](img/circle/facilitator.png)
+![right,fit](img/circle/facilitator.png)
 
 The facilitator facilitates all meeting formats, e.g.
 
@@ -456,7 +466,7 @@ A logbook is a (digital) system to store all information relevant for the runnin
 
 ## Rounds
 
-![right](img/circle/rounds.png) 
+![right,fit](img/circle/rounds.png) 
 
 A group facilitation technique to maintain equivalence.
 
@@ -619,7 +629,24 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 ## Organize In Nested Domains
 
-^TODO: add content
+
+![right,fit](img/tension-driver-domain/nested-domains.png)
+
+_A **domain** is an area of influence, autonomy and accountability._
+
+Building an organization from domains defined along organizational drivers facilitates effective collaboration by creating enabling constraints and clear and logical boundaries for accountablility.
+
+
+---
+
+## Drivers Define Domains of Accountability
+
+![right,fit](img/tension-driver-domain/simple-domain-model.png)
+
+* accountability applies to all agreements, including the organization itself, circles, and roles
+* everyone's primary accountability is for effective collaboration in response to drivers
+* circles are accountable their work, their body of agreements and for their own development
+* everyone in an organization is accountable for upholding organizational values and principles
 
 
 ---
@@ -1025,7 +1052,7 @@ _A **value** is a principle of some significance that guides behavior._
 
 ## Transparent Salary
 
-![right](img/circle/transparent-salary.png)
+![right,fit](img/circle/transparent-salary.png)
 
 * transparent salaries need to be fair
 * fairness has several orthogonal dimensions    
@@ -1039,7 +1066,22 @@ _A **value** is a principle of some significance that guides behavior._
 
 ---
 
-# Links #
+# Closing 
+
+---
+
+## Breaking the Rules #
+
+* is sometimes **necessary**...
+* ...but may come at a **cost** to the community
+* we are accountable:
+    * **clean up** disturbances
+    * **follow up** ASAP with those affected or accountable
+    * **initiate changes** instead of breaking the rules repeatedly
+
+---
+
+## Links #
 
 More resources on my website: [evolvingcollaboration.com/s3](http://evolvingcollaboration.com/s3)
 
