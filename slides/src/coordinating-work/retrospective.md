@@ -1,21 +1,5 @@
 ## Retrospective
 
-^TODO: clean up this section
-
-**Reflect on a longer period of work and improve agreements.**
-
-* ~60 min
-* cadence, usually 2-4 weeks
-* helps seeing the bigger picture, and identifying more complex types of waste
-* What can we learn from the last iteration of work?
-* Are our tools still sharp enough?
-* Are we still going in the right direction?
-
-
----
-
-## Retrospective
-
 **Building in continuous improvement of process**
 
 * goal: reflection on the past to guide process improvement
