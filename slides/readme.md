@@ -20,6 +20,7 @@ Information in this section is preliminary, and needs further testing.
 
 TODO: translate background images
 TODO: check inline images etc
+TODO: translate presenter notes
 
 ## TODOs
 

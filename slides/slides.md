@@ -54,7 +54,7 @@ hi ho something else
 
 # Making And Evolving Agreements
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -141,7 +141,7 @@ A circle...
 
 ## Deliverables
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -190,7 +190,7 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 
 ## Evaluate Agreements
 
-TODO: add content
+^TODO: add content
 
 
 
@@ -198,7 +198,7 @@ TODO: add content
 
 ## Evaluation Criteria
 
-TODO: add content
+^TODO: add content
 
 ![inline,fit](img/agreements/outcome-and-criteria.png)
 
@@ -208,7 +208,7 @@ TODO: add content
 
 ## Intended Outcome
 
-TODO: add content
+^TODO: add content
 
 ![inline,fit](img/agreements/outcome-and-criteria.png)
 
@@ -309,7 +309,7 @@ We consider why, how and when to respond to a stimulus, instead of defaulting to
 
 Often a tensions is **outside the domain** we can address, or not important enough to respond to.
 
-TODO: more content here
+^TODO: more content here
 
 
 
@@ -336,28 +336,28 @@ TODO: more content here
 
 ## Strategy
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Those Affected Decide
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 # Governance
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Governance Backlog
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -417,7 +417,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 # Effective Meetings
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -442,7 +442,7 @@ Often the role of the facilitator is shared between several circle members.
 
 ## Artful Participation
 
-TODO: add content
+^TODO: add content
 
 ![inline,fit](img/agreements/balance.png)
 
@@ -482,7 +482,7 @@ A logbook is a (digital) system to store all information relevant for the runnin
 
 ## Logbook Keeper
 
-TODO: add content
+^TODO: add content
 
 
 
@@ -490,21 +490,21 @@ TODO: add content
 
 ## Meeting Evaluation
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Meeting Facilitation
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Meeting Host
 
-TODO: add content
+^TODO: add content
 
 
 
@@ -529,21 +529,21 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 
 # Coordinating Work
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Coordination Meeting
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Coordinator Role
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -564,21 +564,21 @@ TODO: add content
 
 ## Planning And Review Meetings
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Prioritized Backlog
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Pull-System For Work
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -633,14 +633,14 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 ## Visualize Work
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 # Building Organizations
 
-TODO: add content
+^TODO: add content
 
 
 
@@ -667,21 +667,21 @@ TODO: add content
 
 ## Open Systems
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Organize In Nested Domains
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 # People And Roles
 
-TODO: add content
+^TODO: add content
 
 
 
@@ -729,7 +729,7 @@ TODO: add content
 
 ## Role
 
-TODO: add content
+^TODO: add content
 
 
 
@@ -771,7 +771,7 @@ TODO: add content
 
 ## Support Roles
 
-TODO: add content
+^TODO: add content
 
 
 
@@ -812,7 +812,7 @@ A pattern for multi-stakeholder projects or services.
 
 ## Coordination Circle
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -862,7 +862,7 @@ A Pattern for learning, coordination and alignment across organizational boundar
 
 ## Helping Circle
 
-TODO: add content
+^TODO: add content
 
 
 
@@ -916,7 +916,7 @@ A pattern for outsourcing shared services
 
 # Bringing In S3 Patterns
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -930,7 +930,7 @@ TODO: add content
 
 ## Be The Change
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -961,14 +961,14 @@ TODO: add content
 
 ## Open S3 Adoption
 
-TODO: add content
+^TODO: add content
 
 
 ---
 
 ## Pull-System For Organizational Change
 
-TODO: add content
+^TODO: add content
 
 
 
@@ -976,7 +976,7 @@ TODO: add content
 
 # Alignment
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -1028,7 +1028,7 @@ _A **value** is a principle of some significance that guides behavior._
 
 ## Bylaws
 
-TODO: add content
+^TODO: add content
 
 
 ---

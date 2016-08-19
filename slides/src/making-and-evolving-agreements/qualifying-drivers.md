@@ -8,6 +8,6 @@ We consider why, how and when to respond to a stimulus, instead of defaulting to
 
 Often a tensions is **outside the domain** we can address, or not important enough to respond to.
 
-TODO: more content here
+^TODO: more content here
 
 
