@@ -17,7 +17,7 @@ Information in this section is preliminary, and needs further testing.
 * Headline Level 1 is always the only content on the slide (apart from background images)
 * Headline level 2  or more is increased by one for reveal.js
 
-
+TODO: ??? refactor code: build converter for deckset slides 
 TODO: translate background images
 TODO: check inline images etc
 TODO: translate presenter notes
@@ -26,9 +26,6 @@ TODO: focus on decks now, later make a table when note contains right aligned im
 
 ## TODOs
 
-TODO: update images from main repository
-
-TODO: get content for section header slides
 
 TODO: get content from handbook drafts
 

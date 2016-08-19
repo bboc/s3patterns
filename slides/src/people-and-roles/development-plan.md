@@ -13,5 +13,5 @@
 
 ## Template for Development Plan
 
-![inline,fit](img/people-and-roles/improvement-plan-template.png)
+![inline,fit](img/people-and-roles/development-plan-template.png)
 

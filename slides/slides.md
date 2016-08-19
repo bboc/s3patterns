@@ -816,7 +816,7 @@ Building an organization from domains defined along organizational drivers facil
 
 ## Roles implement functions
 
-![inline,fit](img/people-and-roles/role-improvement.png)
+![inline,fit](img/people-and-roles/driver-role-selection-development.png)
 
 ---
 
@@ -825,7 +825,7 @@ Building an organization from domains defined along organizational drivers facil
 ### Continuous improvement of the effectiveness of people in roles ###
 
 
-![inline,fit](img/people-and-roles/performance-improvement-process.png)
+![inline,fit](img/people-and-roles/development-process.png)
 
 
 
@@ -860,7 +860,7 @@ Building an organization from domains defined along organizational drivers facil
 
 ## Template for Development Plan
 
-![inline,fit](img/people-and-roles/improvement-plan-template.png)
+![inline,fit](img/people-and-roles/development-plan-template.png)
 
 
 
