@@ -263,7 +263,6 @@ def convert_image(format, img_url):
     # TODO: convert background images (needs two pass and buffer)
     format = format.lower()
     if 'right' in format:
-        # TODO: replace with class
         return FLOATING_IMAGE.substitute(url=img_url)
     else:
         return '![](%s)' % img_url
