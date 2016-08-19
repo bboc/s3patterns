@@ -2,6 +2,6 @@
 
 A pattern for expanding functions
 
-![](img/structural-patterns/nested-circle.png)
+![inline,fit](img/structural-patterns/nested-circle.png)
 
 

@@ -13,6 +13,7 @@ The image folder is symlinked to all subfolders, so images can easily be added w
 Information in this section is preliminary, and needs further testing.
 
 * Images always float right (because that works without clearing the float), and are set to height of 100%. Floating images go BEFORE the text, and are marked "right,fit"
+* single images on slides: [inline,fit]
 * Headline Level 1 is always the only content on the slide (apart from background images)
 * Headline level 2  or more is increased by one for reveal.js
 

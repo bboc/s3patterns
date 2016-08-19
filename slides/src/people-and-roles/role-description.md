@@ -13,4 +13,4 @@
 
 ## Template for Role Descriptions
 
-![](img/people-and-roles/role-description-template.png)
+![inline,fit](img/people-and-roles/role-description-template.png)

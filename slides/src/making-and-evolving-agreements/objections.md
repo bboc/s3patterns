@@ -1,20 +1,28 @@
 ## Objections
 
-_An **objection** is an importan reason why doing what is proposed stands in the way of (more) effective response toan existing driver._
-
-In sociocracy we deliberately seek objections as they potentially reveal information that can be used to improve proposals and agreements.   
-
----
+_An **objection** is an important reason why doing what is proposed stands in the way of (more) effective response to a driver._
 
 Objections...
 
-* ...reveal wisdom seeking expression into the consciousness of a circle
-* ...reveal opportunities or impediments
-* ...emerge through individuals and belong to the whole circle
+* ...stop proposals from becoming agreements.
+* ...contain emergent information that can be used to improve proposals and agreements
+* ...reveal both opportunities or impediments
+
 
 ---
 
-## Questions That Help to Validate Objections ##
+## Objections
+
+
+It's the decision of the individual who raised the objection to stay or withdraw the objection.
+
+Withholding objections could harm the aims of a group or organization
+
+Being able to raise objections at any time means that proposals only need to be *good enough for now, safe enough to try*
+
+---
+
+## Questions to Understand Objections ##
 
 * Does the objection relate to this specific proposal or agreement?
 * Does this objection reveal how a (proposed or existing) **agreement**...
@@ -34,5 +42,12 @@ Objections...
 * ...can be recorded in the logbook
     * ...to further evolve agreements
     * ...to set evaluation criteria (including review date)
+
+* Consent is the absence of objections
+    * everyone affected by a decision can "live with it"
+    * consent is not consensus with unanimity
+* Consent is used to make and evolve all agreements in a circle
+* Every agreement has a review date 
+
 
 

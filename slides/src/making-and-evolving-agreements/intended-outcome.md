@@ -2,4 +2,4 @@
 
 TODO: add content
 
-![](img/agreements/outcome-and-criteria.png)
+![inline,fit](img/agreements/outcome-and-criteria.png)

@@ -5,7 +5,9 @@
 
 ---
 
-## Steps
+## Steps of an Effectiveness Review
+
+![right,fit](img/people-and-roles/effectiveness-review.png)
 
 1. Invite people with complementing perspectives to contribute to the review, and a facilitator
 2. Collect appreciations
@@ -15,5 +17,4 @@
 4. Co-create and consent to a development plan
 
 
-![](img/people-and-roles/effectiveness-review.png)
 

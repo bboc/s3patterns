@@ -2,4 +2,4 @@
 
 TODO: add content
 
-![](img/agreements/balance.png)
+![inline,fit](img/agreements/balance.png)

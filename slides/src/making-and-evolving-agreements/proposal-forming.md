@@ -1,15 +1,14 @@
 ## Proposal Forming
 
+![right,fit](img/agreements/proposal-forming-medium.png)
 
 Proposal Forming...
 
+* ...is a facilitated format for co-creating a response to a drivers
 * ...is similar to condensed design thinking process
 * ...taps the collective intelligence of a group
 * ...involves people in co-creating agreements
 * ...fosters accountability and a sense of ownership
-
-
-![Co-Creating a Response to a Drivers](img/agreements/proposal-forming-medium.png)
 
 ---
   

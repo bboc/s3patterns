@@ -3,6 +3,6 @@
 
 A Pattern for learning, coordination and alignment across organizational boundaries.
 
-![](img/structural-patterns/fractal-organization.png)
+![inline,fit](img/structural-patterns/fractal-organization.png)
 
 

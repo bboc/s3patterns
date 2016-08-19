@@ -1,8 +1,7 @@
 footer: Sociocracy 3.0 - Patterns for Agile Organizations © 2016 by Bernhard Bockelbrink and James Priest (sociocracy30.org)
 slidenumbers: true
 autoscale: true
-theme: Ostrich, 6
-
+theme: Plain Jane, 2
 
 # S3 - Patterns for Agile Organizations
 
@@ -62,32 +61,25 @@ TODO: add content
 
 ## Agreements
 
+![right,fit](img/tension-driver-domain/driver-agreement-improvement.png)
 
-We respond to drivers through agreements.
-
-**Definition:** _A agreement is an agreed upon guideline, pattern, process or protocol designed to guide the flow of value._
-
----
+_An **agreement** is an agreed upon guideline, pattern, process or protocol designed to guide the flow of value._
 
 * agreements are created in order to respond to drivers 
 * agreements are the **accountability of the circle** that created them
 * each agreement includes **evaluation criteria** and is subject to **regular review**
-    *  review dates are specific to each agreement
-    *  agreements are reviewed in context to its driver
 
 ---
 
-![](img/tension-driver-domain/driver-agreement-improvement.png)
+## Agreements
 
----
-
-![](img/agreements/agreement-lifecycle-long.png)
+![inline,fit](img/agreements/agreement-lifecycle-long.png)
 
 ---
 
 ## Template for Agreements
 
-![](img/agreements/agreement-template.png)
+![inline,fit](img/agreements/agreement-template.png)
 
 
 
@@ -95,20 +87,20 @@ We respond to drivers through agreements.
 
 ## Circle
 
+![right,fit](img/circle/circle-driver.png)  
+
+_A **circle** is a semi-autonomous, self-organizing and self-governing group of people gathering around a driver._
+
 A circle...
 
 * ...is the basic building block of an organization
-* ...is a group of people gathered around a driver (permanent or temporary)
+* ...may be permanent or temporary
 * ...makes all agreements by consent
 * ...is accountable for its own development
 
 ---
 
-**Definition:** _A circle is a semi-autonomous, self-organizing and self-governing group of people gathering around a driver._
-
-![](img/circle/circle-driver.png)  
-
----
+## Circle
 
 * ...**semi-autonomous**: 
     * each has a unique driver and can create value independently
@@ -122,18 +114,7 @@ A circle...
 ## Consent Decision Making
 
 
-* Consent is the absence of objections
-    * everyone affected by a decision can "live with it"
-    * consent is not consensus with unanimity
-* Consent is used to make and evolve all agreements in a circle
-* Objections stop proposals becoming agreements
-* Withholding objections could harm the aims of a group or organization
-* Being able to raise objections at any time means that proposals only need to be *good enough for now, safe enough to try*
-* Every agreement has a review date 
-
----
-
-## Consent Decision Making...
+![right,fit](img/agreements/cdm-condensed.png)
 
 * is a facilitated decision making process
 * deliberately harvests reasoned objections in order to integrate the wisdom they contain in proposals or existing agreements
@@ -142,9 +123,17 @@ A circle...
 
 ---
 
-## Harvesting Objections to Capture Emergent Wisdom ##
+## Consent Decision Making
 
-![](img/agreements/cdm-condensed.png)
+* Consent is the absence of (reasoned and important) objections
+    * everyone affected by a decision can "live with it"
+    * consent is not consensus with unanimity
+* Consent can be used to make and evolve agreements in a circle
+* Objections stop proposals becoming agreements
+* Withholding objections could harm the aims of a group or organization
+* Being able to raise objections at any time means that proposals only need to be *good enough for now, safe enough to try*
+* Every agreement has a review date 
+
 
 
 
@@ -159,15 +148,14 @@ TODO: add content
 
 ## Driver
 
-_A driver is that which motivates us into action: what is happening in a specific situation and what’s needed._
+![right,fit](img/experiments/kaizen.png)
 
-# Responses to a Driver #
+_A **driver** is the motive to respond to a specific situation._
 
-* the response to a driver always involves the **adaptation of an existing agreement, or creation of a new one**, including:
-    * changing the plan: adding a task or project
-    * adaptation or creation of a role
-    * creation of a new circle
-        * driver review is delegated to new circle
+Drivers can be understood through looking at the needs we associate with the situations, and the conditions relevant for the existence of those needs .
+
+The response to a driver is usually an experiment, that evolves over time with what is learned along the way.
+
 
 ---
 
@@ -180,16 +168,9 @@ _A driver is that which motivates us into action: what is happening in a specifi
 
 ---
 
-### Value and Waste ###
+### Drivers: Value and Waste ###
 
-_**Value** is the importance, worth or usefulness of something in responding to a driver._
-
-**Value**:
-
-* value is **not** an **inherent** property as it only exists in relation to a driver
-* value can be quantified by **measuring the progress** of responding to driver
-    * value is not necessarily expressed in currency or time
-* **continuous improvement of processes is focused on optimizing the flow of value through an organization**
+_**Value** is the importance, worth or usefulness of something in relation to responding to a driver._
 
 **Waste** _is anything not necessary for - or standing in the way of - effective response of a driver._
 
@@ -201,22 +182,6 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 
 ---
 
-### Waste and Continuous Improvement ###
-
-* Establishing a process for ongoing elimination of waste enables natural evolution of an organization towards greater effectiveness
-* Adaptation to changing environment is built into the process
-
----
-
-### Identifying Waste ###
-
-![](img/workflow-and-value/drivers-value-waste.png)
-
-* waste exist in many different forms and on different levels of abstraction
-    * tasks, processes, organizational structure, mental models...
-* some tensions reveal waste
-* learning to identify waste is a journey
-    * along the way we also learn how to evolve our drivers
 
 
 
@@ -235,7 +200,7 @@ TODO: add content
 
 TODO: add content
 
-![](img/agreements/outcome-and-criteria.png)
+![inline,fit](img/agreements/outcome-and-criteria.png)
 
 
 
@@ -245,28 +210,36 @@ TODO: add content
 
 TODO: add content
 
-![](img/agreements/outcome-and-criteria.png)
+![inline,fit](img/agreements/outcome-and-criteria.png)
 
 
 ---
 
 ## Objections
 
-_An **objection** is an importan reason why doing what is proposed stands in the way of (more) effective response toan existing driver._
-
-In sociocracy we deliberately seek objections as they potentially reveal information that can be used to improve proposals and agreements.   
-
----
+_An **objection** is an important reason why doing what is proposed stands in the way of (more) effective response to a driver._
 
 Objections...
 
-* ...reveal wisdom seeking expression into the consciousness of a circle
-* ...reveal opportunities or impediments
-* ...emerge through individuals and belong to the whole circle
+* ...stop proposals from becoming agreements.
+* ...contain emergent information that can be used to improve proposals and agreements
+* ...reveal both opportunities or impediments
+
 
 ---
 
-## Questions That Help to Validate Objections ##
+## Objections
+
+
+It's the decision of the individual who raised the objection to stay or withdraw the objection.
+
+Withholding objections could harm the aims of a group or organization
+
+Being able to raise objections at any time means that proposals only need to be *good enough for now, safe enough to try*
+
+---
+
+## Questions to Understand Objections ##
 
 * Does the objection relate to this specific proposal or agreement?
 * Does this objection reveal how a (proposed or existing) **agreement**...
@@ -287,6 +260,13 @@ Objections...
     * ...to further evolve agreements
     * ...to set evaluation criteria (including review date)
 
+* Consent is the absence of objections
+    * everyone affected by a decision can "live with it"
+    * consent is not consensus with unanimity
+* Consent is used to make and evolve all agreements in a circle
+* Every agreement has a review date 
+
+
 
 
 
@@ -294,16 +274,15 @@ Objections...
 
 ## Proposal Forming
 
+![right,fit](img/agreements/proposal-forming-medium.png)
 
 Proposal Forming...
 
+* ...is a facilitated format for co-creating a response to a drivers
 * ...is similar to condensed design thinking process
 * ...taps the collective intelligence of a group
 * ...involves people in co-creating agreements
 * ...fosters accountability and a sense of ownership
-
-
-![Co-Creating a Response to a Drivers](img/agreements/proposal-forming-medium.png)
 
 ---
   
@@ -322,13 +301,15 @@ Proposal Forming...
 
 ## Qualifying Drivers
 
-
-** ...in order to avoid action bias**
+**...in order to avoid action bias**
 
 >_Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom._ (Viktor E. Frankl)
 
-We consider why, how and when to respond to a stimulus, instead of defaulting to action.
+We consider why, how and when to respond to a stimulus, instead of defaulting to action. 
 
+Often a tensions is **outside the domain** we can address, or not important enough to respond to.
+
+TODO: more content here
 
 
 
@@ -413,26 +394,23 @@ Circles meet at regular intervals to create and evolve agreements in response to
 ---
 
 ## Navigating Via Tension
-
-* individuals act as sensors for the organization
-* tension is experienced whenever our perception of our environment is in conflict with:
-    * that which we desire or had anticipated
-    * our values (and principles)
-* problems, challenges, and feelings of unease are all tensions
-
-![](img/tension-driver-domain/navigate-via-tensions.png)
-
----
-
-## From Tension to Driver ##
   
+* individuals act as sensors for the organization
+* tensions arise whenever our perception of what is happening is in conflict with our **expectations** or our **values** (and principles)
+* problems, challenges, and feelings of unease are all tensions
 * investigating tension leads to the discovery of drivers
 * to identify a possible driver behind a tension we:
     * **describe** the situation
     * **identify** the needs we associate with that reality 
-* in the process, we resolve some tensions as **misunderstandings**
-* we validate drivers
-    * some tensions are **outside the domain** we can address 
+* in the process, a tensions may be resolved as **misunderstandings**
+
+---
+
+## Navigating Via Tension
+
+
+![inline,fit](img/tension-driver-domain/navigate-via-tensions.png)
+
 
 
 ---
@@ -466,7 +444,7 @@ Often the role of the facilitator is shared between several circle members.
 
 TODO: add content
 
-![](img/agreements/balance.png)
+![inline,fit](img/agreements/balance.png)
 
 ---
 
@@ -607,6 +585,8 @@ TODO: add content
 
 ## Retrospective
 
+^TODO: clean up this section
+
 **Reflect on a longer period of work and improve agreements.**
 
 * ~60 min
@@ -619,7 +599,9 @@ TODO: add content
 
 ---
 
-**Retrospective: Building in continuous improvement of process:**
+## Retrospective
+
+**Building in continuous improvement of process**
 
 * goal: reflection on the past to guide process improvement
 * output: proposals for agreements, tensions, drivers or tasks
@@ -632,7 +614,7 @@ TODO: add content
 
 ## Retrospective: A time to reflect on process improvement ##
 
-![](img/meetings/retrospective.png)
+![inline,fit](img/meetings/retrospective.png)
 
 ---
 
@@ -645,12 +627,6 @@ TODO: add content
 5. Close the Retrospective
 
 Activities for each phase can be found at [plans-for-retrospectives.com](http://www.plans-for-retrospectives.com/)
-
-
-
-
-
----
 
 
 ---
@@ -672,6 +648,12 @@ TODO: add content
 
 ## Align Flow
 
+![right,fit](img/workflow-and-value/types-of-flow.png)
+
+* in an effective organization, the **flow of information and influence supports the continuous flow of value**
+* alignment is achieved and maintained through continuous improvement of agreements
+
+---
 
 ### Flow of Value ###
 
@@ -679,18 +661,6 @@ TODO: add content
 * work in progress is considered waste as it ties up resources
 * continuous flow of value prevents accumulation of waste
     * it also makes for shorter feedback loops and amplifies learning
-
----
-
-### Flow of Value and Flow of Information ###
-
-![](img/workflow-and-value/types-of-flow.png)
-
-* in an effective organization, the **flow of information and influence supports the continuous flow of value**
-* alignment is achieved and maintained through continuous improvement of agreements
-
-
-
 
 
 ---
@@ -740,7 +710,9 @@ TODO: add content
 
 ---
 
-## Steps
+## Steps of an Effectiveness Review
+
+![right,fit](img/people-and-roles/effectiveness-review.png)
 
 1. Invite people with complementing perspectives to contribute to the review, and a facilitator
 2. Collect appreciations
@@ -750,7 +722,6 @@ TODO: add content
 4. Co-create and consent to a development plan
 
 
-![](img/people-and-roles/effectiveness-review.png)
 
 
 
@@ -779,15 +750,14 @@ TODO: add content
 
 ## Template for Role Descriptions
 
-![](img/people-and-roles/role-description-template.png)
+![inline,fit](img/people-and-roles/role-description-template.png)
 
 
 ---
 
 ## Role Selection
 
-
-![](img/people-and-roles/selection.png)
+![right,fit](img/people-and-roles/selection.png)
 
 * People avoid expressing interest before elections 
 * Nominations are made on the strength of the reason
@@ -833,7 +803,7 @@ The primary function of organizational structure is **to enable effective collab
 
 A pattern for multi-stakeholder projects or services.
 
-![](img/structural-patterns/backbone-organization.png)
+![inline,fit](img/structural-patterns/backbone-organization.png)
 
 
 
@@ -852,16 +822,16 @@ TODO: add content
 
 A pattern for coordination 
 
-![](img/structural-patterns/delegate-circle.png)
+![inline,fit](img/structural-patterns/delegate-circle.png)
 
 
 ---
 
 ## Double Linking
 
-![](img/structural-patterns/double-link.png)
+![right,fit](img/structural-patterns/double-link.png)
 
-##Facilitate two-way flow of information and influence##
+Facilitate two-way flow of information and influence##
 
 * Two interdependent circles each elect a representative to participate as full members in both circles' governance meetings
 * can be used to prevent tensions in hierarchical structures
@@ -871,9 +841,9 @@ A pattern for coordination
 
 ## Double-Linked Hierarchy
 
-A pattern for the early phase of a transformation ##
+A pattern for the early phase of a transformation
 
-![](img/structural-patterns/double-linked-hierarchy.png)
+![inline,fit](img/structural-patterns/double-linked-hierarchy.png)
 
 
 ---
@@ -883,7 +853,7 @@ A pattern for the early phase of a transformation ##
 
 A Pattern for learning, coordination and alignment across organizational boundaries.
 
-![](img/structural-patterns/fractal-organization.png)
+![inline,fit](img/structural-patterns/fractal-organization.png)
 
 
 
@@ -902,7 +872,7 @@ TODO: add content
 
 A pattern for expanding functions
 
-![](img/structural-patterns/nested-circle.png)
+![inline,fit](img/structural-patterns/nested-circle.png)
 
 
 
@@ -914,7 +884,7 @@ A pattern for expanding functions
 
 Periphery drives the organization, the center provides services.
 
-![](img/structural-patterns/peach-organization.png)
+![inline,fit](img/structural-patterns/peach-organization.png)
 
 
 ---
@@ -938,7 +908,7 @@ Representatives (a.k.a Links)...:
 
 A pattern for outsourcing shared services
 
-![](img/structural-patterns/service-circle.png)
+![inline,fit](img/structural-patterns/service-circle.png)
 
 
 
@@ -953,7 +923,7 @@ TODO: add content
 
 ## Adapt Patterns To Context
 
-TODO: add content
+^TODO: add content
 
 
 ---
@@ -967,7 +937,24 @@ TODO: add content
 
 ## Continuous Improvement Of Work Process
 
-TODO: add content
+### Waste and Continuous Improvement ###
+
+**Waste** _is anything not necessary for - or standing in the way of - effective response of a driver._
+
+* Establishing a process for ongoing elimination of waste enables natural evolution of an organization towards greater effectiveness
+* Adaptation to changing environment is built into the process
+
+---
+
+### Identifying Waste ###
+
+![inline,fit](img/workflow-and-value/drivers-value-waste.png)
+
+* waste exist in many different forms and on different levels of abstraction
+    * tasks, processes, organizational structure, mental models...
+* some tensions reveal waste
+* learning to identify waste is a journey
+    * along the way we also learn how to evolve our drivers
 
 
 ---
@@ -1015,7 +1002,7 @@ TODO: add content
 
 ![right,fit](img/collaboration-values/values-step2.png)
 
-*A **value** is a principle of some significance that guides behavior.*
+_A **value** is a principle of some significance that guides behavior._
 
 * In an organization people come together to collaborate
 * every individual has values that are influenced by their experiences and beliefs
@@ -1048,7 +1035,7 @@ TODO: add content
 
 ## Contracting And Accountability
 
-![](img/circle/enter-leave-circle.png)
+![right,fit](img/circle/enter-leave-circle.png)
 
 * define the process for entering the organization
 * define default role for a new member
@@ -1061,9 +1048,9 @@ TODO: add content
 
 ## Linking
 
-### Connecting two circles ###
+**Connecting two circles**
 
-![](img/structural-patterns/link.png)
+![inline,fit](img/structural-patterns/link.png)
 
 
 
@@ -1087,13 +1074,13 @@ TODO: add content
 
 # Links
 
-TODO: add content
+^TODO: add content
 
 ---
 
 # License
 
-TODO: add content
+^TODO: add content
 
 
 ---

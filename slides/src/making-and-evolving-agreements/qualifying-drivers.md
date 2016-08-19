@@ -1,11 +1,13 @@
 ## Qualifying Drivers
 
-
-** ...in order to avoid action bias**
+**...in order to avoid action bias**
 
 >_Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom._ (Viktor E. Frankl)
 
-We consider why, how and when to respond to a stimulus, instead of defaulting to action.
+We consider why, how and when to respond to a stimulus, instead of defaulting to action. 
 
+Often a tensions is **outside the domain** we can address, or not important enough to respond to.
+
+TODO: more content here
 
 

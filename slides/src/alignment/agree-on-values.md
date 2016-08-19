@@ -2,7 +2,7 @@
 
 ![right,fit](img/collaboration-values/values-step2.png)
 
-*A **value** is a principle of some significance that guides behavior.*
+_A **value** is a principle of some significance that guides behavior._
 
 * In an organization people come together to collaborate
 * every individual has values that are influenced by their experiences and beliefs

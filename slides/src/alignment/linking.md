@@ -1,6 +1,6 @@
 ## Linking
 
-### Connecting two circles ###
+**Connecting two circles**
 
-![](img/structural-patterns/link.png)
+![inline,fit](img/structural-patterns/link.png)
 

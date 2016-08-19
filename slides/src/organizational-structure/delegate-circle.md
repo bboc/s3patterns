@@ -3,4 +3,4 @@
 
 A pattern for coordination 
 
-![](img/structural-patterns/delegate-circle.png)
+![inline,fit](img/structural-patterns/delegate-circle.png)

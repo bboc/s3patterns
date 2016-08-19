@@ -1,5 +1,7 @@
 ## Retrospective
 
+^TODO: clean up this section
+
 **Reflect on a longer period of work and improve agreements.**
 
 * ~60 min
@@ -12,7 +14,9 @@
 
 ---
 
-**Retrospective: Building in continuous improvement of process:**
+## Retrospective
+
+**Building in continuous improvement of process**
 
 * goal: reflection on the past to guide process improvement
 * output: proposals for agreements, tensions, drivers or tasks
@@ -25,7 +29,7 @@
 
 ## Retrospective: A time to reflect on process improvement ##
 
-![](img/meetings/retrospective.png)
+![inline,fit](img/meetings/retrospective.png)
 
 ---
 
@@ -38,9 +42,3 @@
 5. Close the Retrospective
 
 Activities for each phase can be found at [plans-for-retrospectives.com](http://www.plans-for-retrospectives.com/)
-
-
-
-
-
----
