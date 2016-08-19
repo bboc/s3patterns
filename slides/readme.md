@@ -27,20 +27,15 @@ TODO: translate presenter notes
 TODO: copy over content from presentation-temp
 
 TODO: fix headline levels (see to of slides.md)
-TODO: review all slide breaks
- 
-TODO: fix all images (test alignment with reveal.js)
 
 TODO: review compiled content (remove definitions)
 
 TODO: add all images to patterns
 
-TODO: make all existing slides look good
-
-TODO: add license and links
 
 TODO: write stubs for unfinished patterns
 
+TODO: add reveal.js in REAMDE
 
 
 

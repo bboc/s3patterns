@@ -3,50 +3,15 @@ slidenumbers: true
 autoscale: true
 theme: Plain Jane, 2
 
-# S3 - Patterns for Agile Organizations
-
-A slidedeck with all patterns.
+# Sociocracy 3.0 - Patterns for Agile Organizations
 
 ---
 
-## What happenz to the headline
-
-<img style="float: right; margin: 0px 0px 15px 15px; border: 0px; box-shadow: 0 0 0 0;" src="img/collaboration-values/values-step2.png" width="50%" />
-
-Some Interesting Information goes here.
-
-some more stuff
-
-hi ho something else
-
-1. one
-2. two
-3. three
-4. four
+![inline,fit](img/general/s3-pattern-groups.png)
 
 ---
 
-### What happenz to the headline
-
-![right,fit](img/collaboration-values/values-step2.png)
-
-
-Some Interesting Information goes here.
-
-some more stuff
-
-hi ho something else
-
-1. one
-2. two
-3. three
-4. four
-
-
----
-
-![inline](img/collaboration-values/values-step2.png)
-
+![inline,fit](img/general/s3-patterns-map.png)
 
 
 
@@ -113,28 +78,14 @@ A circle...
 
 ## Consent Decision Making
 
-
 ![right,fit](img/agreements/cdm-condensed.png)
 
-* is a facilitated decision making process
-* deliberately harvests reasoned objections in order to integrate the wisdom they contain in proposals or existing agreements
-* helps balance equivalence and effectiveness
-* experienced groups can move quickly through the stages of Consent Decision Making 
-
----
-
-## Consent Decision Making
-
-* Consent is the absence of (reasoned and important) objections
-    * everyone affected by a decision can "live with it"
-    * consent is not consensus with unanimity
-* Consent can be used to make and evolve agreements in a circle
-* Objections stop proposals becoming agreements
-* Withholding objections could harm the aims of a group or organization
-* Being able to raise objections at any time means that proposals only need to be *good enough for now, safe enough to try*
-* Every agreement has a review date 
-
-
+* facilitated decision making process
+* collect objections from everyone affected and integrate the wisdom they contain in proposals or existing agreements
+* withholding objections could harm the aims of a group or organization
+* unresolved objections stop proposals becoming agreements
+* can you *live with it* until the review? ➤ proposals only need to be *good enough for now, safe enough to try*
+* **contract of consent**: support agreements in the absence of objections
 
 
 ---
@@ -148,18 +99,21 @@ A circle...
 
 ## Driver
 
-![right,fit](img/experiments/kaizen.png)
+![right,fit](img/drivers-and-subdrivers/elements-of-a-driver-alt.png)
 
-_A **driver** is the motive to respond to a specific situation._
-
-Drivers can be understood through looking at the needs we associate with the situations, and the conditions relevant for the existence of those needs .
+* **shared understanding** of our motivation for action (the "why")
+* describes a **specific situation**: conditions and the **needs** we associate with it
+* focus on the **present**, not future or assumptions
+* precedes goals, objectives, aims, mission, vision, purpose
+* **incrementally refined**, easy to review 
 
 The response to a driver is usually an experiment, that evolves over time with what is learned along the way.
 
-
 ---
 
-## Drivers Are Subject to Regular Review ##
+## Review of Drivers: ###
+
+![right,fit](img/experiments/kaizen.png)
 
 * Is the description of the situation still correct?
 * Do we still associate the same needs with the situation?
@@ -180,7 +134,6 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 * various strategies for eliminating waste
 * the Kanban Method
 
----
 
 
 
@@ -259,15 +212,6 @@ Being able to raise objections at any time means that proposals only need to be 
 * ...can be recorded in the logbook
     * ...to further evolve agreements
     * ...to set evaluation criteria (including review date)
-
-* Consent is the absence of objections
-    * everyone affected by a decision can "live with it"
-    * consent is not consensus with unanimity
-* Consent is used to make and evolve all agreements in a circle
-* Every agreement has a review date 
-
-
-
 
 
 ---
@@ -670,6 +614,7 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 ^TODO: add content
 
 
+
 ---
 
 ## Organize In Nested Domains
@@ -729,7 +674,13 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 ## Role
 
-^TODO: add content
+![right,fit](img/people-and-roles/roles.png)
+
+* roles are more flexible than positions
+* people can wear many hats
+* (S)election by consent…
+* …and for a limited term
+* peers support development in roles
 
 
 
@@ -779,12 +730,17 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 # Organizational Structure
 
+---
 
-The primary function of organizational structure is **to enable effective collaboration** by aligning the flow of information to  support the flow of value..  
+## Organizational Structure ##
 
-**Organizational structure needs to evolve continuously** in order to adapt to a changing environment.
+* enables effective collaboration
+* delegates decision making power
+* evolves continuously to adapt to changing environments
 
 **Semi-autonomous, self-organizing and self-governing circles** are the basic building blocks for organizational structure.
+
+Circles can be linked in a hierarchy or a **heterarchy** (a.k.a. complex adaptive system, or network), where different functional structures co-exist.
 
 ---
 
@@ -831,7 +787,7 @@ A pattern for coordination
 
 ![right,fit](img/structural-patterns/double-link.png)
 
-Facilitate two-way flow of information and influence##
+Facilitate two-way flow of information and influence
 
 * Two interdependent circles each elect a representative to participate as full members in both circles' governance meetings
 * can be used to prevent tensions in hierarchical structures
@@ -930,45 +886,56 @@ A pattern for outsourcing shared services
 
 ## Be The Change
 
-^TODO: add content
+* be the change you want to create
+* tell the story how you discovered S3
+* invite others for experiments
+*  learn and grow (together)
 
 
 ---
 
 ## Continuous Improvement Of Work Process
 
-### Waste and Continuous Improvement ###
-
-**Waste** _is anything not necessary for - or standing in the way of - effective response of a driver._
-
-* Establishing a process for ongoing elimination of waste enables natural evolution of an organization towards greater effectiveness
-* Adaptation to changing environment is built into the process
+* start with consent in one circle, elect a facilitator, define values, and go
+* trigger continuous improvement (e.g through Kanban)
+* let them pull in patterns 
+* then expand the scope of the experiment
 
 ---
 
-### Identifying Waste ###
+## Waste and Continuous Improvement ##
 
-![inline,fit](img/workflow-and-value/drivers-value-waste.png)
+![right,fit](img/workflow-and-value/drivers-value-waste.png)
 
-* waste exist in many different forms and on different levels of abstraction
-    * tasks, processes, organizational structure, mental models...
-* some tensions reveal waste
-* learning to identify waste is a journey
-    * along the way we also learn how to evolve our drivers
+**Waste** _is anything not necessary for - or standing in the way of - effective response of a driver._
+
+* waste exist in many different forms and on different levels of abstraction (tasks, processes, organizational structure, mental models...)
+* establishing a process for ongoing elimination of waste enables natural evolution of an organization towards greater effectiveness
+* adaptation to changing environment is built into the process
+
 
 
 ---
 
 ## Open S3 Adoption
 
-^TODO: add content
+* install a regular cadence of Open Spaces 
+    * invite all members to create and run experiments
+    * set boundaries for experiments: S3 principles
+    * review experiments in the next Open Space
+    * repeat
 
 
 ---
 
 ## Pull-System For Organizational Change
 
-^TODO: add content
+* all change is voluntary
+* create an environment that empowers and invites members of the organization to drive change:
+    * don't break what's already working
+    * meet everyone where they are …
+    * …and let them choose their own pace
+
 
 
 
@@ -1072,15 +1039,29 @@ _A **value** is a principle of some significance that guides behavior._
 
 ---
 
-# Links
+# Links #
 
-^TODO: add content
+More resources on my website: [evolvingcollaboration.com/s3](http://evolvingcollaboration.com/s3)
+
+**S3 website**: [http://sociocracy30.org](http://sociocracy30.org)
+
+Follow us on **twitter**: [@sociocracy30](http://twitter.com/@sociocracy30)
 
 ---
 
-# License
+# License #
 
-^TODO: add content
+This work by Bernhard Bockelbrink is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
+
+Parts of this work are copied or adapted from "A brief Introduction to Sociocracy 3.0" and "The Sociocracy 3.0 Handbook" by Bernhard Bockelbrink and James Priest.
+
+---
+
+**Bernhard Bockelbrink** is co-founder of The Sociocracy 3.0 Movement. As an agile coach, consultant and trainer he is supporting organizations in agile transformations and helps them on their way towards an evolved culture of leadership and close collaboration that allows them to sustainably grow great products and services with happy people.
+
+He has 18 years of experience in as a coach, CTO, scrum master, product owner, project manager, technology consultant and developer in Startups, small-/medium-sized businesses and enterprises, and a passion for agile and lean software development that goes back to the late 1990s.
+
+[evolvingcollaboration.com](http://evolvingcollaboration.com) -- [bernhard.bockelbrink@gmail.com](mailto:bernhard.bockelbrink@gmail.com)
 
 
 ---

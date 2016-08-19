@@ -1,24 +1,10 @@
 ## Consent Decision Making
 
-
 ![right,fit](img/agreements/cdm-condensed.png)
 
-* is a facilitated decision making process
-* deliberately harvests reasoned objections in order to integrate the wisdom they contain in proposals or existing agreements
-* helps balance equivalence and effectiveness
-* experienced groups can move quickly through the stages of Consent Decision Making 
-
----
-
-## Consent Decision Making
-
-* Consent is the absence of (reasoned and important) objections
-    * everyone affected by a decision can "live with it"
-    * consent is not consensus with unanimity
-* Consent can be used to make and evolve agreements in a circle
-* Objections stop proposals becoming agreements
-* Withholding objections could harm the aims of a group or organization
-* Being able to raise objections at any time means that proposals only need to be *good enough for now, safe enough to try*
-* Every agreement has a review date 
-
-
+* facilitated decision making process
+* collect objections from everyone affected and integrate the wisdom they contain in proposals or existing agreements
+* withholding objections could harm the aims of a group or organization
+* unresolved objections stop proposals becoming agreements
+* can you *live with it* until the review? ➤ proposals only need to be *good enough for now, safe enough to try*
+* **contract of consent**: support agreements in the absence of objections

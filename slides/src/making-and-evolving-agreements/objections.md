@@ -42,12 +42,3 @@ Being able to raise objections at any time means that proposals only need to be 
 * ...can be recorded in the logbook
     * ...to further evolve agreements
     * ...to set evaluation criteria (including review date)
-
-* Consent is the absence of objections
-    * everyone affected by a decision can "live with it"
-    * consent is not consensus with unanimity
-* Consent is used to make and evolve all agreements in a circle
-* Every agreement has a review date 
-
-
-

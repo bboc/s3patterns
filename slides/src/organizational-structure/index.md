@@ -1,11 +1,16 @@
 # Organizational Structure
 
+---
 
-The primary function of organizational structure is **to enable effective collaboration** by aligning the flow of information to  support the flow of value..  
+## Organizational Structure ##
 
-**Organizational structure needs to evolve continuously** in order to adapt to a changing environment.
+* enables effective collaboration
+* delegates decision making power
+* evolves continuously to adapt to changing environments
 
 **Semi-autonomous, self-organizing and self-governing circles** are the basic building blocks for organizational structure.
+
+Circles can be linked in a hierarchy or a **heterarchy** (a.k.a. complex adaptive system, or network), where different functional structures co-exist.
 
 ---
 
