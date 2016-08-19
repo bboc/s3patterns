@@ -68,15 +68,14 @@ class DecksetWriter(object):
         self.template_path = os.path.join(os.path.dirname(self.args.target), 'deckset_template.md')
     
     def build(self):
-   
         with codecs.open(self.args.target, 'w+', 'utf-8') as self.target:
             with codecs.open(self.template_path, 'r', 'utf-8') as self.template:
 
                 self.copy_template_header()
                 # insert_title
                 self._copy_markdown(self.source, 'title.md')
-                for group in handbook_group_order:
-                    self.insert_group(group)
+                for i, group in enumerate(handbook_group_order):
+                    self.insert_group(group, i)
                 # insert closing 
                 self._copy_markdown(self.source, 'closing.md')
                 self.copy_template_footer()
@@ -92,9 +91,20 @@ class DecksetWriter(object):
         for line in self.template:
             self.target.write(line)
 
-    def insert_group(self, group):
+    def insert_group(self, group,i):
         folder = os.path.join(self.source, make_pathname(group))
-        self._copy_markdown(folder, 'index.md')                
+
+        self.target.write('\n![inline,fit](img/pattern-groups/group-%s.png)\n\n' % str(i + 1))
+        self.target.write('\n\n---\n\n')
+
+        if os.path.exists(os.path.join(folder, 'index.md')):
+            self._copy_markdown(folder, 'index.md')
+
+        self.target.write('\n## Patterns in this group\n\n')
+        for pattern in sorted(s3_patterns[group]):
+            self.target.write('* %s\n' % make_title(pattern))
+        self.target.write('\n\n---\n\n')
+
         for pattern in sorted(s3_patterns[group]):
             self._copy_markdown(folder, '%s.md' % make_pathname(pattern))
             
@@ -165,9 +175,10 @@ class RevealJsWriter(object):
         
         self._start_section()
         
-        self._start_slide()
-        self._copy_markdown(folder, 'index.md')
-        self._end_slide()
+        if os.path.exists(os.path.join(folder, 'index.md')):
+            self._start_slide()
+            self._copy_markdown(folder, 'index.md')
+            self._end_slide()
         
         for pattern in sorted(s3_patterns[group]):
             self._start_slide()

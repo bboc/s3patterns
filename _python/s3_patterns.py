@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 
-
 # Groups:
-
 handbook_group_order = [
-
     "making and evolving agreements",
     "governance",
     "effective meetings",
@@ -12,8 +9,8 @@ handbook_group_order = [
     "building organizations",
     "people and roles",
     "organizational structure",
-    "bringing in S3 patterns",
     "alignment",
+    "bringing in S3 patterns",
 ]
 
 s3_patterns = {

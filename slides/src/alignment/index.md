@@ -1,3 +1,0 @@
-# Alignment
-
-^TODO: add content

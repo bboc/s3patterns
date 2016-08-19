@@ -21,21 +21,28 @@ Information in this section is preliminary, and needs further testing.
 TODO: translate background images
 TODO: check inline images etc
 TODO: translate presenter notes
+TODO: focus on decks now, later make a table when note contains right aligned image!!!
+
 
 ## TODOs
 
-TODO: copy over content from presentation-temp
-
-TODO: fix headline levels (see to of slides.md)
-
-TODO: review compiled content (remove definitions)
 
 TODO: add all images to patterns
 
+TODO: update images from main repository
 
-TODO: write stubs for unfinished patterns
+TODO: get content for section header slides
+
+TODO: get content from handbook drafts
+
+TODO: write stubs for remaining unfinished patterns
 
 TODO: add reveal.js in REAMDE
+
+
+
+
+
 
 
 

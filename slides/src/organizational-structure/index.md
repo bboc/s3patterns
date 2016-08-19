@@ -1,7 +1,3 @@
-# Organizational Structure
-
----
-
 ## Organizational Structure ##
 
 * enables effective collaboration

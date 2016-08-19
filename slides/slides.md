@@ -1,4 +1,4 @@
-footer: Sociocracy 3.0 - Patterns for Agile Organizations © 2016 by Bernhard Bockelbrink and James Priest (sociocracy30.org)
+footer: Sociocracy 3.0 - Patterns for Agile Organizations © 2016 by Bernhard Bockelbrink
 slidenumbers: true
 autoscale: true
 theme: Plain Jane, 2
@@ -9,19 +9,50 @@ theme: Plain Jane, 2
 
 ---
 
-![inline,fit](img/general/s3-pattern-groups.png)
-
----
-
 ![inline,fit](img/general/s3-patterns-map.png)
 
 
+---
+
+
+![inline,fit](img/pattern-groups/group-1.png)
+
+
 
 ---
 
-# Making And Evolving Agreements
+## Making And Evolving Agreements
 
-^TODO: add content
+### S3 promotes a hypothesis-driven approach to decision making
+
+![inline,fit](img/experiments/experiments.png)
+
+---
+
+## Agreement Life-Cycle
+
+![inline,fit](img/agreements/agreement-lifecycle-long.png)
+
+
+---
+
+
+## Patterns in this group
+
+* Agreements
+* Circle
+* Consent Decision Making
+* Deliverables
+* Driver
+* Evaluate Agreements
+* Evaluation Criteria
+* Intended Outcome
+* Objections
+* Proposal Forming
+* Qualifying Drivers
+* Resolve Objections
+* Strategy
+* Those Affected Decide
 
 
 ---
@@ -35,12 +66,6 @@ _An **agreement** is an agreed upon guideline, pattern, process or protocol desi
 * agreements are created in order to respond to drivers 
 * agreements are the **accountability of the circle** that created them
 * each agreement includes **evaluation criteria** and is subject to **regular review**
-
----
-
-## Agreements
-
-![inline,fit](img/agreements/agreement-lifecycle-long.png)
 
 ---
 
@@ -67,7 +92,7 @@ A circle...
 
 ---
 
-## Circle
+## Circle (cont.)
 
 * ...**semi-autonomous**: 
     * each has a unique driver and can create value independently
@@ -314,9 +339,19 @@ This also applies to review and evolution of decisions.
 
 ---
 
-# Governance
 
-^TODO: add content
+![inline,fit](img/pattern-groups/group-2.png)
+
+
+
+---
+
+
+## Patterns in this group
+
+* Governance Backlog
+* Governance Meeting
+* Navigating Via Tension
 
 
 ---
@@ -336,6 +371,8 @@ The governance backlog is a prioritized list of agenda items a circle needs to d
 ---
 
 ## Governance Meeting
+
+![right,fit](img/meetings/governance-meeting.png)
 
 Circles meet at regular intervals to create and evolve agreements in response to drivers.
 
@@ -388,25 +425,40 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 ---
 
-# Effective Meetings
 
-^TODO: add content
+![inline,fit](img/pattern-groups/group-3.png)
+
 
 
 ---
 
-## S3 Facilitator
+
+## Patterns in this group
+
+* S3 Facilitator
+* Artful Participation
+* Logbook
+* Logbook Keeper
+* Meeting Evaluation
+* Meeting Facilitation
+* Meeting Host
+* Rounds
+
+
+---
+
+## Role: S3 Facilitator
 
 ![right,fit](img/circle/facilitator.png)
 
 The facilitator facilitates all meeting formats, e.g.
 
 * proposal forming
-* selections
 * consent decision making
+* selections to roles
 * retrospectives
 * daily standups 
-* ...
+* planning and review
 
 Often the role of the facilitator is shared between several circle members.
 
@@ -424,6 +476,8 @@ Often the role of the facilitator is shared between several circle members.
 ## Logbook
 
 A logbook is a (digital) system to store all information relevant for the running an organizations or circle. The logbook is accessible to all members of an organization, information is hidden only when there is a good reason to do so.
+
+Common platforms for logbooks are Wikis (e.g. Dokuwiki or MediaWiki, Content Management Systems (e.g. Wordpress), or Google Drive, Evernote or Trello.
 
 ---
 
@@ -453,7 +507,7 @@ A logbook is a (digital) system to store all information relevant for the runnin
 
 ---
 
-## Logbook Keeper
+## Role: Logbook Keeper
 
 The logbook keeper is responsible for maintaining a circle's logbook:
 
@@ -499,7 +553,7 @@ Make sure all meetings are facilitated. Even an inexperienced facilitator makes 
 
 ---
 
-## Meeting Host
+## Role: Meeting Host
 
 The meeting host is accountable for proper preparation and follow-up of meetings.
 
@@ -536,9 +590,24 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 
 ---
 
-# Coordinating Work
 
-^TODO: add content
+![inline,fit](img/pattern-groups/group-4.png)
+
+
+
+---
+
+
+## Patterns in this group
+
+* Coordination Meeting
+* Coordinator Role
+* Daily Standup
+* Planning And Review Meetings
+* Prioritized Backlog
+* Pull-System For Work
+* Retrospective
+* Visualize Work
 
 
 ---
@@ -559,6 +628,7 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 
 ## Daily Standup
 
+![right,fit](img/meetings/planning-review-standup.png)
 
 **Speed up learning and improvement.**
 
@@ -573,7 +643,14 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 
 ## Planning And Review Meetings
 
-^TODO: add content
+![right,fit](img/meetings/planning-review-standup.png)
+
+* planning and review happen at regular intervals (1-4 weeks)
+* planning meeting: 
+    - select and estimate work items for iteration
+* review meeting: 
+    - review finished work items
+    - decide on re-work and changes for next iteration
 
 
 ---
@@ -647,10 +724,34 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 ---
 
-# Building Organizations
 
-^TODO: add content
+![inline,fit](img/pattern-groups/group-5.png)
 
+
+
+---
+
+# 5. Building Organizations
+
+---
+
+## Building Organizations
+
+Patterns for growing an organization along the principles behind S3. 
+
+In the addition to the patterns in this sections there's also two subsections: 
+
+* People and Roles
+* Organizational Structure.
+
+---
+
+
+## Patterns in this group
+
+* Align Flow
+* Open Systems
+* Organize In Nested Domains
 
 
 ---
@@ -706,25 +807,60 @@ Building an organization from domains defined along organizational drivers facil
 
 ---
 
-# People And Roles
 
-^TODO: add content
+![inline,fit](img/pattern-groups/group-6.png)
 
+
+
+---
+
+## Roles implement functions
+
+![inline,fit](img/people-and-roles/role-improvement.png)
+
+---
+
+## Performance Improvement Process ##
+
+### Continuous improvement of the effectiveness of people in roles ###
+
+
+![inline,fit](img/people-and-roles/performance-improvement-process.png)
+
+
+
+
+---
+
+
+## Patterns in this group
+
+* Development Plan
+* Effectiveness Review
+* Role
+* Role Description
+* Role Selection
+* Support Roles
 
 
 ---
 
 ## Development Plan
 
+* an agreement for developing greater effectiveness in a role
+* contents:
+    - current role description
+    - appreciations
+    - areas for improvement
+    - action items to improve effectiveness
+    - evaluation criteria
+    - suggested amendments to role description
 
-**Contents:**
+---
 
-* current role description
-* appreciations
-* areas for improvement
-* action items to improve effectiveness
-* evaluation criteria
-* suggested amendments to role description
+## Template for Development Plan
+
+![inline,fit](img/people-and-roles/improvement-plan-template.png)
 
 
 
@@ -732,8 +868,9 @@ Building an organization from domains defined along organizational drivers facil
 
 ## Effectiveness Review
 
-* a process to harvest appreciations, identify opportunities for improvement and evolve the role
+* development in roles supported by peers
 * the individual holding the role initiates the process and begins each step
+* harvest appreciations, identify opportunities for improvement and evolve the role
 
 ---
 
@@ -749,9 +886,6 @@ Building an organization from domains defined along organizational drivers facil
 4. Co-create and consent to a development plan
 
 
-
-
-
 ---
 
 ## Role
@@ -760,9 +894,10 @@ Building an organization from domains defined along organizational drivers facil
 
 * roles are more flexible than positions
 * people can wear many hats
-* (S)election by consent…
+* (s)election by consent…
 * …and for a limited term
 * peers support development in roles
+
 
 
 
@@ -770,9 +905,9 @@ Building an organization from domains defined along organizational drivers facil
 
 ## Role Description
 
+* manage expectations for roles
 * role descriptions can be created using proposal forming 
 * a minimal role description contains:
-
     * driver
     * term
     * key responsibilities
@@ -810,7 +945,10 @@ Building an organization from domains defined along organizational drivers facil
 
 ---
 
-# Organizational Structure
+
+![inline,fit](img/pattern-groups/group-7.png)
+
+
 
 ---
 
@@ -837,9 +975,27 @@ Circles can be linked in a hierarchy or a **heterarchy** (a.k.a. complex adaptiv
 
 ---
 
+
+## Patterns in this group
+
+* Backbone Organization
+* Coordination Circle
+* Delegate Circle
+* Double Linking
+* Double-Linked Hierarchy
+* Fractal Organization
+* Helping Circle
+* Nested Circle
+* Peach Organization
+* Representative
+* Service Circle
+
+
+---
+
 ## Backbone Organization
 
-A pattern for multi-stakeholder projects or services.
+### A pattern for multi-stakeholder projects or services.
 
 ![inline,fit](img/structural-patterns/backbone-organization.png)
 
@@ -859,8 +1015,7 @@ Coordination circles may be accountable for all aspects of collaboration, or jus
 
 ## Delegate Circle
 
-
-A pattern for coordination 
+### A pattern for coordination 
 
 ![inline,fit](img/structural-patterns/delegate-circle.png)
 
@@ -871,7 +1026,7 @@ A pattern for coordination
 
 ![right,fit](img/structural-patterns/double-link.png)
 
-Facilitate two-way flow of information and influence
+### Facilitate two-way flow of information and influence
 
 * Two interdependent circles each elect a representative to participate as full members in both circles' governance meetings
 * can be used to prevent tensions in hierarchical structures
@@ -881,7 +1036,7 @@ Facilitate two-way flow of information and influence
 
 ## Double-Linked Hierarchy
 
-A pattern for the early phase of a transformation
+### A pattern for the early phase of a transformation
 
 ![inline,fit](img/structural-patterns/double-linked-hierarchy.png)
 
@@ -891,7 +1046,7 @@ A pattern for the early phase of a transformation
 ## Fractal Organization
 
 
-A Pattern for learning, coordination and alignment across organizational boundaries.
+### A Pattern for learning, coordination and alignment across organizational boundaries.
 
 ![inline,fit](img/structural-patterns/fractal-organization.png)
 
@@ -910,7 +1065,7 @@ A Pattern for learning, coordination and alignment across organizational boundar
 
 ## Nested Circle
 
-A pattern for expanding functions
+### A pattern for expanding functions
 
 ![inline,fit](img/structural-patterns/nested-circle.png)
 
@@ -921,8 +1076,7 @@ A pattern for expanding functions
 
 ## Peach Organization
 
-
-Periphery drives the organization, the center provides services.
+### Periphery drives the organization, the center provides services.
 
 ![inline,fit](img/structural-patterns/peach-organization.png)
 
@@ -945,8 +1099,7 @@ Representatives (a.k.a Links)...:
 
 ## Service Circle
 
-
-A pattern for outsourcing shared services
+### A pattern for outsourcing shared services
 
 ![inline,fit](img/structural-patterns/service-circle.png)
 
@@ -954,80 +1107,22 @@ A pattern for outsourcing shared services
 
 ---
 
-# Bringing In S3 Patterns
 
-^TODO: add content
-
-
----
-
-## Adapt Patterns To Context
-
-^TODO: add content
-
-
----
-
-## Be The Change
-
-* be the change you want to create
-* tell the story how you discovered S3
-* invite others for experiments
-*  learn and grow (together)
-
-
----
-
-## Continuous Improvement Of Work Process
-
-* start with consent in one circle, elect a facilitator, define values, and go
-* trigger continuous improvement (e.g through Kanban)
-* let them pull in patterns 
-* then expand the scope of the experiment
-
----
-
-## Waste and Continuous Improvement ##
-
-![right,fit](img/workflow-and-value/drivers-value-waste.png)
-
-**Waste** _is anything not necessary for - or standing in the way of - effective response of a driver._
-
-* waste exist in many different forms and on different levels of abstraction (tasks, processes, organizational structure, mental models...)
-* establishing a process for ongoing elimination of waste enables natural evolution of an organization towards greater effectiveness
-* adaptation to changing environment is built into the process
+![inline,fit](img/pattern-groups/group-8.png)
 
 
 
 ---
 
-## Open S3 Adoption
 
-* install a regular cadence of Open Spaces 
-    * invite all members to create and run experiments
-    * set boundaries for experiments: S3 principles
-    * review experiments in the next Open Space
-    * repeat
+## Patterns in this group
 
-
----
-
-## Pull-System For Organizational Change
-
-* all change is voluntary
-* create an environment that empowers and invites members of the organization to drive change:
-    * don't break what's already working
-    * meet everyone where they are …
-    * …and let them choose their own pace
-
-
-
-
----
-
-# Alignment
-
-^TODO: add content
+* Adopt The Seven Principles
+* Agree On Values
+* Bylaws
+* Contracting And Accountability
+* Linking
+* Transparent Salary
 
 
 ---
@@ -1118,6 +1213,90 @@ _A **value** is a principle of some significance that guides behavior._
 * classic sociocracy: everyone feels gains and losses
 * consider remuneration for changing roles
 * create strategy for transitioning towards new contracts and compensation agreements
+
+
+
+---
+
+
+![inline,fit](img/pattern-groups/group-9.png)
+
+
+
+---
+
+
+## Patterns in this group
+
+* Adapt Patterns To Context
+* Be The Change
+* Continuous Improvement Of Work Process
+* Open S3 Adoption
+* Pull-System For Organizational Change
+
+
+---
+
+## Adapt Patterns To Context
+
+^TODO: add content
+
+
+---
+
+## Be The Change
+
+* be the change you want to create
+* tell the story how you discovered S3
+* invite others for experiments
+*  learn and grow (together)
+
+
+---
+
+## Continuous Improvement Of Work Process
+
+* start with consent in one circle, elect a facilitator, define values, and go
+* trigger continuous improvement (e.g through Kanban)
+* let them pull in patterns 
+* then expand the scope of the experiment
+
+---
+
+## Waste and Continuous Improvement ##
+
+![right,fit](img/workflow-and-value/drivers-value-waste.png)
+
+**Waste** _is anything not necessary for - or standing in the way of - effective response of a driver._
+
+* waste exist in many different forms and on different levels of abstraction (tasks, processes, organizational structure, mental models...)
+* establishing a process for ongoing elimination of waste enables natural evolution of an organization towards greater effectiveness
+* adaptation to changing environment is built into the process
+
+
+
+---
+
+## Open S3 Adoption
+
+* install a regular cadence of Open Spaces 
+    * invite all members to create and run experiments
+    * set boundaries for experiments: S3 principles
+    * review experiments in the next Open Space
+    * repeat
+
+
+---
+
+## Pull-System For Organizational Change
+
+* all change is voluntary
+* create an environment that empowers and invites members of the organization to drive change
+* bring in patterns that solve current and important problems
+    * don't break what's already working
+    * meet everyone where they are …
+    * …and let them choose their own pace
+
 
 
 
