@@ -5,6 +5,8 @@ theme: Plain Jane, 2
 
 # Sociocracy 3.0 - Patterns for Agile Organizations
 
+![fit](img/general/logo.png)
+
 ---
 
 ![inline,fit](img/general/s3-pattern-groups.png)
@@ -284,20 +286,30 @@ Often a tensions is **outside the domain** we can address, or not important enou
 
 _A **strategy** is the approach towards creating value within a domain._
 
-
 * describes high level approach 
     * not a detailed plan or a full product description
 * includes a description of the intended outcome (a.k.a. "vision")
 * is regularly reviewed and updated as necessary
 * helps in the decision whether to continue or change course (*pivot or persevere*)
 
+---
+
+## Strategy
+
+Strategies are implemented and refined through a serieses of experiments.
+
+![inline](img/drivers-and-subdrivers/driver-strategy-experiment.png)
 
 
 ---
 
 ## Those Affected Decide
 
-^TODO: add content
+To make decisions with the maximum amount of information on the subject, involve everyone who is affected by the decision.
+
+For large groups, facilitate a process in several stages and create smaller groups who select delegates.
+
+This also applies to review and evolution of decisions.
 
 
 ---
@@ -311,7 +323,14 @@ _A **strategy** is the approach towards creating value within a domain._
 
 ## Governance Backlog
 
-^TODO: add content
+The governance backlog is a prioritized list of agenda items a circle needs to deal with:
+
+* tensions to process
+* proposals
+* agreements for review
+* selections to roles
+* upcoming effectiveness reviews
+* other agenda items
 
 
 ---
@@ -363,7 +382,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
 ## Navigating Via Tension
 
 
-![inline,fit](img/tension-driver-domain/navigate-via-tensions.png)
+![inline,fit](img/tension-driver-domain/navigate-via-tensions-alt.png)
 
 
 
@@ -436,7 +455,13 @@ A logbook is a (digital) system to store all information relevant for the runnin
 
 ## Logbook Keeper
 
-^TODO: add content
+The logbook keeper is responsible for maintaining a circle's logbook:
+
+* keeping the logbook up to date
+* recording all agreements, role descriptions, selections etc.
+* making sure minutes of meetings are recorded and approved by paticipants
+* making sure information is accessible to everyone
+* tending to all technical aspects of logbook keeping
 
 
 
@@ -444,21 +469,51 @@ A logbook is a (digital) system to store all information relevant for the runnin
 
 ## Meeting Evaluation
 
-^TODO: add content
+
+![right,fit](img/meetings/evaluate-interactions.png)
+
+At the end of each meeting or workshop, take the time to evaluate your interactions and learn what can be improved.
+
+* before the closing round
+* reserve 5 minutes for 1 hour, and 15 minutes for a full-day workshop
+* ask participants about: achievements, facilitation, emotional tone, appreciations and improvements
+* record answers on a flip chart (leave more space for achievements and improvements) and later in the logbook
+* proposals for improvements are implemented by facilitator and meeting host, or added to the governance backlog
+
+
+
 
 
 ---
 
 ## Meeting Facilitation
 
-^TODO: add content
+Make sure all meetings are facilitated. Even an inexperienced facilitator makes a difference.
+
+* prepare an agenda of topics
+* select a facilitator who
+    * picks an activity or format for each topic that fits the topic and the number of participants
+    * holds the space, keeps the time and navigates the agenda during the meeting
+    * evaluates the meeting at the end
 
 
 ---
 
 ## Meeting Host
 
-^TODO: add content
+The meeting host is accountable for proper preparation and follow-up of meetings.
+
+* preparation
+    - identify and invite participants
+    - find a date
+    - book and prepare location
+    - prepare agenda or schedule
+    - provide required materials and information
+    - select facilitator and keeper of the minues
+* follow-up
+    - clean up location
+    - make minutes are distributed and approved
+    
 
 
 
@@ -795,7 +850,9 @@ A pattern for multi-stakeholder projects or services.
 
 ## Coordination Circle
 
-^TODO: add content
+A coordination circle coordinates decision making and collaboration of several circles.
+
+Coordination circles may be accountable for all aspects of collaboration, or just for a specific subset (or subdomain).
 
 
 ---
@@ -1083,6 +1140,8 @@ _A **value** is a principle of some significance that guides behavior._
 
 ## Links #
 
+![fit](img/general/logo.png)
+
 More resources on my website: [evolvingcollaboration.com/s3](http://evolvingcollaboration.com/s3)
 
 **S3 website**: [http://sociocracy30.org](http://sociocracy30.org)
@@ -1091,6 +1150,8 @@ Follow us on **twitter**: [@sociocracy30](http://twitter.com/@sociocracy30)
 
 ---
 
+![fit](img/general/logo.png)
+
 # License #
 
 This work by Bernhard Bockelbrink is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
@@ -1098,6 +1159,8 @@ This work by Bernhard Bockelbrink is licensed under the Creative Commons Attribu
 Parts of this work are copied or adapted from "A brief Introduction to Sociocracy 3.0" and "The Sociocracy 3.0 Handbook" by Bernhard Bockelbrink and James Priest.
 
 ---
+
+![fit](img/general/logo.png)
 
 **Bernhard Bockelbrink** is co-founder of The Sociocracy 3.0 Movement. As an agile coach, consultant and trainer he is supporting organizations in agile transformations and helps them on their way towards an evolved culture of leadership and close collaboration that allows them to sustainably grow great products and services with happy people.
 
