@@ -12,7 +12,7 @@ Building an organization from domains defined along organizational drivers facil
 
 ## Drivers Define Domains of Accountability
 
-![right,fit](img/tension-driver-domain/simple-domain-model.png)
+![right,fit](img/tension-driver-domain/driver-response-full.png)
 
 * accountability applies to all agreements, including the organization itself, circles, and roles
 * everyone's primary accountability is for effective collaboration in response to drivers

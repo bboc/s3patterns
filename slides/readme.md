@@ -26,9 +26,6 @@ TODO: focus on decks now, later make a table when note contains right aligned im
 
 ## TODOs
 
-
-TODO: add all images to patterns
-
 TODO: update images from main repository
 
 TODO: get content for section header slides
