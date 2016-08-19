@@ -1,13 +1,16 @@
 ## Agree On Values
 
+![right,fit](img/collaboration-values/values-step2.png)
 
-**Definition:** *A value is a principle of some significance that guides behavior.*
+*A **value** is a principle of some significance that guides behavior.*
 
 * In an organization people come together to collaborate
 * every individual has values that are influenced by their experiences and beliefs
 * values may define ethical limitations to action
 
-![](img/collaboration-values/values-step2.png)
+--- 
+
+## Agree On Values
 
 * organizational values **define culture** and set parameters for action
 * values offer guidance to determine appropriate action, even in the absence of explicit agreements

@@ -1,5 +1,6 @@
 ## Rounds
 
+![right](img/circle/rounds.png) 
 
 A group facilitation technique to maintain equivalence.
 
@@ -9,5 +10,4 @@ A group facilitation technique to maintain equivalence.
 
 There's  a number of ways that experienced groups can fast track certain rounds.
 
-![](img/circle/rounds.png) 
 

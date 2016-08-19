@@ -81,6 +81,10 @@ We respond to drivers through agreements.
 
 ---
 
+![](img/agreements/agreement-lifecycle-long.png)
+
+---
+
 ## Template for Agreements
 
 ![](img/agreements/agreement-template.png)
@@ -231,12 +235,17 @@ TODO: add content
 
 TODO: add content
 
+![](img/agreements/outcome-and-criteria.png)
+
+
 
 ---
 
 ## Intended Outcome
 
 TODO: add content
+
+![](img/agreements/outcome-and-criteria.png)
 
 
 ---
@@ -437,7 +446,18 @@ TODO: add content
 
 ## S3 Facilitator
 
-TODO: add content
+![right](img/circle/facilitator.png)
+
+The facilitator facilitates all meeting formats, e.g.
+
+* proposal forming
+* selections
+* consent decision making
+* retrospectives
+* daily standups 
+* ...
+
+Often the role of the facilitator is shared between several circle members.
 
 
 ---
@@ -446,6 +466,7 @@ TODO: add content
 
 TODO: add content
 
+![](img/agreements/balance.png)
 
 ---
 
@@ -513,6 +534,7 @@ TODO: add content
 
 ## Rounds
 
+![right](img/circle/rounds.png) 
 
 A group facilitation technique to maintain equivalence.
 
@@ -522,7 +544,6 @@ A group facilitation technique to maintain equivalence.
 
 There's  a number of ways that experienced groups can fast track certain rounds.
 
-![](img/circle/rounds.png) 
 
 
 
@@ -975,28 +996,34 @@ TODO: add content
 
 ## Adopt The Seven Principles
 
+![inline,fit](img/general/s3-principles.png)
+
+---
+
+## Adopt The Seven Principles (cont.)
+
+![right,fit](img/collaboration-values/values-step3.png)
 
 * values embrace Sociocracy 3.0 principles
 * collaboration follows principles and values
-
-
-![](img/collaboration-values/values-step3.png)
-
-
+* adopt the seven principles to reduce the number of agreements necessary, and to guide adaptation of patterns
 
 
 ---
 
 ## Agree On Values
 
+![right,fit](img/collaboration-values/values-step2.png)
 
-**Definition:** *A value is a principle of some significance that guides behavior.*
+*A **value** is a principle of some significance that guides behavior.*
 
 * In an organization people come together to collaborate
 * every individual has values that are influenced by their experiences and beliefs
 * values may define ethical limitations to action
 
-![](img/collaboration-values/values-step2.png)
+--- 
+
+## Agree On Values
 
 * organizational values **define culture** and set parameters for action
 * values offer guidance to determine appropriate action, even in the absence of explicit agreements
@@ -1044,15 +1071,16 @@ TODO: add content
 
 ## Transparent Salary
 
+![right](img/circle/transparent-salary.png)
+
 * transparent salaries need to be fair
-* fairness has several orthogonal dimensions
+* fairness has several orthogonal dimensions    
 * perception of fairness is specific to organization
 * consider members and relevant stakeholders (e.g. investors)
 * classic sociocracy: everyone feels gains and losses
 * consider remuneration for changing roles
 * create strategy for transitioning towards new contracts and compensation agreements
 
-![](img/circle/transparent-salary.png)
 
 
 ---

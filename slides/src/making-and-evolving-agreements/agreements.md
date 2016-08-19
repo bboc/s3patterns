@@ -19,6 +19,10 @@ We respond to drivers through agreements.
 
 ---
 
+![](img/agreements/agreement-lifecycle-long.png)
+
+---
+
 ## Template for Agreements
 
 ![](img/agreements/agreement-template.png)
