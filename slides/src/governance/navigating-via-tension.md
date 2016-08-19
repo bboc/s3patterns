@@ -14,5 +14,5 @@
 ## Navigating Via Tension
 
 
-![inline,fit](img/tension-driver-domain/navigate-via-tensions.png)
+![inline,fit](img/tension-driver-domain/navigate-via-tensions-alt.png)
 
