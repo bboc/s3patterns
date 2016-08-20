@@ -551,10 +551,24 @@ At the end of each meeting or workshop, take the time to evaluate your interacti
 
 * before the closing round
 * reserve 5 minutes for 1 hour, and 15 minutes for a full-day workshop
-* ask participants about: achievements, facilitation, emotional tone, appreciations and improvements
-* record answers on a flip chart (leave more space for achievements and improvements) and later in the logbook
+* record the results in the logbook
 * proposals for improvements are implemented by facilitator and meeting host, or added to the governance backlog
+* short formats: 
+    * more of/less of/start/stop/keep
+    * pisitive/negative/suggested improvements
 
+---
+
+## Meeting Evaluation: Long Format
+
+Ask everyone in a round to briefly contribute to any or all of the following topcis: 
+
+* effectiveness
+* facilitation and format
+* emotional tone
+* I liked... (acknowledgements and achievements)
+* I wish... (growing edges and improvements)
+* What if... (wild ideas and radical suggestions)
 
 
 
@@ -576,18 +590,26 @@ Make sure all meetings are facilitated. Even an inexperienced facilitator makes 
 
 ## Role: Meeting Host
 
-The meeting host is accountable for proper preparation and follow-up of meetings.
+The meeting host is accountable for proper preparation and follow-up of meetings, workshops or other events. 
+
+The role may be assigned temporarily (i.e. for one specific event) or permanently. e.g. for all events of one circle.
+
+---
+
+## Meeting Host: Responsibilities
 
 * preparation
+    - identify goals and deliverables
+    - select facilitator and keeper of the minutes
+    - prepare and distribute agenda and schedule
+    - estimate required time
     - identify and invite participants
-    - find a date
-    - book and prepare location
-    - prepare agenda or schedule
-    - provide required materials and information
-    - select facilitator and keeper of the minues
+    - schedule the meeting/workshop
+    - book location (and transportation if required)
+    - set up the space, provide required materials and information
 * follow-up
-    - clean up location
-    - make minutes are distributed and approved
+    - clean up location, return keys etc.
+    - make sure minutes are distributed and approved
     
 
 
