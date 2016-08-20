@@ -6,7 +6,8 @@
 * fairness has several orthogonal dimensions    
 * perception of fairness is specific to organization
 * consider members and relevant stakeholders (e.g. investors)
-* classic sociocracy: everyone feels gains and losses
+* fixed: subsistence guarantee
+* variable: fair distribution of gains and losses
 * consider remuneration for changing roles
 * create strategy for transitioning towards new contracts and compensation agreements
 

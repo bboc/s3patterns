@@ -1,5 +1,7 @@
 ## Continuous Improvement Of Work Process
 
+### To reveal tensions and establish a metrics-based pull-system for organizational change. ###
+
 * start with consent in one circle, elect a facilitator, define values, and go
 * trigger continuous improvement (e.g through Kanban)
 * let them pull in patterns 

@@ -8,7 +8,6 @@ Objections...
 * ...contain emergent information that can be used to improve proposals and agreements
 * ...reveal both opportunities or impediments
 
-
 ---
 
 ## Objections

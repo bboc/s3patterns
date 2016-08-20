@@ -112,7 +112,15 @@ A circle...
 * withholding objections could harm the aims of a group or organization
 * unresolved objections stop proposals becoming agreements
 * can you *live with it* until the review? ➤ proposals only need to be *good enough for now, safe enough to try*
-* **contract of consent**: support agreements in the absence of objections
+
+---
+
+## Contact of Consent
+
+* in the absence of objections against an agreement you support following through on the agreement as good as possible
+* as soon as you become aware of an objection, or a tension with the agreement, you bring it to the circle to process it.
+
+
 
 
 ---
@@ -204,7 +212,6 @@ Objections...
 * ...stop proposals from becoming agreements.
 * ...contain emergent information that can be used to improve proposals and agreements
 * ...reveal both opportunities or impediments
-
 
 ---
 
@@ -454,16 +461,27 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 ![right,fit](img/circle/facilitator.png)
 
-The facilitator facilitates all meeting formats, e.g.
+The facilitator supports the circle in developing their interactions and is responsible for making sure all meetings and workshops are facilitated and evaluated, e.g.
 
+* governance meeting
+* retrospectives
+* daily standups 
+* planning and review or coordination meeting
+
+Often the actual facilitation is shared between several circle members.
+
+---
+
+## Role: S3 Facilitator (cont.)
+
+The facilitator should make themselves familiar with the following formats:
+
+* rounds
 * proposal forming
 * consent decision making
 * selections to roles
-* retrospectives
-* daily standups 
-* planning and review
-
-Often the role of the facilitator is shared between several circle members.
+* meeting evaluation
+* resolving objections
 
 
 ---
@@ -514,13 +532,13 @@ Common platforms for logbooks are Wikis (e.g. Dokuwiki or MediaWiki, Content Man
 
 The logbook keeper is responsible for maintaining a circle's logbook:
 
-* keeping the logbook up to date
-* recording all agreements, role descriptions, selections etc.
-* making sure minutes of meetings are recorded and approved by paticipants
-* making sure information is accessible to everyone
+* recording all relevant information and adding it to the logbook
+    * all agreements, role descriptions, selections etc.
+    * making sure minutes of meetings are recorded and approved by paticipants
+* keeping the logbook is up do date
+* continuously improve orgnaization of the logbook
+* making the logbook and accessible to everyone in the circle (and in the wide organization as agreed)
 * tending to all technical aspects of logbook keeping
-
-
 
 ---
 
@@ -778,7 +796,12 @@ In the addition to the patterns in this sections there's also two subsections:
 
 ## Open Systems
 
-^TODO: add content
+An organization is not a closed system, it is an open network with many connections to the "outside".
+
+Keep the sytem open by adding connections as temporary or permanent members in decision making and experiments:
+
+* external experts: benefit from outside perspective and knowledge
+* representatives of affected parties: integrate existing relationships ( ➤ Those Affected Decide)
 
 
 
@@ -949,6 +972,8 @@ Building an organization from domains defined along organizational drivers facil
 * implement a selection process
 * limit term of the contract
 * initiate development process 
+
+Support roles may be operational only, external contractors opt-in to role descriptions.
 
 
 ---
@@ -1182,6 +1207,9 @@ _A **value** is a principle of some significance that guides behavior._
 
 ## Bylaws
 
+* legal integrity
+* build s3 principles and patterns into your bylaws as needed
+
 ^TODO: add content
 
 
@@ -1218,7 +1246,8 @@ _A **value** is a principle of some significance that guides behavior._
 * fairness has several orthogonal dimensions    
 * perception of fairness is specific to organization
 * consider members and relevant stakeholders (e.g. investors)
-* classic sociocracy: everyone feels gains and losses
+* fixed: subsistence guarantee
+* variable: fair distribution of gains and losses
 * consider remuneration for changing roles
 * create strategy for transitioning towards new contracts and compensation agreements
 
@@ -1247,6 +1276,10 @@ _A **value** is a principle of some significance that guides behavior._
 
 ## Adapt Patterns To Context
 
+* change patterns so s3 principles are still upheld
+* meet everyone where they are …
+* …and let them choose their own pace
+
 ^TODO: add content
 
 
@@ -1263,6 +1296,8 @@ _A **value** is a principle of some significance that guides behavior._
 ---
 
 ## Continuous Improvement Of Work Process
+
+### To reveal tensions and establish a metrics-based pull-system for organizational change. ###
 
 * start with consent in one circle, elect a facilitator, define values, and go
 * trigger continuous improvement (e.g through Kanban)
