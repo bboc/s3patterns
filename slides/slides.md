@@ -313,7 +313,8 @@ _A **strategy** is the approach towards creating value within a domain._
 
 * describes high level approach 
     * not a detailed plan or a full product description
-* includes a description of the intended outcome (a.k.a. "vision")
+* an organization, circle or role can have their own strategy
+* often includes a description of the intended outcome (a.k.a. "vision")
 * is regularly reviewed and updated as necessary
 * helps in the decision whether to continue or change course (*pivot or persevere*)
 
@@ -404,14 +405,16 @@ Circles meet at regular intervals to create and evolve agreements in response to
 ---
 
 ## Navigating Via Tension
-  
+
+![right,fit](img/tension-driver-domain/navigate-condensed.png)
+
 * individuals act as sensors for the organization
 * tensions arise whenever our perception of what is happening is in conflict with our **expectations** or our **values** (and principles)
 * problems, challenges, and feelings of unease are all tensions
 * investigating tension leads to the discovery of drivers
 * to identify a possible driver behind a tension we:
     * **describe** the situation
-    * **identify** the needs we associate with that reality 
+    * **identify** the needs we associate with it 
 * in the process, a tensions may be resolved as **misunderstandings**
 
 ---
@@ -614,7 +617,19 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 
 ## Coordination Meeting
 
-^TODO: add content
+![right,fit](img/meetings/coordination-meeting.png)
+
+Meet on a regular basis (usually weekly) for reporting on and coordinating work.
+
+* facilitate the meeting, use rounds instead of discussions
+* Status Ieports: 
+    * circle metrics (if any)
+    * projects and tasks
+* Agenda Items: 
+    * sharing of information
+    * add or update tasks or projects
+    * propose new or updated agreements
+* if possible agenda items are compiled before the meeting (some items will come up during the status reports)
 
 
 ---
@@ -664,7 +679,9 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 
 ## Pull-System For Work
 
-^TODO: add content
+* people pull in new items when they have capacity (instead of work being pushed at them)
+* priorize available work items to get make sure important items get worked on first
+* prevents overloading the system, especially when amount of work in progress (WIP) per person is limited 
 
 
 ---
@@ -895,6 +912,8 @@ Building an organization from domains defined along organizational drivers facil
     * driver
     * term
     * key responsibilities
+    * time requirements
+    * resources, budget, privileges
     * preferable skills, experience and qualities
     * cadence of effectiveness reviews
 
@@ -923,8 +942,13 @@ Building an organization from domains defined along organizational drivers facil
 
 ## Support Roles
 
-^TODO: add content
-
+### Apply roles to external contractors ###
+    
+* identify function
+* create a role description
+* implement a selection process
+* limit term of the contract
+* initiate development process 
 
 
 ---

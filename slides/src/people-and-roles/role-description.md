@@ -6,6 +6,8 @@
     * driver
     * term
     * key responsibilities
+    * time requirements
+    * resources, budget, privileges
     * preferable skills, experience and qualities
     * cadence of effectiveness reviews
 
