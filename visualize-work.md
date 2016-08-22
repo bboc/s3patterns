@@ -3,7 +3,7 @@ title: Visualize Work
 ---
 
 
-In order to empower a circle for self-organization, we need to make transparent both the agreed upon work process and the state of all work items currently in planning, in progress or completed transparent. Only if all work items are visible to all circle members, people can pull in work when they have capacity, instead of work being pushed by a coordinator. 
+In order to empower a circle for self-organization, we need to make transparent both the agreed upon work process and the state of all work items currently in planning, in progress or completed. Only if all work items are visible to all circle members, people can pull in work when they have capacity, instead of work being pushed by a coordinator. 
 
 Collocated teams can do this with post-its on a wall, or with index cards and magnets on a white board. Distributed teams can use an ever increasing number of apps available for this use case , from generic tools like Google Spreadsheets or digital whiteboards, to task management systems for teams (e.g. Asana, Todoist) or dedicated apps for task boards (Trello, Kanbanery, Leankit). Many teams use both a digital system and a card wall, and synchronize them once a day, commonly around the daily standup.
 

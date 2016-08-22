@@ -5,7 +5,7 @@ title: Prioritized Backlog
 
 When work extends a certain complexity, we need way of identifying what to focus on now, and what can be dealt with later, and at the same time being sure nothing slips to the cracks.
 
-One way to do this is through maintaining a  *Prioritized Backlog*, a list of all the uncompleted work and other matters needing to be dealt with need, the most important bits on top. That it's easy to pull in new work when there's capacity: simply take the topmost item you're confident you can work on.
+One way to do this is through maintaining a  *Prioritized Backlog*, a list of all the uncompleted work and other matters needing to be dealt with, the most important bits on top. It's easy to pull in new work when there's capacity: simply take the topmost item you're confident you can work on.
 
 
 ## Benefits
@@ -25,7 +25,7 @@ For collocated circles a backlog can be crated with sticky notes on a wall, or w
 
 Things you need to track in the backlog:
 
-* a **unique reference numbe**r for each work item, so you can reference the item in other documents or systems
+* a **unique reference number** for each work item, so you can reference the item in other documents or systems
 * a **title or short description** of the work item
 * the **order of work items**
 * **dependencies**: other work items this item is dependent on or related to
