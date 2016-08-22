@@ -712,7 +712,39 @@ Meet on a regular basis (usually weekly) for reporting on and coordinating work.
 
 ## Prioritized Backlog
 
-^TODO: add content
+A prioritized backlog is an **ordered a list of all uncompleted work items**, with the **most important items on top**. 
+
+Work items are pulled from the top whenever there's new capacity.
+
+No two items can be of equal importance, it's 
+essential to agree on priorities and make tough choices.
+
+---
+
+## Prioritized Backlog
+
+* **Benefits**
+    - focus in most important items
+    - keep track of everything
+    - just-in-time specification, reduced cost of change
+    - shared understanding of priorities enables more effective collaboration
+* **Implementation**
+    - **analog backlog**: sticky notes on a wall, or index cards, magnets and whiteboard
+    - **digital backlog**: e.g. Google Sheets, Trello
+
+---
+
+## Elements of a prioritized backlog 
+
+* a **unique reference number** (or ling) for each work item
+* a **title or short description**
+* the **order of work items**
+* **dependencies**
+* **due dates** (does not apply to all items)
+* (optional) a measure for **value** 
+* (optional) a measure for **investment** (often an estimate of time or complexity)
+
+
 
 
 ---
@@ -760,7 +792,33 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 ## Visualize Work
 
-^TODO: add content
+![right,fit](img/workflow-and-value/simple-process.png)
+
+* transparency about the state of all work items currently in planning, in progress or completed.
+* essential for self-organization and pull-systems
+* system must be accessible to everyone affected
+* **analog**: post-its on a wall, or index cards, magnets and white board
+* **digital**: Google Sheets, Trello, Kanbanery, Leankit, Google Sheets, etc.
+
+---
+
+## Things to track: 
+
+![right,fit](img/workflow-and-value/card.png)
+
+* **types of work items** (e.g. customer request, project tasks, reporting tasks, rework)
+* **start date** and optionally **due date**
+* **priorities**
+* **stages** of work (e.g. "to do", "in progress", "review" and "done")
+* blocks
+* who is working on which items
+* agreements and expectations guiding workflow (e.g. definition of done, policy, quality standards)
+* use colors, symbols, highlights etc.
+
+
+
+
+
 
 
 ---
@@ -769,10 +827,6 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 ![inline,fit](img/pattern-groups/group-5.png)
 
 
-
----
-
-# 5. Building Organizations
 
 ---
 
@@ -1298,11 +1352,15 @@ _A **value** is a principle of some significance that guides behavior._
 
 ## Adapt Patterns To Context
 
-* change patterns so s3 principles are still upheld
-* meet everyone where they are …
-* …and let them choose their own pace
+![right,fit](img/agreements/adapt-pattern-to-context.png)
 
-^TODO: add content
+* adapting and evolving s3 patterns is a hypothesis-driven process
+* **shared understanding and buy-in is essential**: make sure everyone affected by adaptation is present or represented when creating and evolving the adaptation
+* make sure you understand *why* you need to adapt the pattern
+* use S3 principles as guide for adaptation
+* make sure experiment with adaptation runs long enough to provide enough experience
+* consider feeding back successful adaptations to the S3 community
+
 
 
 ---

@@ -1,7 +1,3 @@
-# 5. Building Organizations
-
----
-
 ## Building Organizations
 
 Patterns for growing an organization along the principles behind S3. 
