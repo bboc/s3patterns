@@ -61,6 +61,9 @@ def build_deckset_slides(args):
 
 class DecksetWriter(object):
     CONTENT_MARKER = "<!-- INSERT-CONTENT -->"
+    PATTERN_NUMBER = 'P%s.%s:'
+    GROUP_INDEX_IMAGE = '\n![inline,fit](img/pattern-groups/group-%s.png)\n\n'
+    GROUP_INDEX_FILENAME = 'index.md'
 
     def __init__(self, args):
         self.args = args
@@ -75,7 +78,7 @@ class DecksetWriter(object):
                 # insert_title
                 self._copy_markdown(self.source, 'title.md')
                 for i, group in enumerate(handbook_group_order):
-                    self.insert_group(group, i)
+                    self.insert_group(group, i+1)
                 # insert closing 
                 self._copy_markdown(self.source, 'closing.md')
                 self.copy_template_footer()
@@ -91,25 +94,32 @@ class DecksetWriter(object):
         for line in self.template:
             self.target.write(line)
 
-    def insert_group(self, group,i):
+    def insert_group(self, group, group_index):
         folder = os.path.join(self.source, make_pathname(group))
 
-        self.target.write('\n![inline,fit](img/pattern-groups/group-%s.png)\n\n' % str(i + 1))
+        self.target.write(self.GROUP_INDEX_IMAGE % str(group_index))
         self.target.write('\n\n---\n\n')
 
-        if os.path.exists(os.path.join(folder, 'index.md')):
-            self._copy_markdown(folder, 'index.md')
+        if os.path.exists(os.path.join(folder, self.GROUP_INDEX_FILENAME)):
+            self._copy_markdown(folder, self.GROUP_INDEX_FILENAME)
 
-        self.target.write('\n## Patterns in this group\n\n')
-        for pattern in sorted(s3_patterns[group]):
-            self.target.write('* %s\n' % make_title(pattern))
+        self.target.write('\n##%s. %s \n\n' % (group_index, make_title(group)))
+        for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):
+            self.target.write('* %s %s\n' % (self.PATTERN_NUMBER % (group_index, pattern_index + 1), make_title(pattern)))
         self.target.write('\n\n---\n\n')
 
-        for pattern in sorted(s3_patterns[group]):
-            self._copy_markdown(folder, '%s.md' % make_pathname(pattern))
+        for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):
+            self._copy_markdown(folder, '%s.md' % make_pathname(pattern), self.PATTERN_NUMBER % (group_index, pattern_index + 1))
             
-    def _copy_markdown(self, folder, name):
+    def _copy_markdown(self, folder, name, headline_prefix = ''):
         with codecs.open(os.path.join(folder, name), 'r', 'utf-8') as section:
+            if headline_prefix:
+                line = section.next()
+                try:
+                    pos = line.index('# ')
+                except ValueError():
+                    raise Exception("no headline in first line of %s" % os.path.join(folder, name))
+                self.target.write(''.join((line[:pos+1], headline_prefix, line[pos+1:])))
             for line in section:
                 self.target.write(line)
         self.target.write('\n\n---\n\n')
