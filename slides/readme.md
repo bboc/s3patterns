@@ -23,11 +23,6 @@ Information in this section is preliminary, and needs further testing.
 
 ### Content to write
 
-* TODO: artful-participation.md:
-* TODO: evaluation-criteria.md:
-* TODO: intended-outcome.md:
-* TODO: qualifying-drivers.md:
-* TODO: helping-circle.md:
 * TODO: coordinator-role.md:
 * TODO: bylaws.md:
 

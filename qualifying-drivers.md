@@ -1,13 +1,7 @@
 ---
 title: Qualifying Drivers
 ---
-A pattern for...
 
-**Driver:** 
-
-Summary
-
-#In a General Context
 
 * depending on our sensitivity, we might discover many different drivers
 * some of the drivers we identify are not in our domain

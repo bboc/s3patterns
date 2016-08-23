@@ -1,13 +1,13 @@
 ## Qualifying Drivers
 
-**...in order to avoid action bias**
+Consider why, how and when to respond to a stimulus, instead of defaulting to action.
 
 >_Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom._ (Viktor E. Frankl)
 
-We consider why, how and when to respond to a stimulus, instead of defaulting to action. 
+* only act on **important** drivers
+* take drivers to the **appropriate domain** (role or circle)
+* both the individual sensing tension and the domain is accountable for making a conscious choice whether or not to act on the driver
 
-Often a tensions is **outside the domain** we can address, or not important enough to respond to.
+---
 
-^TODO: more content here
-
-
+![inline,fit](img/tension-driver-domain/qualify-drivers.png)

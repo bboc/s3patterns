@@ -1,6 +1,6 @@
 ## Resolve Objections
 
-# Methods for Resolving Objections #
+### Methods for Resolving Objections ###
 
 * ask proposal owner
 * ask member with objection to amend proposal
