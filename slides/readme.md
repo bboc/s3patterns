@@ -17,21 +17,34 @@ Information in this section is preliminary, and needs further testing.
 * Headline Level 1 is always the only content on the slide (apart from background images)
 * Headline level 2  or more is increased by one for reveal.js
 
-TODO: ??? refactor code: build converter for deckset slides 
-TODO: translate background images
-TODO: check inline images etc
-TODO: translate presenter notes
-TODO: focus on decks now, later make a table when note contains right aligned image!!!
-
 
 ## TODOs
 
 
-TODO: get content from handbook drafts
+### Content to write
 
-TODO: write stubs for remaining unfinished patterns
+* TODO: evaluate-agreements.md:
+* TODO: artful-participation.md:
+* TODO: evaluation-criteria.md:
+* TODO: intended-outcome.md:
+* TODO: qualifying-drivers.md:
+* TODO: helping-circle.md:
+* TODO: coordinator-role.md:
+* TODO: bylaws.md:
 
-TODO: add reveal.js in REAMDE
+### v1.1 content refinements
+
+* TODO: write more text for structural patters (1 slide each) 
+
+### v1.2 reveal.js Release
+
+* TODO: add reveal.js in REAMDE
+* TODO: ??? refactor code: build converter for deckset slides 
+* TODO: translate background images
+* TODO: check inline images etc
+* TODO: translate presenter notes
+* TODO: focus on decks now, later make a table when note contains right aligned image!!!
+
 
 
 
