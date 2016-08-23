@@ -1,8 +1,5 @@
 ## Deliverables
 
-^TODO: add content
-
-
 A **deliverable** is something which is provided as a result of an agreement, usually framed as a product, a service, or an expectation.
 
 **Describing deliverables:**
@@ -10,7 +7,6 @@ A **deliverable** is something which is provided as a result of an agreement, us
 * goal: shared understanding
 * include reasonable amount of detail
 * reference other documents when helpful or necessary
-
 
 ---
 
