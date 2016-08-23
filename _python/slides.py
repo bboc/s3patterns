@@ -103,7 +103,8 @@ class DecksetWriter(object):
         if os.path.exists(os.path.join(folder, self.GROUP_INDEX_FILENAME)):
             self._copy_markdown(folder, self.GROUP_INDEX_FILENAME)
 
-        self.target.write('\n##%s. %s \n\n' % (group_index, make_title(group)))
+        self.target.write('\n# %s \n\n' % make_title(group))
+        self.target.write('\n## Pattern Index: \n\n')
         for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):
             self.target.write('* %s %s\n' % (self.PATTERN_NUMBER % (group_index, pattern_index + 1), make_title(pattern)))
         self.target.write('\n\n---\n\n')
