@@ -23,7 +23,6 @@ Information in this section is preliminary, and needs further testing.
 
 ### Content to write
 
-* TODO: evaluate-agreements.md:
 * TODO: artful-participation.md:
 * TODO: evaluation-criteria.md:
 * TODO: intended-outcome.md:

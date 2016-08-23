@@ -17,12 +17,12 @@ At the end of each meeting or workshop, take the time to evaluate your interacti
 
 ## Meeting Evaluation: Long Format
 
-Ask everyone in a round to briefly contribute to any or all of the following topcis: 
+Ask everyone in a round to briefly contribute to any or all of the following topics: 
 
 * effectiveness
 * facilitation and format
 * emotional tone
-* I liked... (acknowledgements and achievements)
+* I liked... (acknowledgments and achievements)
 * I wish... (growing edges and improvements)
 * What if... (wild ideas and radical suggestions)
 

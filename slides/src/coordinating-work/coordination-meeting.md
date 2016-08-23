@@ -5,7 +5,7 @@
 Meet on a regular basis (usually weekly) for reporting on and coordinating work.
 
 * facilitate the meeting, use rounds instead of discussions
-* Status Ieports: 
+* Status Reports: 
     * circle metrics (if any)
     * projects and tasks
 * Agenda Items: 

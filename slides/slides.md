@@ -549,9 +549,43 @@ The facilitator should make themselves familiar with the following formats:
 
 ## Artful Participation
 
-^TODO: add content
+![right,fit](img/agreements/balance.png)
 
-![inline,fit](img/agreements/balance.png)
+**Artful participation** is the commitment of an individual to participate in a **proactive, coherent and elegant way** in all aspects of collaboration.
+
+
+* makes better agreements and more effective evolution
+* is an individual choice, but much more powerful when embraced by the whole team
+* develops trust (being accountable is a learned skill)
+* makes stronger teams (collaboration is an individual skill)
+* makes happier people (culture of mutual support and close collaboration)
+
+---
+
+## Artful participation (cont.)
+
+An **individual commitment** to…
+
+* actively **keeping and following-up on all agreements** made, in the best way possible, given the circumstances
+* consciously **balancing personal needs with those of a team** and the organization as a whole 
+* **developing the necessary skills** to do so
+* **supporting others** in doing the same 
+* bringing impediments to the attention of the circle if necessary
+
+---
+
+### Artful Participation: Self-Assessment
+
+* How will I support myself and others in participating more artfully? 
+* Where are my interactions with others not particularly helpful or effective?
+* Which are the agreements I find hard to keep or contribute to? What can I do to change that?
+* What are skills that would support me in artful participation?
+* What would artful participation mean in relation to...
+    * ... my daily activities 
+    * ...collaboration and interaction with others?
+    * ...the organization? ...our customers or clients?
+    * ...the wider environment?
+
 
 ---
 
@@ -595,9 +629,9 @@ The logbook keeper is responsible for maintaining a circle's logbook:
 
 * recording all relevant information and adding it to the logbook
     * all agreements, role descriptions, selections etc.
-    * making sure minutes of meetings are recorded and approved by paticipants
+    * making sure minutes of meetings are recorded and approved by participants
 * keeping the logbook is up do date
-* continuously improve orgnaization of the logbook
+* continuously improve organization of the logbook
 * making the logbook and accessible to everyone in the circle (and in the wide organization as agreed)
 * tending to all technical aspects of logbook keeping
 
@@ -622,12 +656,12 @@ At the end of each meeting or workshop, take the time to evaluate your interacti
 
 ## Meeting Evaluation: Long Format
 
-Ask everyone in a round to briefly contribute to any or all of the following topcis: 
+Ask everyone in a round to briefly contribute to any or all of the following topics: 
 
 * effectiveness
 * facilitation and format
 * emotional tone
-* I liked... (acknowledgements and achievements)
+* I liked... (acknowledgments and achievements)
 * I wish... (growing edges and improvements)
 * What if... (wild ideas and radical suggestions)
 
@@ -723,7 +757,7 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 Meet on a regular basis (usually weekly) for reporting on and coordinating work.
 
 * facilitate the meeting, use rounds instead of discussions
-* Status Ieports: 
+* Status Reports: 
     * circle metrics (if any)
     * projects and tasks
 * Agenda Items: 
@@ -935,7 +969,7 @@ In the addition to the patterns in this sections there's also two subsections:
 
 An organization is not a closed system, it is an open network with many connections to the "outside".
 
-Keep the sytem open by adding connections as temporary or permanent members in decision making and experiments:
+Keep the system open by adding connections as temporary or permanent members in decision making and experiments:
 
 * external experts: benefit from outside perspective and knowledge
 * representatives of affected parties: integrate existing relationships ( ➤ Those Affected Decide)
