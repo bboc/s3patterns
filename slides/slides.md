@@ -37,27 +37,30 @@ theme: Plain Jane, 2
 ---
 
 
-## Patterns in this group
+# Making And Evolving Agreements 
 
-* Agreements
-* Circle
-* Consent Decision Making
-* Deliverables
-* Driver
-* Evaluate Agreements
-* Evaluation Criteria
-* Intended Outcome
-* Objections
-* Proposal Forming
-* Qualifying Drivers
-* Resolve Objections
-* Strategy
-* Those Affected Decide
+
+## Pattern Index: 
+
+* P1.1: Agreements
+* P1.2: Circle
+* P1.3: Consent Decision Making
+* P1.4: Deliverables
+* P1.5: Driver
+* P1.6: Evaluate Agreements
+* P1.7: Evaluation Criteria
+* P1.8: Intended Outcome
+* P1.9: Objections
+* P1.10: Proposal Forming
+* P1.11: Qualifying Drivers
+* P1.12: Resolve Objections
+* P1.13: Strategy
+* P1.14: Those Affected Decide
 
 
 ---
 
-## Agreements
+##P1.1: Agreements
 
 ![right,fit](img/tension-driver-domain/driver-agreement-improvement.png)
 
@@ -77,7 +80,7 @@ _An **agreement** is an agreed upon guideline, pattern, process or protocol desi
 
 ---
 
-## Circle
+##P1.2: Circle
 
 ![right,fit](img/circle/circle-driver.png)  
 
@@ -103,7 +106,7 @@ A circle...
 
 ---
 
-## Consent Decision Making
+##P1.3: Consent Decision Making
 
 ![right,fit](img/agreements/cdm-condensed.png)
 
@@ -125,7 +128,7 @@ A circle...
 
 ---
 
-## Deliverables
+##P1.4: Deliverables
 
 A **deliverable** is something which is provided as a result of an agreement, usually framed as a product, a service, or an expectation.
 
@@ -151,7 +154,7 @@ Deliverables are useful for:
 
 ---
 
-## Driver
+##P1.5: Driver
 
 ![right,fit](img/drivers-and-subdrivers/elements-of-a-driver-alt.png)
 
@@ -195,7 +198,7 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 
 ---
 
-## Evaluate Agreements
+##P1.6: Evaluate Agreements
 
 
 The periodical review of agreements is an essential practice for a learning organization: continuously improving the body of agreements, and eliminating waste:
@@ -241,7 +244,7 @@ The periodical review of agreements is an essential practice for a learning orga
 
 ---
 
-## Evaluation Criteria
+##P1.7: Evaluation Criteria
 
 ![right,fit](img/agreements/outcome-and-criteria.png)
 
@@ -253,7 +256,7 @@ Evaluation criteria help you understand whether or not an agreement has the desi
 
 ---
 
-## Intended Outcome
+##P1.8: Intended Outcome
 
 ![right,fit](img/agreements/outcome-and-criteria.png)
 
@@ -263,7 +266,7 @@ Evaluation criteria help you understand whether or not an agreement has the desi
 
 ---
 
-## Objections
+##P1.9: Objections
 
 _An **objection** is an important reason why doing what is proposed stands in the way of (more) effective response to a driver._
 
@@ -275,7 +278,7 @@ Objections...
 
 ---
 
-## Objections
+## Objections (cont.)
 
 
 It's the decision of the individual who raised the objection to stay or withdraw the objection.
@@ -310,7 +313,7 @@ Being able to raise objections at any time means that proposals only need to be 
 
 ---
 
-## Proposal Forming
+##P1.10: Proposal Forming
 
 ![right,fit](img/agreements/proposal-forming-medium.png)
 
@@ -337,8 +340,7 @@ Proposal Forming...
 
 ---
 
-## Qualifying Drivers
-
+##P1.11: Qualifying Drivers
 
 Consider why, how and when to respond to a stimulus, instead of defaulting to action.
 
@@ -355,25 +357,14 @@ Consider why, how and when to respond to a stimulus, instead of defaulting to ac
 
 ---
 
-## Resolve Objections
+##P1.12: Resolve Objections
 
-### Methods for Resolving Objections ###
-
-* ask proposal owner
-* ask member with objection to amend proposal
-* facilitator amends proposal
-* "How would you solve this" – round
-* Brief Dialogue – 2 or 3 people
-* Brief group discussion
-* refer to proposal forming
-* drop the proposal
-* Re-work – Send back to higher / lower circle
-* Form a temporary circle to review, research, revise
+![inline,fit](img/agreements/resolve-objections.png)
 
 
 ---
 
-## Strategy
+##P1.13: Strategy
 
 ![right,fit](img/tension-driver-domain/domain-model.png)
 
@@ -388,7 +379,7 @@ _A **strategy** is the approach towards creating value within a domain._
 
 ---
 
-## Strategy
+## Strategy (cont.)
 
 Strategies are implemented and refined through a serieses of experiments.
 
@@ -397,7 +388,7 @@ Strategies are implemented and refined through a serieses of experiments.
 
 ---
 
-## Those Affected Decide
+##P1.14: Those Affected Decide
 
 To make decisions with the maximum amount of information on the subject, involve everyone who is affected by the decision.
 
@@ -416,16 +407,19 @@ This also applies to review and evolution of decisions.
 ---
 
 
-## Patterns in this group
+# Governance 
 
-* Governance Backlog
-* Governance Meeting
-* Navigating Via Tension
+
+## Pattern Index: 
+
+* P2.1: Governance Backlog
+* P2.2: Governance Meeting
+* P2.3: Navigating Via Tension
 
 
 ---
 
-## Governance Backlog
+##P2.1: Governance Backlog
 
 The governance backlog is a prioritized list of agenda items a circle needs to deal with:
 
@@ -439,7 +433,7 @@ The governance backlog is a prioritized list of agenda items a circle needs to d
 
 ---
 
-## Governance Meeting
+##P2.2: Governance Meeting
 
 ![right,fit](img/meetings/governance-meeting.png)
 
@@ -472,7 +466,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 ---
 
-## Navigating Via Tension
+##P2.3: Navigating Via Tension
 
 ![right,fit](img/tension-driver-domain/navigate-condensed.png)
 
@@ -487,7 +481,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 ---
 
-## Navigating Via Tension
+## Navigating Via Tension (cont.)
 
 
 ![inline,fit](img/tension-driver-domain/navigate-via-tensions-alt.png)
@@ -504,21 +498,24 @@ Circles meet at regular intervals to create and evolve agreements in response to
 ---
 
 
-## Patterns in this group
+# Effective Meetings 
 
-* S3 Facilitator
-* Artful Participation
-* Logbook
-* Logbook Keeper
-* Meeting Evaluation
-* Meeting Facilitation
-* Meeting Host
-* Rounds
+
+## Pattern Index: 
+
+* P3.1: S3 Facilitator
+* P3.2: Artful Participation
+* P3.3: Logbook
+* P3.4: Logbook Keeper
+* P3.5: Meeting Evaluation
+* P3.6: Meeting Facilitation
+* P3.7: Meeting Host
+* P3.8: Rounds
 
 
 ---
 
-## Role: S3 Facilitator
+##P3.1: S3 Facilitator (Role)
 
 ![right,fit](img/circle/facilitator.png)
 
@@ -533,7 +530,7 @@ Often the actual facilitation is shared between several circle members.
 
 ---
 
-## Role: S3 Facilitator (cont.)
+## S3 Facilitator (cont.)
 
 The facilitator should make themselves familiar with the following formats:
 
@@ -547,7 +544,7 @@ The facilitator should make themselves familiar with the following formats:
 
 ---
 
-## Artful Participation
+##P3.2: Artful Participation
 
 ![right,fit](img/agreements/balance.png)
 
@@ -589,7 +586,7 @@ An **individual commitment** to…
 
 ---
 
-## Logbook
+##P3.3: Logbook
 
 A logbook is a (digital) system to store all information relevant for the running an organizations or circle. The logbook is accessible to all members of an organization, information is hidden only when there is a good reason to do so.
 
@@ -623,7 +620,7 @@ Common platforms for logbooks are Wikis (e.g. Dokuwiki or MediaWiki, Content Man
 
 ---
 
-## Role: Logbook Keeper
+##P3.4: Logbook Keeper (Role)
 
 The logbook keeper is responsible for maintaining a circle's logbook:
 
@@ -637,7 +634,7 @@ The logbook keeper is responsible for maintaining a circle's logbook:
 
 ---
 
-## Meeting Evaluation
+##P3.5: Meeting Evaluation
 
 
 ![right,fit](img/meetings/evaluate-interactions.png)
@@ -670,7 +667,7 @@ Ask everyone in a round to briefly contribute to any or all of the following top
 
 ---
 
-## Meeting Facilitation
+##P3.6: Meeting Facilitation
 
 Make sure all meetings are facilitated. Even an inexperienced facilitator makes a difference.
 
@@ -683,7 +680,7 @@ Make sure all meetings are facilitated. Even an inexperienced facilitator makes 
 
 ---
 
-## Role: Meeting Host
+##P3.7: Meeting Host (Role)
 
 The meeting host is accountable for proper preparation and follow-up of meetings, workshops or other events. 
 
@@ -711,7 +708,7 @@ The role may be assigned temporarily (i.e. for one specific event) or permanentl
 
 ---
 
-## Rounds
+##P3.8: Rounds
 
 ![right,fit](img/circle/rounds.png) 
 
@@ -736,21 +733,24 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 ---
 
 
-## Patterns in this group
+# Coordinating Work 
 
-* Coordination Meeting
-* Coordinator Role
-* Daily Standup
-* Planning And Review Meetings
-* Prioritized Backlog
-* Pull-System For Work
-* Retrospective
-* Visualize Work
+
+## Pattern Index: 
+
+* P4.1: Coordination Meeting
+* P4.2: Coordinator Role
+* P4.3: Daily Standup
+* P4.4: Planning And Review Meetings
+* P4.5: Prioritized Backlog
+* P4.6: Pull-System For Work
+* P4.7: Retrospective
+* P4.8: Visualize Work
 
 
 ---
 
-## Coordination Meeting
+##P4.1: Coordination Meeting
 
 ![right,fit](img/meetings/coordination-meeting.png)
 
@@ -769,14 +769,26 @@ Meet on a regular basis (usually weekly) for reporting on and coordinating work.
 
 ---
 
-## Coordinator Role
+##P4.2: Coordinator (Role)
 
-^TODO: add content
+The coordinator is accountable for **coordinating a circle's
+collaboration**, and is **selected by the circle for a limited term.**
+
+Responsibilities:
+
+- project management
+- task assignment
+- stewarding delveopment of the circle
+- supporting circle members in
+    - keeping agreements
+    - personal development
+    - developing artful participation
+    - understanding S3 principles and patterns
 
 
 ---
 
-## Daily Standup
+##P4.3: Daily Standup
 
 ![right,fit](img/meetings/planning-review-standup.png)
 
@@ -791,7 +803,7 @@ Meet on a regular basis (usually weekly) for reporting on and coordinating work.
 
 ---
 
-## Planning And Review Meetings
+##P4.4: Planning And Review Meetings
 
 ![right,fit](img/meetings/planning-review-standup.png)
 
@@ -805,7 +817,7 @@ Meet on a regular basis (usually weekly) for reporting on and coordinating work.
 
 ---
 
-## Prioritized Backlog
+##P4.5: Prioritized Backlog
 
 A prioritized backlog is an **ordered a list of all uncompleted work items**, with the **most important items on top**. 
 
@@ -816,7 +828,7 @@ essential to agree on priorities and make tough choices.
 
 ---
 
-## Prioritized Backlog
+## Prioritized Backlog (cont.)
 
 * **Benefits**
     - focus in most important items
@@ -844,7 +856,7 @@ essential to agree on priorities and make tough choices.
 
 ---
 
-## Pull-System For Work
+##P4.6: Pull-System For Work
 
 * people pull in new items when they have capacity (instead of work being pushed at them)
 * priorize available work items to get make sure important items get worked on first
@@ -853,7 +865,7 @@ essential to agree on priorities and make tough choices.
 
 ---
 
-## Retrospective
+##P4.7: Retrospective
 
 **Building in continuous improvement of process**
 
@@ -872,7 +884,7 @@ essential to agree on priorities and make tough choices.
 
 ---
 
-## 5 Phases of a Retrospective Meeting ##
+## Five Phases of a Retrospective Meeting ##
 
 1. Set the Stage 
 2. Gather Data
@@ -885,7 +897,7 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 ---
 
-## Visualize Work
+##P4.8: Visualize Work
 
 ![right,fit](img/workflow-and-value/simple-process.png)
 
@@ -937,16 +949,19 @@ In the addition to the patterns in this sections there's also two subsections:
 ---
 
 
-## Patterns in this group
+# Building Organizations 
 
-* Align Flow
-* Open Systems
-* Organize In Nested Domains
+
+## Pattern Index: 
+
+* P5.1: Align Flow
+* P5.2: Open Systems
+* P5.3: Organize In Nested Domains
 
 
 ---
 
-## Align Flow
+##P5.1: Align Flow
 
 ![right,fit](img/workflow-and-value/types-of-flow.png)
 
@@ -965,7 +980,7 @@ In the addition to the patterns in this sections there's also two subsections:
 
 ---
 
-## Open Systems
+##P5.2: Open Systems
 
 An organization is not a closed system, it is an open network with many connections to the "outside".
 
@@ -978,7 +993,7 @@ Keep the system open by adding connections as temporary or permanent members in 
 
 ---
 
-## Organize In Nested Domains
+##P5.3: Organize In Nested Domains
 
 
 ![right,fit](img/tension-driver-domain/nested-domains.png)
@@ -1028,19 +1043,22 @@ Building an organization from domains defined along organizational drivers facil
 ---
 
 
-## Patterns in this group
+# People And Roles 
 
-* Development Plan
-* Effectiveness Review
-* Role
-* Role Description
-* Role Selection
-* Support Roles
+
+## Pattern Index: 
+
+* P6.1: Development Plan
+* P6.2: Effectiveness Review
+* P6.3: Role
+* P6.4: Role Description
+* P6.5: Role Selection
+* P6.6: Support Roles
 
 
 ---
 
-## Development Plan
+##P6.1: Development Plan
 
 * an agreement for developing greater effectiveness in a role
 * contents:
@@ -1061,7 +1079,7 @@ Building an organization from domains defined along organizational drivers facil
 
 ---
 
-## Effectiveness Review
+##P6.2: Effectiveness Review
 
 * development in roles supported by peers
 * the individual holding the role initiates the process and begins each step
@@ -1083,7 +1101,7 @@ Building an organization from domains defined along organizational drivers facil
 
 ---
 
-## Role
+##P6.3: Role
 
 ![right,fit](img/people-and-roles/roles.png)
 
@@ -1098,7 +1116,7 @@ Building an organization from domains defined along organizational drivers facil
 
 ---
 
-## Role Description
+##P6.4: Role Description
 
 * manage expectations for roles
 * role descriptions can be created using proposal forming 
@@ -1120,7 +1138,7 @@ Building an organization from domains defined along organizational drivers facil
 
 ---
 
-## Role Selection
+##P6.5: Role Selection
 
 ![right,fit](img/people-and-roles/selection.png)
 
@@ -1134,7 +1152,7 @@ Building an organization from domains defined along organizational drivers facil
 
 ---
 
-## Support Roles
+##P6.6: Support Roles
 
 ### Apply roles to external contractors ###
     
@@ -1180,24 +1198,27 @@ Circles can be linked in a hierarchy or a **heterarchy** (a.k.a. complex adaptiv
 ---
 
 
-## Patterns in this group
+# Organizational Structure 
 
-* Backbone Organization
-* Coordination Circle
-* Delegate Circle
-* Double Linking
-* Double-Linked Hierarchy
-* Fractal Organization
-* Helping Circle
-* Nested Circle
-* Peach Organization
-* Representative
-* Service Circle
+
+## Pattern Index: 
+
+* P7.1: Backbone Organization
+* P7.2: Coordination Circle
+* P7.3: Delegate Circle
+* P7.4: Double Linking
+* P7.5: Double-Linked Hierarchy
+* P7.6: Fractal Organization
+* P7.7: Helping Circle
+* P7.8: Nested Circle
+* P7.9: Peach Organization
+* P7.10: Representative
+* P7.11: Service Circle
 
 
 ---
 
-## Backbone Organization
+##P7.1: Backbone Organization
 
 ### A pattern for multi-stakeholder projects or services.
 
@@ -1208,16 +1229,19 @@ Circles can be linked in a hierarchy or a **heterarchy** (a.k.a. complex adaptiv
 
 ---
 
-## Coordination Circle
+##P7.2: Coordination Circle
+
+![right,fit](img/structural-patterns/coordination-circle.png)
 
 A coordination circle coordinates decision making and collaboration of several circles.
 
 Coordination circles may be accountable for all aspects of collaboration, or just for a specific subset (or subdomain).
 
 
+
 ---
 
-## Delegate Circle
+##P7.3: Delegate Circle
 
 ### A pattern for coordination 
 
@@ -1226,7 +1250,7 @@ Coordination circles may be accountable for all aspects of collaboration, or jus
 
 ---
 
-## Double Linking
+##P7.4: Double Linking
 
 ![right,fit](img/structural-patterns/double-link.png)
 
@@ -1238,7 +1262,7 @@ Coordination circles may be accountable for all aspects of collaboration, or jus
 
 ---
 
-## Double-Linked Hierarchy
+##P7.5: Double-Linked Hierarchy
 
 ### A pattern for the early phase of a transformation
 
@@ -1247,7 +1271,7 @@ Coordination circles may be accountable for all aspects of collaboration, or jus
 
 ---
 
-## Fractal Organization
+##P7.6: Fractal Organization
 
 
 ### A Pattern for learning, coordination and alignment across organizational boundaries.
@@ -1259,7 +1283,7 @@ Coordination circles may be accountable for all aspects of collaboration, or jus
 
 ---
 
-## Helping Circle
+##P7.7: Helping Circle
 
 ![right,fit](img/structural-patterns/helping-circle.png)
 
@@ -1273,7 +1297,7 @@ A group of people with the mandate to execute on rules and guidelines set by its
 
 ---
 
-## Nested Circle
+##P7.8: Nested Circle
 
 ### A pattern for expanding functions
 
@@ -1284,7 +1308,7 @@ A group of people with the mandate to execute on rules and guidelines set by its
 
 ---
 
-## Peach Organization
+##P7.9: Peach Organization
 
 ### Periphery drives the organization, the center provides services.
 
@@ -1293,7 +1317,7 @@ A group of people with the mandate to execute on rules and guidelines set by its
 
 ---
 
-## Representative
+##P7.10: Representative
 
 Representatives (a.k.a Links)...:
 
@@ -1307,7 +1331,7 @@ Representatives (a.k.a Links)...:
 
 ---
 
-## Service Circle
+##P7.11: Service Circle
 
 ### A pattern for outsourcing shared services
 
@@ -1325,19 +1349,22 @@ Representatives (a.k.a Links)...:
 ---
 
 
-## Patterns in this group
+# Alignment 
 
-* Adopt The Seven Principles
-* Agree On Values
-* Bylaws
-* Contracting And Accountability
-* Linking
-* Transparent Salary
+
+## Pattern Index: 
+
+* P8.1: Adopt The Seven Principles
+* P8.2: Agree On Values
+* P8.3: Bylaws
+* P8.4: Contracting And Accountability
+* P8.5: Linking
+* P8.6: Transparent Salary
 
 
 ---
 
-## Adopt The Seven Principles
+##P8.1: Adopt The Seven Principles
 
 ![inline,fit](img/general/s3-principles.png)
 
@@ -1354,7 +1381,7 @@ Representatives (a.k.a Links)...:
 
 ---
 
-## Agree On Values
+##P8.2: Agree On Values
 
 ![right,fit](img/collaboration-values/values-step2.png)
 
@@ -1366,7 +1393,7 @@ _A **value** is a principle of some significance that guides behavior._
 
 --- 
 
-## Agree On Values
+## Agree On Values (cont.)
 
 * organizational values **define culture** and set parameters for action
 * values offer guidance to determine appropriate action, even in the absence of explicit agreements
@@ -1382,30 +1409,37 @@ _A **value** is a principle of some significance that guides behavior._
 
 ---
 
-## Bylaws
+##P8.3: Bylaws
 
-* legal integrity
-* build s3 principles and patterns into your bylaws as needed
-
-^TODO: add content
+Secure S3 principles and patterns in your bylaws as needed, to protect **legal integrity** and **organizational culture**:
+    
+* consent decision making
+* selection process for leadership roles
+* governance structure
+* influence of owners or shareholders
 
 
 ---
 
-## Contracting And Accountability
+##P8.4: Contracting And Accountability
 
 ![right,fit](img/circle/enter-leave-circle.png)
 
-* define the process for entering the organization
-* define default role for a new member
-* define the process for leaving an organization
+To protect organizational culture, help new members have a smooth start, and provide for painless development of organizational structure, an organization needs to:
+
+- develop a consent-based process for entering the organization that tests for both cultural fit and the skills required
+- align contracts with both organizational culture and legal requirements
+- define a default role for a new member
+- define a process for leaving an organization
+- provide a way for entering and leaving a circle
+
 
 
 
 
 ---
 
-## Linking
+##P8.5: Linking
 
 **Connecting two circles**
 
@@ -1415,7 +1449,7 @@ _A **value** is a principle of some significance that guides behavior._
 
 ---
 
-## Transparent Salary
+##P8.6: Transparent Salary
 
 ![right,fit](img/circle/transparent-salary.png)
 
@@ -1440,18 +1474,21 @@ _A **value** is a principle of some significance that guides behavior._
 ---
 
 
-## Patterns in this group
+# Bringing In S3 Patterns 
 
-* Adapt Patterns To Context
-* Be The Change
-* Continuous Improvement Of Work Process
-* Open S3 Adoption
-* Pull-System For Organizational Change
+
+## Pattern Index: 
+
+* P9.1: Adapt Patterns To Context
+* P9.2: Be The Change
+* P9.3: Continuous Improvement Of Work Process
+* P9.4: Open S3 Adoption
+* P9.5: Pull-System For Organizational Change
 
 
 ---
 
-## Adapt Patterns To Context
+##P9.1: Adapt Patterns To Context
 
 ![right,fit](img/agreements/adapt-pattern-to-context.png)
 
@@ -1466,7 +1503,7 @@ _A **value** is a principle of some significance that guides behavior._
 
 ---
 
-## Be The Change
+##P9.2: Be The Change
 
 * be the change you want to create
 * tell the story how you discovered S3
@@ -1476,7 +1513,7 @@ _A **value** is a principle of some significance that guides behavior._
 
 ---
 
-## Continuous Improvement Of Work Process
+##P9.3: Continuous Improvement Of Work Process
 
 ### To reveal tensions and establish a metrics-based pull-system for organizational change. ###
 
@@ -1501,7 +1538,7 @@ _A **value** is a principle of some significance that guides behavior._
 
 ---
 
-## Open S3 Adoption
+##P9.4: Open S3 Adoption
 
 * install a regular cadence of Open Spaces 
     * invite all members to create and run experiments
@@ -1512,7 +1549,7 @@ _A **value** is a principle of some significance that guides behavior._
 
 ---
 
-## Pull-System For Organizational Change
+##P9.5: Pull-System For Organizational Change
 
 * all change is voluntary
 * create an environment that empowers and invites members of the organization to drive change

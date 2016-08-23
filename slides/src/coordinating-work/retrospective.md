@@ -17,7 +17,7 @@
 
 ---
 
-## 5 Phases of a Retrospective Meeting ##
+## Five Phases of a Retrospective Meeting ##
 
 1. Set the Stage 
 2. Gather Data

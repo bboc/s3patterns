@@ -1,4 +1,4 @@
-## Role: Meeting Host
+## Meeting Host (Role)
 
 The meeting host is accountable for proper preparation and follow-up of meetings, workshops or other events. 
 

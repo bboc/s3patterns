@@ -21,14 +21,21 @@ Information in this section is preliminary, and needs further testing.
 ## TODOs
 
 
-### Content to write
+### Release 1.0
 
-* TODO: coordinator-role.md:
-* TODO: bylaws.md:
+DONE
+
+### Update Handout
+
+* TODO: copy all new illustrations to handout
+* TODO: copy all new content to handout
+
 
 ### v1.1 content refinements
 
 * TODO: write more text for structural patters (1 slide each) 
+* TODO: make illustrations for patterns w/o illustrations
+
 
 ### v1.2 reveal.js Release
 
@@ -38,8 +45,6 @@ Information in this section is preliminary, and needs further testing.
 * TODO: check inline images etc
 * TODO: translate presenter notes
 * TODO: focus on decks now, later make a table when note contains right aligned image!!!
-
-
 
 
 

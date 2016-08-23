@@ -13,7 +13,7 @@ _A **strategy** is the approach towards creating value within a domain._
 
 ---
 
-## Strategy
+## Strategy (cont.)
 
 Strategies are implemented and refined through a serieses of experiments.
 

@@ -10,7 +10,7 @@ _A **value** is a principle of some significance that guides behavior._
 
 --- 
 
-## Agree On Values
+## Agree On Values (cont.)
 
 * organizational values **define culture** and set parameters for action
 * values offer guidance to determine appropriate action, even in the absence of explicit agreements

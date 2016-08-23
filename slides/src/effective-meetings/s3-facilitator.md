@@ -1,4 +1,4 @@
-## Role: S3 Facilitator
+## S3 Facilitator (Role)
 
 ![right,fit](img/circle/facilitator.png)
 
@@ -13,7 +13,7 @@ Often the actual facilitation is shared between several circle members.
 
 ---
 
-## Role: S3 Facilitator (cont.)
+## S3 Facilitator (cont.)
 
 The facilitator should make themselves familiar with the following formats:
 

@@ -13,7 +13,7 @@
 
 ---
 
-## Navigating Via Tension
+## Navigating Via Tension (cont.)
 
 
 ![inline,fit](img/tension-driver-domain/navigate-via-tensions-alt.png)
