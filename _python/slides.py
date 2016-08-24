@@ -75,12 +75,13 @@ class DecksetWriter(object):
             with codecs.open(self.template_path, 'r', 'utf-8') as self.template:
 
                 self.copy_template_header()
-                # insert_title
-                self._copy_markdown(self.source, 'title.md')
+                self._copy_markdown(self.source, 'title.md') # insert title slides
+
+                # add all the groups
                 for i, group in enumerate(handbook_group_order):
                     self.insert_group(group, i+1)
-                # insert closing 
-                self._copy_markdown(self.source, 'closing.md')
+                
+                self._copy_markdown(self.source, 'closing.md') # insert closing slides
                 self.copy_template_footer()
 
     def copy_template_header(self):
@@ -95,26 +96,33 @@ class DecksetWriter(object):
             self.target.write(line)
 
     def insert_group(self, group, group_index):
+        """Build group index and pattern slides."""
         folder = os.path.join(self.source, make_pathname(group))
 
+        # group title slide
+        self.target.write('\n# %s. %s \n\n' % (group_index, make_title(group)))
         self.target.write(self.GROUP_INDEX_IMAGE % str(group_index))
         self.target.write('\n\n---\n\n')
 
+        # insert group preamble if present
         if os.path.exists(os.path.join(folder, self.GROUP_INDEX_FILENAME)):
             self._copy_markdown(folder, self.GROUP_INDEX_FILENAME)
 
+        # pattern index for group
         self.target.write('\n# %s \n\n' % make_title(group))
         self.target.write('\n## Pattern Index: \n\n')
         for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):
             self.target.write('* %s %s\n' % (self.PATTERN_NUMBER % (group_index, pattern_index + 1), make_title(pattern)))
         self.target.write('\n\n---\n\n')
 
+        # add individual patterns
         for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):
             self._copy_markdown(folder, '%s.md' % make_pathname(pattern), self.PATTERN_NUMBER % (group_index, pattern_index + 1))
             
     def _copy_markdown(self, folder, name, headline_prefix = ''):
         with codecs.open(os.path.join(folder, name), 'r', 'utf-8') as section:
             if headline_prefix:
+                # insert patter number into first headline of file
                 line = section.next()
                 try:
                     pos = line.index('# ')

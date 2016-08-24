@@ -7,12 +7,25 @@ theme: Plain Jane, 2
 
 ![fit](img/general/logo.png)
 
+## All Patterns Explained
+
 ---
+
+## 65 Patterns
 
 ![inline,fit](img/general/s3-patterns-map.png)
 
+---
+
+## 9 Pattern Groups
+
+![inline,fit](img/pattern-groups/all.png)
+
 
 ---
+
+
+# 1. Making And Evolving Agreements 
 
 
 ![inline,fit](img/pattern-groups/group-1.png)
@@ -21,9 +34,7 @@ theme: Plain Jane, 2
 
 ---
 
-## Making And Evolving Agreements
-
-### S3 promotes a hypothesis-driven approach to decision making
+## S3 promotes a hypothesis-driven approach to decision making
 
 ![inline,fit](img/experiments/experiments.png)
 
@@ -400,6 +411,9 @@ This also applies to review and evolution of decisions.
 ---
 
 
+# 2. Governance 
+
+
 ![inline,fit](img/pattern-groups/group-2.png)
 
 
@@ -489,6 +503,9 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 
 ---
+
+
+# 3. Effective Meetings 
 
 
 ![inline,fit](img/pattern-groups/group-3.png)
@@ -726,6 +743,9 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 ---
 
 
+# 4. Coordinating Work 
+
+
 ![inline,fit](img/pattern-groups/group-4.png)
 
 
@@ -931,6 +951,9 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 ---
 
 
+# 5. Building Organizations 
+
+
 ![inline,fit](img/pattern-groups/group-5.png)
 
 
@@ -1016,6 +1039,9 @@ Building an organization from domains defined along organizational drivers facil
 
 
 ---
+
+
+# 6. People And Roles 
 
 
 ![inline,fit](img/pattern-groups/group-6.png)
@@ -1166,6 +1192,9 @@ Support roles may be operational only, external contractors opt-in to role descr
 
 
 ---
+
+
+# 7. Organizational Structure 
 
 
 ![inline,fit](img/pattern-groups/group-7.png)
@@ -1342,6 +1371,9 @@ Representatives (a.k.a Links)...:
 ---
 
 
+# 8. Alignment 
+
+
 ![inline,fit](img/pattern-groups/group-8.png)
 
 
@@ -1465,6 +1497,9 @@ To protect organizational culture, help new members have a smooth start, and pro
 
 
 ---
+
+
+# 9. Bringing In S3 Patterns 
 
 
 ![inline,fit](img/pattern-groups/group-9.png)

@@ -1,6 +1,4 @@
-## Making And Evolving Agreements
-
-### S3 promotes a hypothesis-driven approach to decision making
+## S3 promotes a hypothesis-driven approach to decision making
 
 ![inline,fit](img/experiments/experiments.png)
 
