@@ -6,5 +6,3 @@
     * don't break what's already working
     * meet everyone where they are …
     * …and let them choose their own pace
-
-

@@ -23,3 +23,4 @@ The facilitator should make themselves familiar with the following formats:
 * selections to roles
 * meeting evaluation
 * resolving objections
+
