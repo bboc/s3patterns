@@ -88,7 +88,7 @@ The S3 Movement is a **distributed network consultants and trainers** from a var
 
 ### Design Goals ###
 
-![](img/general/design-goals.png)
+![Design Goals Behind S3](img/general/design-goals.png)
 
 **Open**: Principle-based and modular patterns make it easy to choose and adapt according to context
 

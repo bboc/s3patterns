@@ -10,4 +10,4 @@ title: Transparent Salary
 * consider remuneration for changing roles
 * create strategy for transitioning towards new contracts and compensation agreements
 
-![](img/circle/transparent-salary.png)
+![Transparent Salary](img/circle/transparent-salary.png)

@@ -3,16 +3,11 @@ title: Agreements
 ---
 
 
-We respond to drivers through agreements.
+_An **agreement** is an agreed upon guideline, pattern, process or protocol designed to guide the flow of value._
 
-**Definition:** _A agreement is an agreed upon guideline, pattern, process or protocol designed to guide the flow of value._
-
-
-* agreements are created in order to satisfy drivers 
+* agreements are created in order to respond to drivers 
 * agreements are the **accountability of the circle** that created them
 * each agreement includes **evaluation criteria** and is subject to **regular review**
-    *  review dates are specific to each agreement
-    *  agreements are reviewed in context to its driver
 
 
 ![Evolution of Agreements and the Drivers they Respond to](img/tension-driver-domain/driver-agreement-improvement.png)

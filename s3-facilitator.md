@@ -3,7 +3,6 @@ title: S3 Facilitator
 ---
 
 
-![](img/circle/facilitator.png)
 
 
 The facilitator supports the circle in developing their interactions and is responsible for making sure all meetings and workshops are facilitated and evaluated, e.g.
@@ -15,6 +14,7 @@ The facilitator supports the circle in developing their interactions and is resp
 
 Often the actual facilitation is shared between several circle members.
 
+![The Facilitator is often Part of the Circle They Facilitate](img/circle/facilitator.png)
 
 The facilitator should make themselves familiar with the following formats:
 

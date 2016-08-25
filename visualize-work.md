@@ -20,7 +20,7 @@ If you have any agreements guiding your workflow, e.g. which items have priority
 
 ## Things to Track in Your System 
 
-![right,fit](img/workflow-and-value/card.png)
+![Example for a Task Card](img/workflow-and-value/card.png)
 
 * **types of work items** (e.g. customer request, project tasks, reporting tasks, rework)
 * **start date** and optionally **due date**

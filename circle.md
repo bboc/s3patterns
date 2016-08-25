@@ -7,7 +7,7 @@ A circle is a semi-autonomous, self-organizing and self-governing group of peopl
 
 A circle is the basic unit of collaboration in an organization: a group of people gathered around a driver (permanently or temporarily). A circle brings together different perspectives and skills, has no hierarchy when it comes to decision making, and is accountable for its own development.
 
-![](img/circle/circle-driver.png)  
+![A Circle Gathered Around a Driver](img/circle/circle-driver.png)  
 
 
 * **semi-autonomous**: 

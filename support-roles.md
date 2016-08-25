@@ -3,7 +3,7 @@ title: Support Roles
 ---
 
 
-### Apply roles to external contractors ###
+Apply the idea of roles to external contractors: 
     
 * identify function
 * create a role description

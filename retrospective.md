@@ -7,7 +7,7 @@ title: Retrospective
 
 A retrospective is a facilitated, short and effective meeting that allows a group to collectively reflect on its  effectiveness at regular intervals. Various retrospective patterns can be used to generate insights and identify improvements, usually either operational tasks or agenda items for a [Governance Meeting].
 
-![](img/meetings/retrospective.png)
+![Output of a Retrospective](img/meetings/retrospective.png)
 
 
 ##  Why use it? ##

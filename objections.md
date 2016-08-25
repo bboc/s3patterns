@@ -2,7 +2,7 @@
 title: Objections
 ---
 
-**Definition:** _An objection is a reason why doing what is proposed stands in the way of (more) effective satisfaction of an existing driver._
+_An **objection** is a reason why doing what is proposed stands in the way of (more) effective response to an existing driver._
 
 In sociocracy we deliberately seek objections as they reveal
 wisdom that can be used to improve proposals and agreements.   
@@ -22,9 +22,9 @@ Objections...
 
 * Does this objection reveal how a (proposed or existing) **agreement**...
 
-    * ...jeopardizes the satisfaction of a driver?
+    * ...jeopardizes response to a driver?
     * ...is in conflict with the organization's values?
-    * ...prevents or diminishes someone's contribution to satisfying a driver?
+    * ...prevents or diminishes someone's contribution to responding to a driver?
     * ...can be improved significantly?
 
 

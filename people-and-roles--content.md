@@ -2,7 +2,7 @@
 title: People and Roles
 ---
 
-![](img/people-and-roles/roles.png)
+![Through Roles, People can Wear Many Hats](img/people-and-roles/roles.png)
 
 
 ## People, Functions and Roles ##
@@ -13,20 +13,15 @@ title: People and Roles
     * select people for the role
     * support development of people in the role
 
-## Role Definition and Improvement ##
+## Role Life-Cycle and Development ##
 
-![](img/people-and-roles/driver-role-selection-development.png)
+![The Life-Cycle of a Role](img/people-and-roles/driver-role-selection-development.png)
 
-
-## Performance Improvement Process ##
-
-Continuous improvement of the effectiveness of people in roles ##
+Continuous improvement of the effectiveness of people in roles:
 
 1. Conduct effectiveness review
 2. Create development plan
 3. Full circle consents to development plan
 4. Act on the plan
 
-![](img/people-and-roles/development-process.png)
-
-...
+![Development of Individuals in Roles](img/people-and-roles/development-process.png)
