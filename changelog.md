@@ -2,6 +2,12 @@
 title: Changelog
 ---
 
+**2016-08-24**
+
+* integrated 8 new and several updated images
+* new content from slide deck "All Patterns Explained". Each pattern now has content.
+* lots of small fixes, typos, etc.
+
 **2016-06-20**
 
 * added Bernhard's drafts and pattern descriptions
