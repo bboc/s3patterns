@@ -1,13 +1,13 @@
 # Site settings
-title: Sociocracy 3.0 Patterns Handbook
+title: Sociocracy 3.0 Patterns Handout
 email: bernhard.bockelbrink@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The canonical list and definitions of Sociocracy 3.0 patterns, maintained by Bernhard Bockelbrink and James Priest.
+  Preliminary description of Sociocracy 3.0 patterns, maintained by Bernhard Bockelbrink.
 
 baseurl: "/s3patterns/" # the subpath of your site, e.g. /blog
 url: "http://s3-working-group.github.io" # the base hostname & protocol for your site
 
-twitter_username: sociocracy30
+twitter_username: b_bockelbrink
 
 # Build settings
 source:   .
