@@ -41,6 +41,8 @@ Evaluating agreements has **four basic steps**:
 3. the actual review 
 4. addressing any consequences
 
+![Evaluating an Agreement](img/agreements/evaluate-agreements.png)
+
 
 ### Step 1 - Preparation
 

@@ -1,3 +1,3 @@
-* [Navigation Backlog](navigation-backlog.html)
-* [Navigation Meeting](navigation-meeting.html)
+* [Governance Backlog](governance-backlog.html)
+* [Governance Meeting](governance-meeting.html)
 * [Navigation Via Tensions](navigation-via-tensions.html)

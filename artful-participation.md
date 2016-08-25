@@ -53,7 +53,7 @@ Whenever the individual discovers impediments or obstacles to their contribution
 Although anyone can commit to artful participation on their own, the effect is much greater when a full team or even an entire organization embraces artful participation together.
 
 
-### Some questions to help with artful participation:
+### Artful Participation: Self-Assessment
 
 * How will I support myself and others in participating more artfully? 
 * Where are my interactions with others not particularly helpful or effective?

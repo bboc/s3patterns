@@ -28,6 +28,7 @@ The following structure has proven to be effective for governance meetings.
 3. __Agenda Items__: each agenda item should have an "owner" who can present the item and answer questions about it
 4. __Closing:__ review of meeting [Meeting Evaluation][] and results, future agenda items
 
+![Format of a Governance Meeting](img/meetings/governance-meeting.png)
 
 
 

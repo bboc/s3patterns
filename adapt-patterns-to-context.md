@@ -21,6 +21,8 @@ The basic steps of the process of adapting a pattern are very simple, and can be
 * share your experience with others, and consider feeding back successful adaptations to the S3 handbook
 
 
+![Adapting a pattern to context](img/agreements/adapt-pattern-to-context.png)
+
 ### Understand the Pattern and Your Context ###
 
 Here's a set of activities to guide you, pick those you find valuable for you. It's up to the facilitator to facilitate them in rounds or as a brainstorming, and to visualize all the results in a way they can be seen by all participants. Give space for questions, so at the end everyone feels they understand the outcome.

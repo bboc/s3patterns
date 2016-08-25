@@ -15,7 +15,7 @@ In the *review meeting* at the end of the iteration or milestone, the circle ins
 sometimes bringing in external stakeholders, the output of the review meeting is fed back into the next planning meeting.
 
 
-![](img/meetings/planning-review-standup.png)
+![Planning and Review Meeting](img/meetings/planning-review-standup.png)
 
 
 

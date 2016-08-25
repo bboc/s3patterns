@@ -2,18 +2,22 @@
 title: Qualifying Drivers
 ---
 
+**Motive:** _Consider why, how and when to respond to a stimulus, instead of defaulting to action._ 
 
-* depending on our sensitivity, we might discover many different drivers
+Only act on **important** drivers,  and take drivers to the **appropriate domain** (role or circle). Both the individual sensing tension and the domain is accountable for making a conscious choice whether or not to act on the driver.
+
+
+* depending on sensitivity, individuals might discover many different drivers
 * some of the drivers we identify are not in our domain
 * some drivers are more important than others
 * discussing every driver with the circle may be not effective
-* we need to make a conscious choice which drivers respond to, where to respond to them, and to discuss in the circle in the first place
-
-We consider why, how and when to respond to a stimulus, instead of defaulting to action.
+* we need to make a conscious choice which drivers respond to, where to respond to them, and whether to discuss in the circle in the first place
 
 >_Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom._ (Viktor E. Frankl)
 
 The individual sensing a tension is accountable for understanding the driver and making a decision on how to proceed, whether do drop it or refer the driver to a domain (a circle or a role). In that domain, we again make a decision whether or not to act on the driver. 
+
+![Qualifying Drivers: Individual Process and Domain Process](img/tension-driver-domain/qualify-drivers.png)
 
 
 ## Individual Process ##

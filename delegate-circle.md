@@ -19,7 +19,7 @@ A pattern for coordination between several teams or circles
 
 Delegates will be re-elected after their term expires. If a team does not feel represented well, they can recall the delegate and send a new one.
 
-![A Delegate Circle is Formed by Delegates of Other Circles](img/structural-patterns/delegate-circle.png)
+![A Delegate Circle Consists of Delegates from other Circles](img/structural-patterns/delegate-circle.png)
 
 ## Related Patterns
 

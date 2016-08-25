@@ -2,9 +2,6 @@
 title: Representative
 ---
 
-
-
-
 Representatives (a.k.a Links)...:
 
 * ...stand for the interests of one circle in another circle

@@ -6,6 +6,7 @@ The *Effectiveness Review* is a process to harvest appreciations, identify oppor
 
 The individual holding the role initiates the process and begins each step.
 
+The development plan is usually drafted during the effectiveness review, but can be finalized afterwards. In that case, the plan will be circulated to and participants of effectiveness review for consent before the plan is brought to the full circle.
 
 ## Steps
 

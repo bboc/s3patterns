@@ -27,7 +27,7 @@ S3 patterns facilitate positive transformation for individuals, teams and whole 
 The focus of this handbook is  mostly on S3 in the context of organizations. The patterns themselves are valuable to any group of people who wish to collaborate effectively, including communities, municipalities, families, and even one-to-one relationships.
 
 
-## A Brief History of Sociocracy  from 1851 to today ##
+## A Brief History of Sociocracy  from 1851 to Today ##
 
 **What’s in a word?**
 
@@ -35,7 +35,7 @@ The focus of this handbook is  mostly on S3 in the context of organizations. The
 * *-cracy*  from Ancient Greek krátos - “power, rule”
 * different to the rule of the *demos* (i.e. the general mass of people with voting privileges)
 
-![](img/general/history.png)
+![A Brief History of Sociocracy  from 1851 to Today](img/general/history.png)
 
 * 1851 – Auguste Comte
     * Scientific method applied to society
@@ -58,6 +58,9 @@ The focus of this handbook is  mostly on S3 in the context of organizations. The
     * John Buck / Sharon Villines make Sociocracy accessible to the English-speaking world
 * 2014 The Sociocracy 3.0 Movement is born
 
+## Models of Management
+
+!{A Comparison of Different Models of Management](img/s3-context/models-of-management-plain.png)
 
 ## The S3 Movement ##
 
@@ -78,6 +81,9 @@ The S3 Movement is a **distributed network consultants and trainers** from a var
 * integrated with lean and agile thinking
 * new ways to evolve organizational structure
 * patterns for all aspects of collaboration, not just for governance
+
+
+![Variants of Sociocracy](img/s3-context/sociocracy-variants.png)
 
 
 ### Design Goals ###
@@ -123,8 +129,6 @@ A **pattern** is a template for successfully navigating a specific context.
 
 S3 patterns are discovered through observing many organizations as they solve problems, innovate, and respond to opportunities. Patterns may need to be adapted and evolved to suit differing contexts and needs.
 
-The more than 60 patterns on S3 are organized in 7 pattern groups. 
-
-![](img/general/s3-pattern-groups.png)
+![S3's 65 patterns are organized in 9 groups. ](img/pattern-groups/all.png)
 
 

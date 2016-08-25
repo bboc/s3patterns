@@ -4,12 +4,12 @@ title: Governance
 
 
 
-Governance is the process of creating and evolving agreements in response to drivers.
+Governance is the process of creating and evolving agreements, expectations and domains in response to drivers.
 
 
 
-* [Navigation Backlog](navigation-backlog.html)
-* [Navigation Meeting](navigation-meeting.html)
+* [Governance Backlog](governance-backlog.html)
+* [Governance Meeting](governance-meeting.html)
 * [Navigation Via Tensions](navigation-via-tensions.html)
 
 
