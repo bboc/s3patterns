@@ -2,7 +2,7 @@
 title: Helping Circle
 ---
 
-**Motive*: a circle requires a clearly defined service, but has not enough capacity.
+**Motive**: a circle requires a clearly defined service, but has not enough capacity.
 
 A group of people with the mandate to execute on rules and guidelines set by the circle that encloses or "owns" the helping circle. 
 

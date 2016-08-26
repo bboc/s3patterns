@@ -4,6 +4,9 @@
 
 ## All Patterns Explained
 
+#### Bernhard Bockelbrink
+####<http://evolvingcollaboration.com>
+
 ---
 
 ## Sociocracy 3.0 is a Framework of Patterns for Collaboration in Agile Organizations

@@ -1,4 +1,4 @@
-footer: Sociocracy 3.0 - Patterns for Agile Organizations © 2016 by Bernhard Bockelbrink (v2016-08-24)
+footer: Sociocracy 3.0 - Patterns for Agile Organizations © 2016 by Bernhard Bockelbrink (v2016-08-26) - evolvingcollaboration.com
 slidenumbers: true
 autoscale: true
 theme: Plain Jane, 2
@@ -8,6 +8,9 @@ theme: Plain Jane, 2
 ![fit](img/general/logo.png)
 
 ## All Patterns Explained
+
+#### Bernhard Bockelbrink
+####<http://evolvingcollaboration.com>
 
 ---
 

@@ -5,7 +5,7 @@ S3 is built on seven core principles, which can also be considered as values tha
 
 Practicing S3 helps people appreciate the essential value of the Seven Principles, both to individuals and organizations
 
-![The Seven Core Principles of Sociocracy 3.0](img/general/s3-principles-plain.png)
+![The Seven Core Principles of Sociocracy 3.0](img/general/s3-principles.png)
 
 **The Principle of Effectiveness:** *Devote time only to what brings you closer towards achieving your objectives.*
 
