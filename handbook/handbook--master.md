@@ -8,7 +8,7 @@ This document is also available as a website at [http://s3-patterns.evolvingcoll
 
 ---
 
-![evol-logo][] evolving collaboration website and blog:  [http://evolving-collaboration.com](http://evolving-collaboration.com)
+![evol-logo][] **evolving collaboration** website and blog:  [http://evolving-collaboration.com](http://evolving-collaboration.com)
 
 ---
 
@@ -48,7 +48,7 @@ He has 18 years of experience in as an agile coach, CTO, scrum master, product o
 
 ---
 
-![evol-logo][] evolving collaboration <http://evolving-collaboration.com>
+![evol-logo][] **evolving collaboration** <http://evolving-collaboration.com>
 
 --- 
 
