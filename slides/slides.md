@@ -1,4 +1,4 @@
-footer: Sociocracy 3.0 - Patterns for Agile Organizations © 2016 by Bernhard Bockelbrink (v2016-08-26) - evolvingcollaboration.com
+footer: Sociocracy 3.0 - Patterns for Agile Organizations © 2016 by Bernhard Bockelbrink (v2016-08-30) - evolvingcollaboration.com
 slidenumbers: true
 autoscale: true
 theme: Plain Jane, 2
@@ -32,6 +32,30 @@ _A **pattern** is a template for successfully navigating a specific context._
 ## All Patterns are based on The Seven Principles
 
 ![inline,fit](img/general/s3-principles.png)
+
+---
+
+## The Seven Principles
+
+
+**Effectiveness:** *Devote time only to what brings you closer towards achieving your objectives.*
+
+
+**Consent:** *Do things only in the absence of reasons why doing so would stand in the way of (more) effectively meeting shared objectives.*
+
+**Empiricism:** *Test all assumptions about an organization and its interactions through experiments, continuous revision and falsification.*
+
+---
+
+## The Seven Principles (cont.)
+
+**Continuous Improvement:** *Respond to change in small increments, by building on and transforming what is already there, to reduce risk and resistance, and to accommodate steady empirical learning*
+
+**Equivalence:** *People affected by decisions can influence and change them on the basis of reason to do so.*
+
+**Transparency:** *Make all information accessible to anyone in an organization. Confidentiality requires consent.*
+
+**Accountability:** *Respond when something is needed and be accountable for doing what you agreed to.*
 
 ---
 
