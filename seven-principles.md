@@ -23,7 +23,7 @@ In any complex adaptive system, such as a group or an organization, all knowledg
 Empiricism is the basis of the scientific method and the combined application of S3's patterns provides a direct way to apply the scientific method in an organization.
 
 
-**The Principle of Continuous Improvement:** *Respond to change in small increments, by building on and transforming what is already there, to reduce risk and resistance, and to accommodate steady empirical learning*
+**The Principle of Continuous Improvement:** *Respond to change in small increments, by building on and transforming what is already there, to reduce risk and resistance, and to accommodate steady empirical learning.*
 
 Most of the time evolution is more effective and more sustainable than revolution. Continuous improvement applies to everything,  e.g. strategies, guidelines, products, skills, processes, values and tools. 
 
@@ -33,12 +33,12 @@ Most of the time evolution is more effective and more sustainable than revolutio
 Position, rank, function and role have no special influence in decision making.
 
 
-**Transparency:** *Make all information accessible to anyone in an organization. Confidentiality requires consent.*
+**The Principle of Transparency:** *Make all information accessible to anyone in an organization. Confidentiality requires consent.*
 
 All relevant information is kept up-to-date, and historical information is archived for reference.
 
 
-**The Principle of Accountability:** *Respond when something is needed and be accountable for doing what you agreed to.** 
+**The Principle of Accountability:** *Respond when something is needed and be accountable for doing what you agreed to.*
 
 The principle of accountability applies to groups, organizations and individuals, and promotes a shift from being *held to account*, and towards a culture of *self-accountability*.
 
