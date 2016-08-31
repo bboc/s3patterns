@@ -76,7 +76,7 @@ _A **pattern** is a template for successfully navigating a specific context._
 # 1. Making And Evolving Agreements 
 
 
-![inline,fit](img/pattern-groups/group-1.png)
+![inline,fit](img/grouped-patterns/group-1.png)
 
 
 
@@ -91,30 +91,6 @@ _A **pattern** is a template for successfully navigating a specific context._
 ## Agreement Life-Cycle
 
 ![inline,fit](img/agreements/agreement-lifecycle-long.png)
-
-
----
-
-
-# Making And Evolving Agreements 
-
-
-## Pattern Index: 
-
-* P1.1: Agreements
-* P1.2: Circle
-* P1.3: Consent Decision Making
-* P1.4: Deliverables
-* P1.5: Driver
-* P1.6: Evaluate Agreements
-* P1.7: Evaluation Criteria
-* P1.8: Intended Outcome
-* P1.9: Objections
-* P1.10: Proposal Forming
-* P1.11: Qualifying Drivers
-* P1.12: Resolve Objections
-* P1.13: Strategy
-* P1.14: Those Affected Decide
 
 
 ---
@@ -177,7 +153,7 @@ A circle...
 
 ---
 
-## Contact of Consent
+## Contract of Consent
 
 * in the absence of objections against an agreement you support following through on the agreement as good as possible
 * as soon as you become aware of an objection, or a tension with the agreement, you bring it to the circle to process it.
@@ -462,21 +438,8 @@ This also applies to review and evolution of decisions.
 # 2. Governance 
 
 
-![inline,fit](img/pattern-groups/group-2.png)
+![inline,fit](img/grouped-patterns/group-2.png)
 
-
-
----
-
-
-# Governance 
-
-
-## Pattern Index: 
-
-* P2.1: Governance Backlog
-* P2.2: Governance Meeting
-* P2.3: Navigating Via Tension
 
 
 ---
@@ -556,26 +519,8 @@ Circles meet at regular intervals to create and evolve agreements in response to
 # 3. Effective Meetings 
 
 
-![inline,fit](img/pattern-groups/group-3.png)
+![inline,fit](img/grouped-patterns/group-3.png)
 
-
-
----
-
-
-# Effective Meetings 
-
-
-## Pattern Index: 
-
-* P3.1: S3 Facilitator
-* P3.2: Artful Participation
-* P3.3: Logbook
-* P3.4: Logbook Keeper
-* P3.5: Meeting Evaluation
-* P3.6: Meeting Facilitation
-* P3.7: Meeting Host
-* P3.8: Rounds
 
 
 ---
@@ -795,26 +740,8 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 # 4. Coordinating Work 
 
 
-![inline,fit](img/pattern-groups/group-4.png)
+![inline,fit](img/grouped-patterns/group-4.png)
 
-
-
----
-
-
-# Coordinating Work 
-
-
-## Pattern Index: 
-
-* P4.1: Coordination Meeting
-* P4.2: Coordinator Role
-* P4.3: Daily Standup
-* P4.4: Planning And Review Meetings
-* P4.5: Prioritized Backlog
-* P4.6: Pull-System For Work
-* P4.7: Retrospective
-* P4.8: Visualize Work
 
 
 ---
@@ -1003,7 +930,7 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 # 5. Building Organizations 
 
 
-![inline,fit](img/pattern-groups/group-5.png)
+![inline,fit](img/grouped-patterns/group-5.png)
 
 
 
@@ -1017,19 +944,6 @@ In the addition to the patterns in this sections there's also two subsections:
 
 * People and Roles
 * Organizational Structure.
-
----
-
-
-# Building Organizations 
-
-
-## Pattern Index: 
-
-* P5.1: Align Flow
-* P5.2: Open Systems
-* P5.3: Organize In Nested Domains
-
 
 ---
 
@@ -1093,7 +1007,7 @@ Building an organization from domains defined along organizational drivers facil
 # 6. People And Roles 
 
 
-![inline,fit](img/pattern-groups/group-6.png)
+![inline,fit](img/grouped-patterns/group-6.png)
 
 
 
@@ -1105,7 +1019,7 @@ Building an organization from domains defined along organizational drivers facil
 
 ---
 
-## Performance Improvement Process ##
+## Development Process ##
 
 ### Continuous improvement of the effectiveness of people in roles ###
 
@@ -1113,22 +1027,6 @@ Building an organization from domains defined along organizational drivers facil
 ![inline,fit](img/people-and-roles/development-process.png)
 
 
-
-
----
-
-
-# People And Roles 
-
-
-## Pattern Index: 
-
-* P6.1: Development Plan
-* P6.2: Effectiveness Review
-* P6.3: Role
-* P6.4: Role Description
-* P6.5: Role Selection
-* P6.6: Support Roles
 
 
 ---
@@ -1246,7 +1144,7 @@ Support roles may be operational only, external contractors opt-in to role descr
 # 7. Organizational Structure 
 
 
-![inline,fit](img/pattern-groups/group-7.png)
+![inline,fit](img/grouped-patterns/group-7.png)
 
 
 
@@ -1271,27 +1169,6 @@ Circles can be linked in a hierarchy or a **heterarchy** (a.k.a. complex adaptiv
 * different patterns serve different drivers
 * patterns can be combined as needed
 * more patterns are out there and will be discovered
-
-
----
-
-
-# Organizational Structure 
-
-
-## Pattern Index: 
-
-* P7.1: Backbone Organization
-* P7.2: Coordination Circle
-* P7.3: Delegate Circle
-* P7.4: Double Linking
-* P7.5: Double-Linked Hierarchy
-* P7.6: Fractal Organization
-* P7.7: Helping Circle
-* P7.8: Nested Circle
-* P7.9: Peach Organization
-* P7.10: Representative
-* P7.11: Service Circle
 
 
 ---
@@ -1423,24 +1300,8 @@ Representatives (a.k.a Links)...:
 # 8. Alignment 
 
 
-![inline,fit](img/pattern-groups/group-8.png)
+![inline,fit](img/grouped-patterns/group-8.png)
 
-
-
----
-
-
-# Alignment 
-
-
-## Pattern Index: 
-
-* P8.1: Adopt The Seven Principles
-* P8.2: Agree On Values
-* P8.3: Bylaws
-* P8.4: Contracting And Accountability
-* P8.5: Linking
-* P8.6: Transparent Salary
 
 
 ---
@@ -1554,23 +1415,8 @@ To protect organizational culture, help new members have a smooth start, and pro
 # 9. Bringing In S3 Patterns 
 
 
-![inline,fit](img/pattern-groups/group-9.png)
+![inline,fit](img/grouped-patterns/group-9.png)
 
-
-
----
-
-
-# Bringing In S3 Patterns 
-
-
-## Pattern Index: 
-
-* P9.1: Adapt Patterns To Context
-* P9.2: Be The Change
-* P9.3: Continuous Improvement Of Work Process
-* P9.4: Open S3 Adoption
-* P9.5: Pull-System For Organizational Change
 
 
 ---
@@ -1625,7 +1471,13 @@ To protect organizational culture, help new members have a smooth start, and pro
 
 ---
 
-##P9.4: Open S3 Adoption
+##P9.4: Driver Mapping
+
+![inline,fit](img/tension-driver-domain/driver-mapping.png)
+
+---
+
+##P9.5: Open S3 Adoption
 
 * install a regular cadence of Open Spaces 
     * invite all members to create and run experiments
@@ -1636,7 +1488,7 @@ To protect organizational culture, help new members have a smooth start, and pro
 
 ---
 
-##P9.5: Pull-System For Organizational Change
+##P9.6: Pull-System For Organizational Change
 
 * all change is voluntary
 * create an environment that empowers and invites members of the organization to drive change

@@ -4,7 +4,7 @@
 
 ---
 
-## Performance Improvement Process ##
+## Development Process ##
 
 ### Continuous improvement of the effectiveness of people in roles ###
 

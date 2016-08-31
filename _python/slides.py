@@ -1,8 +1,7 @@
 #!/usr/bin/python
- # -*- coding: utf-8 -*-
-
+# -*- coding: utf-8 -*-
 """
-Build slide deck to reveal.js and 
+Build slide deck to reveal.js and deckset.
 """
 
 from __future__ import unicode_literals
@@ -21,11 +20,11 @@ from common import make_pathname, make_title, create_directory
 def cmd_slides(args):
     """Build slides decks"""
 
-    if args.skeleton: 
+    if args.skeleton:
         create_source_files_for_slides(args)
-    if args.reveal: 
+    if args.reveal:
         build_reveal_slides(args)
-    if args.deckset: 
+    if args.deckset:
         build_deckset_slides(args)
 
 
@@ -34,14 +33,14 @@ def create_source_files_for_slides(args):
 
     create_directory(args.source)
 
-    def make_file(root, filename_root, title_root, markup = '#'):
+    def make_file(root, filename_root, title_root, markup='#'):
         """Create file if it does not exist."""
         filename = os.path.join(root, '%s.md' % make_pathname(filename_root))
         if not os.path.exists(filename):
             with codecs.open(filename, 'w+', 'utf-8') as fp:
                 fp.write('%s %s\n\n' % (markup, make_title(title_root)))
         else:
-            if args.verbose: 
+            if args.verbose:
                 print "skipped %s" % title_root
 
     for group in s3_patterns.keys():
@@ -54,15 +53,17 @@ def create_source_files_for_slides(args):
         for pattern in s3_patterns[group]:
             make_file(group_root, pattern, pattern, '##')
 
+
 def build_deckset_slides(args):
     """Create a source file for a deckset presentation."""
     r = DecksetWriter(args)
-    r.build()   
+    r.build()
+
 
 class DecksetWriter(object):
     CONTENT_MARKER = "<!-- INSERT-CONTENT -->"
     PATTERN_NUMBER = 'P%s.%s:'
-    GROUP_INDEX_IMAGE = '\n![inline,fit](img/pattern-groups/group-%s.png)\n\n'
+    GROUP_INDEX_IMAGE = '\n![inline,fit](img/grouped-patterns/group-%s.png)\n\n'
     GROUP_INDEX_FILENAME = 'index.md'
 
     def __init__(self, args):
@@ -80,7 +81,7 @@ class DecksetWriter(object):
                 # add all the groups
                 for i, group in enumerate(handbook_group_order):
                     self.insert_group(group, i+1)
-                
+
                 self._copy_markdown(self.source, 'closing.md') # insert closing slides
                 self.copy_template_footer()
 
@@ -108,12 +109,12 @@ class DecksetWriter(object):
         if os.path.exists(os.path.join(folder, self.GROUP_INDEX_FILENAME)):
             self._copy_markdown(folder, self.GROUP_INDEX_FILENAME)
 
-        # pattern index for group
-        self.target.write('\n# %s \n\n' % make_title(group))
-        self.target.write('\n## Pattern Index: \n\n')
-        for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):
-            self.target.write('* %s %s\n' % (self.PATTERN_NUMBER % (group_index, pattern_index + 1), make_title(pattern)))
-        self.target.write('\n\n---\n\n')
+        # # pattern index for group
+        # self.target.write('\n# %s \n\n' % make_title(group))
+        # self.target.write('\n## Pattern Index: \n\n')
+        # for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):
+        #     self.target.write('* %s %s\n' % (self.PATTERN_NUMBER % (group_index, pattern_index + 1), make_title(pattern)))
+        # self.target.write('\n\n---\n\n')
 
         # add individual patterns
         for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):

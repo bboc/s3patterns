@@ -10,7 +10,7 @@
 
 ---
 
-## Contact of Consent
+## Contract of Consent
 
 * in the absence of objections against an agreement you support following through on the agreement as good as possible
 * as soon as you become aware of an objection, or a tension with the agreement, you bring it to the circle to process it.

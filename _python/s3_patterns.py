@@ -28,6 +28,7 @@ s3_patterns = {
         "continuous improvement of work process",
         "open S3 adoption",
         "pull-system for organizational change",
+        "driver mapping",
     ],
     "building organizations": [
         "align flow",
