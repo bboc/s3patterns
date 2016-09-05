@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+**2016-09-05**
+
+* added description for driver mapping
+* patterns now grouped in logical order (previously: alphabetical)
+
 **2016-08-24**
 
 * integrated 8 new and several updated images
