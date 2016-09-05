@@ -63,33 +63,42 @@ def build_deckset_slides(args):
 class DecksetWriter(object):
     CONTENT_MARKER = "<!-- INSERT-CONTENT -->"
     PATTERN_NUMBER = 'P%s.%s:'
+    GROUP_TITLE_IMAGE = '\n![inline,fit](img/pattern-groups/group-%s.png)\n\n'
     GROUP_INDEX_IMAGE = '\n![inline,fit](img/grouped-patterns/group-%s.png)\n\n'
     GROUP_INDEX_FILENAME = 'index.md'
 
     def __init__(self, args):
         self.args = args
         self.source = self.args.source
-        self.template_path = os.path.join(os.path.dirname(self.args.target), 'deckset_template.md')
-    
+        self.template_path = os.path.join(
+            os.path.dirname(self.args.target), 'deckset_template.md')
+
     def build(self):
         with codecs.open(self.args.target, 'w+', 'utf-8') as self.target:
             with codecs.open(self.template_path, 'r', 'utf-8') as self.template:
 
                 self.copy_template_header()
-                self._copy_markdown(self.source, 'title.md') # insert title slides
+                # insert title slides
+                self._copy_markdown(self.source, 'title.md')
+
+                # insert all pattern groups
+                for i, group in enumerate(handbook_group_order):
+                    self.target.write(self.GROUP_INDEX_IMAGE % str(i + 1))
+                    self.target.write('\n\n---\n\n')
 
                 # add all the groups
                 for i, group in enumerate(handbook_group_order):
-                    self.insert_group(group, i+1)
+                    self.insert_group(group, i + 1)
 
-                self._copy_markdown(self.source, 'closing.md') # insert closing slides
+                # insert closing slides
+                self._copy_markdown(self.source, 'closing.md')
                 self.copy_template_footer()
 
     def copy_template_header(self):
         for line in self.template:
             if line.strip() == self.CONTENT_MARKER:
                 break
-            else: 
+            else:
                 self.target.write(line)
 
     def copy_template_footer(self):
@@ -100,8 +109,11 @@ class DecksetWriter(object):
         """Build group index and pattern slides."""
         folder = os.path.join(self.source, make_pathname(group))
 
-        # group title slide
-        self.target.write('\n# %s. %s \n\n' % (group_index, make_title(group)))
+        # group title and index slides
+        # self.target.write('\n# %s. %s \n\n---\n\n' % (group_index,
+        # make_title(group)))
+        self.target.write(self.GROUP_TITLE_IMAGE % str(group_index))
+        self.target.write('\n\n---\n\n')
         self.target.write(self.GROUP_INDEX_IMAGE % str(group_index))
         self.target.write('\n\n---\n\n')
 
@@ -109,18 +121,12 @@ class DecksetWriter(object):
         if os.path.exists(os.path.join(folder, self.GROUP_INDEX_FILENAME)):
             self._copy_markdown(folder, self.GROUP_INDEX_FILENAME)
 
-        # # pattern index for group
-        # self.target.write('\n# %s \n\n' % make_title(group))
-        # self.target.write('\n## Pattern Index: \n\n')
-        # for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):
-        #     self.target.write('* %s %s\n' % (self.PATTERN_NUMBER % (group_index, pattern_index + 1), make_title(pattern)))
-        # self.target.write('\n\n---\n\n')
-
         # add individual patterns
-        for pattern_index, pattern in enumerate(sorted(s3_patterns[group])):
-            self._copy_markdown(folder, '%s.md' % make_pathname(pattern), self.PATTERN_NUMBER % (group_index, pattern_index + 1))
-            
-    def _copy_markdown(self, folder, name, headline_prefix = ''):
+        for pattern_index, pattern in enumerate(s3_patterns[group]):
+            self._copy_markdown(folder, '%s.md' % make_pathname(
+                pattern), self.PATTERN_NUMBER % (group_index, pattern_index + 1))
+
+    def _copy_markdown(self, folder, name, headline_prefix=''):
         with codecs.open(os.path.join(folder, name), 'r', 'utf-8') as section:
             if headline_prefix:
                 # insert patter number into first headline of file
@@ -128,8 +134,10 @@ class DecksetWriter(object):
                 try:
                     pos = line.index('# ')
                 except ValueError():
-                    raise Exception("no headline in first line of %s" % os.path.join(folder, name))
-                self.target.write(''.join((line[:pos+1], headline_prefix, line[pos+1:])))
+                    raise Exception(
+                        "no headline in first line of %s" % os.path.join(folder, name))
+                self.target.write(
+                    ''.join((line[:pos + 1], headline_prefix, line[pos + 1:])))
             for line in section:
                 self.target.write(line)
         self.target.write('\n\n---\n\n')
@@ -141,7 +149,7 @@ def build_reveal_slides(args):
     template.html is expected in the same folder.
     """
     r = RevealJsWriter(args)
-    r.build()   
+    r.build()
 
 
 class RevealJsWriter(object):
@@ -151,10 +159,10 @@ class RevealJsWriter(object):
     def __init__(self, args):
         self.args = args
         self.source = self.args.source
-        self.template_path = os.path.join(os.path.dirname(self.args.target), 'template.html')
-    
+        self.template_path = os.path.join(
+            os.path.dirname(self.args.target), 'template.html')
+
     def build(self):
-   
         with codecs.open(self.args.target, 'w+', 'utf-8') as self.target:
             with codecs.open(self.template_path, 'r', 'utf-8') as self.template:
 
@@ -169,7 +177,7 @@ class RevealJsWriter(object):
         for line in self.template:
             if line.strip() == self.CONTENT_MARKER:
                 break
-            else: 
+            else:
                 self.target.write(line)
 
     def copy_template_footer(self):
@@ -192,25 +200,25 @@ class RevealJsWriter(object):
 
     def insert_group(self, group):
         folder = os.path.join(self.source, make_pathname(group))
-        
+
         self._start_section()
-        
+
         if os.path.exists(os.path.join(folder, 'index.md')):
             self._start_slide()
             self._copy_markdown(folder, 'index.md')
             self._end_slide()
-        
-        for pattern in sorted(s3_patterns[group]):
+
+        for pattern in s3_patterns[group]:
             self._start_slide()
             self._copy_markdown(folder, '%s.md' % make_pathname(pattern))
             self._end_slide()
-        
+
         self._end_section()
 
-    def _start_section(self):    
+    def _start_section(self):
         self.target.write('<section>')
 
-    def _end_section(self):    
+    def _end_section(self):
         self.target.write('</section>')
 
     def _start_slide(self):
@@ -227,6 +235,7 @@ class RevealJsWriter(object):
 
 
 class LineWriter(object):
+
     def __init__(self, target, newlines):
         self.target = target
         if not newlines:
@@ -259,26 +268,28 @@ SLIDE_START = """
     <script type="text/template">
 """
 
-SLIDE_END = """    
+SLIDE_END = """
     </script>
 </section>
 """
 
 IMG_TEMPLATE = '![](%s)'
 IMG_PATTERN = re.compile("\!\[(.*)\]\((.*)\)")
-FLOATING_IMAGE = Template("""<img class="float-right" src="$url" width="50%" />""")
+FLOATING_IMAGE = Template(
+    """<img class="float-right" src="$url" width="50%" />""")
+
 
 def convert_to_reveal(source, target):
     lw = LineWriter(target, source.newlines)
     for line in source:
-        l = line.strip()    
+        l = line.strip()
         if not l:
             lw.mark_empty_line()
         elif l == '---':
             lw.write(SLIDE_END)
             lw.write(SLIDE_START)
             # omit line, do not change empty line marker!
-            pass 
+            pass
         elif l.startswith('##'):
             lw.write(increase_headline_level(l))
         elif line.lstrip().startswith("!["):
