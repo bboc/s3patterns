@@ -46,7 +46,7 @@ def create_master_file_with_all_patterns(dst_dir):
     with file(os.path.join(dst_dir, 'patterns--master.md'), 'w+') as fp:
         for group in handbook_group_order:
             fp.write('\n\n{{%s--content.md}}\n' % make_pathname(group))
-            for pattern in sorted(s3_patterns[group]):
+            for pattern in s3_patterns[group]:
                 fp.write('\n{{%s.md}}\n' % make_pathname(pattern))
 
 
