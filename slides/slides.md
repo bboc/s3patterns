@@ -1,4 +1,4 @@
-footer: Sociocracy 3.0 - Patterns for Agile Organizations © 2016 by Bernhard Bockelbrink (v2016-08-30) - evolvingcollaboration.com
+footer: Sociocracy 3.0 - Patterns for Agile Organizations © 2016 by Bernhard Bockelbrink and James Priest (v2016-09-13) - evolvingcollaboration.com
 slidenumbers: true
 autoscale: true
 theme: Plain Jane, 2
@@ -9,8 +9,8 @@ theme: Plain Jane, 2
 
 ## All Patterns Explained
 
-#### Bernhard Bockelbrink
-####<http://evolvingcollaboration.com>
+#### Bernhard Bockelbrink and James Priest
+#### <http://evolvingcollaboration.com/sociocracy-30/>
 
 ---
 
@@ -1641,19 +1641,23 @@ Follow us on **twitter**: [@sociocracy30](http://twitter.com/@sociocracy30)
 
 # License #
 
-This work by Bernhard Bockelbrink is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
+This work by Bernhard Bockelbrink and James Priest is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Parts of this work are copied or adapted from "A brief Introduction to Sociocracy 3.0" and "The Sociocracy 3.0 Handbook" by Bernhard Bockelbrink and James Priest.
+
+The latest version of this document is available at <http://evolvingcollaboration.com/sociocracy-30>
 
 ---
 
 ![fit](img/general/logo.png)
 
-**Bernhard Bockelbrink** is co-founder of The Sociocracy 3.0 Movement. As an agile coach, consultant and trainer he is supporting organizations in agile transformations and helps them on their way towards an evolved culture of leadership and close collaboration that allows them to sustainably grow great products and services with happy people.
-
-He has 18 years of experience in as a coach, CTO, scrum master, product owner, project manager, technology consultant and developer in Startups, small-/medium-sized businesses and enterprises, and a passion for agile and lean software development that goes back to the late 1990s.
+**Bernhard Bockelbrink** is an agile coach, trainer and consultant supporting individuals, teams and organizations in navigating complex challenges and developing a culture of effective, conscious and joyful collaboration.
 
 [evolvingcollaboration.com](http://evolvingcollaboration.com) -- [bernhard.bockelbrink@gmail.com](mailto:bernhard.bockelbrink@gmail.com)
+
+**James Priest** is an interdependent consultant, facilitator and trainer specializing in holistic organizational development, distributed leadership implementation and complex systems optimization.
+
+[thriveincollaboration.com](http://thriveincollaboration.com)  -- [james@thriveincollaboration.com](mailto:james@thriveincollaboration.com)
+
 
 
 ---

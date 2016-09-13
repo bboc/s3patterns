@@ -1,7 +1,17 @@
-footer: Sociocracy 3.0 - Essential Patterns © 2016 by Bernhard Bockelbrink (v2016-08-30) - evolvingcollaboration.com
+footer: Sociocracy 3.0 - Essential Patterns © 2016 by Bernhard Bockelbrink and James Priest (v2016-09-13) - evolvingcollaboration.com
 slidenumbers: true
 autoscale: true
 theme: Plain Jane, 2
+
+# Sociocracy 3.0 - Patterns for Agile Organizations
+
+![fit](img/general/logo.png)
+
+## Essential Patterns
+
+#### Bernhard Bockelbrink and James Priest
+#### <http://evolvingcollaboration.com/sociocracy-30/>
+
 
 ## The Seven Principles
 

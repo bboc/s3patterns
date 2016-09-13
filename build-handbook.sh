@@ -25,7 +25,7 @@ latexmk -c $NAME.tex
 # render markdown to HTML
 multimarkdown --to=html --output=$NAME.html master-epub.md
 # use pandoc to create epub file
-pandoc --epub-stylesheet=buttondown.css --epub-metadata=epub-metadata.xml --epub-cover-image=img/s3-handout-beb.png  -S -o ../$NAME.epub $NAME.html
+pandoc --epub-stylesheet=buttondown.css --epub-metadata=epub-metadata.xml --epub-cover-image=img/s3-handbook-cover.png  -S -o ../$NAME.epub $NAME.html
 
 
 # Old version

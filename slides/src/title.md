@@ -4,8 +4,8 @@
 
 ## All Patterns Explained
 
-#### Bernhard Bockelbrink
-####<http://evolvingcollaboration.com>
+#### Bernhard Bockelbrink and James Priest
+#### <http://evolvingcollaboration.com/sociocracy-30/>
 
 ---
 
