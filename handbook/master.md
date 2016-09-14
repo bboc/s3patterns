@@ -1,5 +1,5 @@
 latex input:        mmd-memoir-header
-Title:              Sociocracy 3.0 Patterns
+Title:              Sociocracy 3.0 Handbook (beta)
 Author:             Bernhard Bockelbrink and James Priest
 Base Header Level:  1
 LaTeX Mode:         mmemoir
