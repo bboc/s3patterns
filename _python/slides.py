@@ -58,11 +58,12 @@ def build_deckset_slides(args):
     """Create a source file for a deckset presentation."""
     r = DecksetWriter(args)
     r.build()
+    r.build_web_markdown()
 
 
 class DecksetWriter(object):
     CONTENT_MARKER = "<!-- INSERT-CONTENT -->"
-    PATTERN_NUMBER = 'P%s.%s:'
+    PATTERN_NUMBER = ' P%s.%s:'
     GROUP_TITLE_IMAGE = '\n![inline,fit](img/pattern-groups/group-%s.png)\n\n'
     GROUP_INDEX_IMAGE = '\n![inline,fit](img/grouped-patterns/group-%s.png)\n\n'
     GROUP_INDEX_FILENAME = 'index.md'
@@ -74,6 +75,7 @@ class DecksetWriter(object):
             os.path.dirname(self.args.target), 'deckset_template.md')
 
     def build(self):
+        print self.args.target
         with codecs.open(self.args.target, 'w+', 'utf-8') as self.target:
             with codecs.open(self.template_path, 'r', 'utf-8') as self.template:
 
@@ -94,6 +96,14 @@ class DecksetWriter(object):
                 self._copy_markdown(self.source, 'closing.md')
                 self.copy_template_footer()
 
+    def build_web_markdown(self):
+        """Build indivdual markdown files for web publishing."""
+        # add all the groups
+        for i, group in enumerate(handbook_group_order):
+            with codecs.open(os.path.join('web', '%s.md' % group), 'w+', 'utf-8') as self.target:
+                self.insert_group(group, i + 1, False)
+
+
     def copy_template_header(self):
         for line in self.template:
             if line.strip() == self.CONTENT_MARKER:
@@ -105,15 +115,16 @@ class DecksetWriter(object):
         for line in self.template:
             self.target.write(line)
 
-    def insert_group(self, group, group_index):
+    def insert_group(self, group, group_index, write_title_slide=True):
         """Build group index and pattern slides."""
         folder = os.path.join(self.source, make_pathname(group))
 
         # group title and index slides
         # self.target.write('\n# %s. %s \n\n---\n\n' % (group_index,
         # make_title(group)))
-        self.target.write(self.GROUP_TITLE_IMAGE % str(group_index))
-        self.target.write('\n\n---\n\n')
+        if write_title_slide:
+            self.target.write(self.GROUP_TITLE_IMAGE % str(group_index))
+            self.target.write('\n\n---\n\n')
         self.target.write(self.GROUP_INDEX_IMAGE % str(group_index))
         self.target.write('\n\n---\n\n')
 
