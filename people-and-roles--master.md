@@ -1,8 +1,8 @@
 ---
-title: People and roles
+title: People And Roles
 ---
 
 
-{{roles--content.md}}
+{{people-and-roles--content.md}}
 
-{{roles--toc.md}}
+{{people-and-roles--toc.md}}

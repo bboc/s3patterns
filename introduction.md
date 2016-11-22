@@ -60,7 +60,7 @@ The focus of this handbook is  mostly on S3 in the context of organizations. The
 
 ## Models of Management
 
-!{A Comparison of Different Models of Management](img/s3-context/models-of-management-plain.png)
+![A Comparison of Different Models of Management](img/s3-context/models-of-management-plain.png)
 
 ## The S3 Movement ##
 
@@ -129,6 +129,6 @@ A **pattern** is a template for successfully navigating a specific context.
 
 S3 patterns are discovered through observing many organizations as they solve problems, innovate, and respond to opportunities. Patterns may need to be adapted and evolved to suit differing contexts and needs.
 
-![S3's 65 patterns are organized in 9 groups. ](img/pattern-groups/all.png)
+![S3's 65 patterns are organized in 9 groups. ](img/pattern-group-headers/all-groups.png)
 
 

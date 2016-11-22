@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+
+
 # Groups:
 handbook_group_order = [
     "making and evolving agreements",
@@ -57,7 +59,7 @@ s3_patterns = {
     ],
     "building organizations": [
         "align flow",
-        "organize in nested domains",
+        "domain",
         "linking",
         "open systems",
     ],
@@ -106,6 +108,7 @@ s3_patterns = {
 # 1. upate new names in both structures above
 # 2. add renames to both structures below
 # 3. run the rename tool
+# 4. regenerate TOCs: python _python/build_patterns.py build --toc
 
 
 groups_to_rename = [
@@ -121,7 +124,8 @@ patterns_to_rename = [
     ('adopt S3 principles', 'adopt the seven principles'),
     ('evaluating decisions', 'evaluate agreements'),
     ('navigation via tensions', 'navigating via tension'),
-    ('organizing in circles', 'organize in nested domains'),
+    ('organizing in circles', 'domain'),
+    ('organize in nested domains', 'domain'),
     ('role descriptions', 'role description'),
     ('secretary', 'meeting host'),
 ]

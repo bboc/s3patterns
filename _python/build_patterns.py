@@ -81,6 +81,7 @@ def front_matter(fp, title=''):
 
 def build_toc_files(args, patterns, root='content-tmp'):
     """(Re-)build all includes with tables of contents."""
+    print "writing files to", root
     create_directory(root)
 
     def write_link(fp, link_title, link_path):
