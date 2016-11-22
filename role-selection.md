@@ -86,16 +86,16 @@ The facilitator begins the consent round next to the candidate so the candidate 
 
 Those with objections share the reasons for their objections, but there's no discussion before the round has finished.
 
-The facilitator has several options to resolve objections (see [Resolving Objections][]), in many cases an amendment to the role description (e.g. a shorter term) followed by another consent round will be enough.
+The facilitator has several options to resolve objections (see [Resolve Objections](resolve-objections.md)), in many cases an amendment to the role description (e.g. a shorter term) followed by another consent round will be enough.
 
 If an amendment of the role description is not possible, the facilitator would select another candidate from the nominations and start a new consent round.
 
-If the role cannot be filled, the group might decide to use [Proposal Forming][] to deal with the issue.
+If the role cannot be filled, the group might decide to use [Proposal Forming](proposal-forming.md) to deal with the issue.
 
 
 ## Goes well with... ##
 
-Elections benefit from a good [Role Description][] and regular [Performance Review][]. Both the facilitator and the group need to understand the pattern of [Rounds][]. 
+Elections benefit from a good [Role Description](role-description.md) and regular [Effectiveness Review](effectiveness-review.md). Both the facilitator and the group need to understand the pattern of [Rounds](reounds.md). 
 
 
 ### Other comments ###

@@ -48,7 +48,7 @@ and integrates that wisdom into their decisions.
 
 Through this process, groups are often able to create solutions that are not merely acceptable to everyone[^i.e. a compromise], but  the expression of a synergy of all the diverse perspectives in the group.
 
-Establishing consent is a fairly quick and painless exercise for a group that is experienced with a good decision making process such as the [Decider and Resolution Protocols][] or  [Consent Decision Making][] 
+Establishing consent is a fairly quick and painless exercise for a group that is experienced with a good decision making process such as the [Decider and Resolution Protocols][] or [Consent Decision Making][] 
 
 
 ### Considerations ###
@@ -64,7 +64,7 @@ It is possible to establish consent without a formal process, but a following a 
 
 ### Other Applications ###
 
-The principle of consent can be applied with any decision or agreement, including, but not limited to  [Proposal Forming][], processing agenda items in the [Governance Meeting][], evaluating implemented agreements, the creation of [Roles][], selection of individuals to a role, or effectiveness reviews.
+The principle of consent can be applied with any decision or agreement, including, but not limited to  [Proposal Forming][], processing agenda items in the [Governance Meeting][], evaluating implemented agreements, the creation of a [Role][], selection of individuals to a role, or effectiveness reviews.
 
 
 ## The Consent Decision Making Format ##
@@ -82,7 +82,7 @@ A good decision making process is essential for effective collaboration and cont
 
 Consent Decision Making is a streamlined process that includes all the necessary steps for the group to attune to a proposal and quickly arrive at a decision that is good enough for the now and save enough to try.
 
-The process is designed in a way that both the facilitator and the group will quickly become experts in Consent Decision Making, being able to balance equivalence of individuals and the effectiveness of the group so they can effortlessly navigate a [Governance Meeting][] with a large agenda in a short amount of time.
+The process is designed in a way that both the facilitator and the group will quickly become experts in Consent Decision Making, being able to balance equivalence of individuals and the effectiveness of the group so they can effortlessly navigate a [Governance Meeting](governance-meeting.md) with a large agenda in a short amount of time.
 
 
 ### How to implement it? ###
@@ -105,7 +105,7 @@ It is important for the group to know that there will be no discussion and the f
 
 The facilitator has the group gather in a circle and asks the owner of the proposal to briefly __present the proposal__.
 
-For the following steps the facilitator uses [Rounds][], i.e. they pick a random member of the group to speak first and then go around the circle clockwise or counterclockwise until everyone has spoken. If the speaker is interrupted or the group starts a discussion, the facilitator gently reminds them of the process.
+For the following steps the facilitator uses [Rounds](rounds.md), i.e. they pick a random member of the group to speak first and then go around the circle clockwise or counterclockwise until everyone has spoken. If the speaker is interrupted or the group starts a discussion, the facilitator gently reminds them of the process.
 
 
 #### Phase 2: Clarifying Questions ####
@@ -127,7 +127,7 @@ In the following  round the facilitator asks everyone for objections, participan
 
 If there's objections, now is the time to hear them. The facilitator makes sure the each objection is argued and paramount before summarizing it on a whiteboard or flip chart. 
 
-After all the objections have been heard, the facilitator helps processing them to integrate the emergent wisdom into the decision. (see [Resolve Objection][])
+After all the objections have been heard, the facilitator helps processing them to integrate the emergent wisdom into the decision. (see [Resolve Objections](resolve-objections.md)
 
 If the proposal has been amended on the spot, the facilitator determines at which step to continue with the Consent Decision Making Process: presentation of the proposal, clarifying questions, quick reactions, or consent round. 
 
@@ -143,9 +143,9 @@ Now is the time to celebrate the decision and then move on to the next item on t
 
 ### Related Patterns ####
 
-[Governance Meetings][] helps a group with being more relaxed with decisions, because the participants know they can refine and adapt a decision in the next iteration.
+A regular [Governance Meeting](governance-meeting.md) helps a group with being more relaxed with decisions, because the participants know they can refine and adapt a decision in the next iteration.
 
-[Evaluate Agreements][] also helps with faster decisions, because any decision will automatically appear on the agenda of the Governance Meeting. For controversial topics setting a review date in the near future allows participants with concerns about the decision to view it as a short experiment that is contained safely in a time-box.
+[Evaluate Agreements](evaluate-agreements.md) also helps with faster decisions, because any decision will automatically appear on the agenda of the Governance Meeting. For controversial topics setting a review date in the near future allows participants with concerns about the decision to view it as a short experiment that is contained safely in a time-box.
 
 
 

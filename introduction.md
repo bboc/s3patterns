@@ -131,4 +131,6 @@ S3 patterns are discovered through observing many organizations as they solve pr
 
 ![S3's 65 patterns are organized in 9 groups. ](img/pattern-group-headers/all-groups.png)
 
+{{s3-in-a-nutshell.md}}
+
 
