@@ -4,7 +4,8 @@ import argparse
 import os
 import shutil
 
-from s3_patterns import s3_patterns, all_patterns, groups_to_rename, handbook_group_order, patterns_to_rename
+from s3_patterns import s3_patterns, all_patterns, handbook_group_order
+from config import groups_to_rename, patterns_to_rename
 from common import make_pathname, make_title, create_directory
 from slides import cmd_slides
 
