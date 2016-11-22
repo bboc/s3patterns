@@ -26,3 +26,20 @@ patterns_to_rename = [
     ('secretary', 'meeting host'),
 ]
 
+
+additional_texts_for_handbook = [
+
+ 	('introduction.md', 1),
+    ('seven-principles.md', 2),
+    ('changelog.md', 2),
+]
+
+additional_content_to_export = ['introduction', 'changelog']
+
+artefacts_to_export = [
+    '_DROPBOX_WORKFLOW.md',
+    '_TODO.md',
+    'README.md',
+    'S3-patterns-handbook.epub',
+    'S3-patterns-handbook.pdf',
+]

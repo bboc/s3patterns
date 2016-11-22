@@ -5,7 +5,7 @@ import os
 import shutil
 
 from s3_patterns import s3_patterns, all_patterns, handbook_group_order
-from config import groups_to_rename, patterns_to_rename
+from config import groups_to_rename, patterns_to_rename, artefacts_to_export, additional_content_to_export
 from common import make_pathname, make_title, create_directory
 from slides import cmd_slides
 
@@ -29,8 +29,8 @@ def cmd_build(args):
 def cmd_export(args):
     """Export all content files to a separate folder, optionally suffix with --original."""
 
-    additional_content = ['introduction', 'changelog']
-    artefacts = [
+    additional_content_to_export = ['introduction', 'changelog']
+    artefacts_to_export = [
         '_DROPBOX_WORKFLOW.md',
         '_TODO.md',
         'README.md',

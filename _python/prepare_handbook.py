@@ -6,6 +6,7 @@ import os
 import shutil
 
 from s3_patterns import s3_patterns, handbook_group_order, all_patterns
+from config import additional_texts_for_handbook
 from common import make_pathname, make_title, create_directory
 from convert_jekyll_files import copy_and_fix_headlines
 
@@ -36,9 +37,8 @@ def convert_and_copy_all_files_to_tmp(dst_dir, patterns):
         copy_and_fix_headlines(
             dst_dir, '%s--content.md' % make_pathname(group), 2)
 
-    copy_and_fix_headlines(dst_dir, 'introduction.md', 1)
-    copy_and_fix_headlines(dst_dir, 'seven-principles.md', 2)
-    copy_and_fix_headlines(dst_dir, 'changelog.md', 2)
+    for (filename, headline_level) in additional_texts_for_handbook: 
+        copy_and_fix_headlines(dst_dir, filename, headline_level)
 
 
 def create_master_file_with_all_patterns(dst_dir):
