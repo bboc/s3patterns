@@ -3,6 +3,7 @@
 import argparse
 import os
 import shutil
+import re
 
 from s3_patterns import s3_patterns, all_patterns, handbook_group_order
 from config import groups_to_rename, patterns_to_rename, artefacts_to_export, additional_content_to_export
@@ -176,7 +177,7 @@ def cmd_update(args):
     print " 2. build --exluded  (for config.yml)"
     print " 3. build --index (for build commands)"
     print " 4. run the build command to refresh everything"
-    print " 5. build handbook and website and check everythin"
+    print " 5. build handbook and website and check everything"
     print " 6. commit"
 
 def match_and_rename(root, filename):
@@ -223,6 +224,17 @@ def match_and_rename(root, filename):
     process_class(patterns_to_rename, PATTERN_TEMPLATES, PATTERN_PREFIX_TEMPLATES)
 
 
+CROSS_REFERENCE = re.compile("(\[[\w\s\-]+?\]\[\])")
+def cmd_references(args):
+    with file(args.source, 'r') as source:
+        for line in source:
+            line = line.rstrip()
+            result = CROSS_REFERENCE.findall(line)
+            for ref in result:
+                title = ref[1:-3]
+                new_ref = "[%s](%s)" % (title, make_pathname(title))
+                line = line.replace(ref, new_ref)
+            print line
 
 if __name__ == "__main__":
 
@@ -271,6 +283,14 @@ if __name__ == "__main__":
                         help='One or several target folders.')
 
     update.set_defaults(func=cmd_update)
+
+    references = subparsers.add_parser('references',
+                                   help="Expand all cross-references.")
+    references.add_argument('source',
+                        help='Source folder or file.')
+
+    references.set_defaults(func=cmd_references)
+
 
     args = parser.parse_args()
     args.func(args)
