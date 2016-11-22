@@ -20,7 +20,7 @@ pdflatex -pdf -silent $NAME.tex
 mv $NAME.pdf ../$NAME.pdf
 
 # clean up latex artefacts
-latexmk -c $NAME.tex
+# no cleanup, b/c this kills the index latexmk -c $NAME.tex
 
 # render markdown to HTML
 multimarkdown --to=html --output=$NAME.html master-epub.md
