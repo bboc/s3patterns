@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+**2016-11-21**
+
+* updated illustrations to latest version
+* added pattern "Domain"
+* added introduction "S3 in a nutshell"
+* fixed several broken references, added new cross-references
+
 **2016-09-05**
 
 * added description for driver mapping
