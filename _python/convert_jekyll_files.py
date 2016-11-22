@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 
 import codecs
 import os
+import re
 
 
 class LineWriter(object):
@@ -29,7 +30,9 @@ class LineWriter(object):
         self.prev_line_empty = True
 
 
-def copy_and_fix_headlines(dst_dir, filename, headline_level=1):
+CROSS_REFERENCE = re.compile("\[(.*?)\](\(.+?.md\))")
+
+def copy_and_fix_headlines(dst_dir, filename, headline_level=1, reference_converter=False):
     """
     Copy files to destination directory, increase headline level, 
     move page headline from front matter.
@@ -67,7 +70,14 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level=1):
                 elif l.startswith('#'):
                     lw.write(increase_headline_level(l, headline_level))
                 else:
-                    lw.write(line)
+                    if callable(reference_converter):
+                        result = CROSS_REFERENCE.findall(l)
+                        # replace all link targets
+                        for (text, target) in result:
+                            l = l.replace(target, reference_converter(text,target))
+                        lw.write(l)
+                    else: 
+                        lw.write(line)
 
 
 def increase_headline_level(line, times):

@@ -4,6 +4,7 @@
 import argparse
 import os
 import shutil
+from functools import partial 
 
 from s3_patterns import s3_patterns, handbook_group_order, all_patterns
 from config import additional_texts_for_handbook
@@ -14,6 +15,12 @@ from convert_jekyll_files import copy_and_fix_headlines
 def prepare_handbook(args):
     """Prepare all source files so handbook can be compiled through mmd/latex and pandoc/epub."""
     patterns = all_patterns()
+    
+    ## build filename lookup
+    pattern_filename_lookup = {make_pathname(pattern): pattern for pattern in patterns}
+    refcon = partial(reference_converter, pattern_filename_lookup)
+
+
     dst_dir = os.path.join('handbook', 'tmp')
 
     create_directory(dst_dir)
@@ -21,24 +28,36 @@ def prepare_handbook(args):
         raise Exception(
             "ERROR: Handbook group order does not reflect actual pattern groups!")
 
-    convert_and_copy_all_files_to_tmp(dst_dir, patterns)
+    convert_and_copy_all_files_to_tmp(dst_dir, patterns, refcon)
     create_master_file_with_all_patterns(dst_dir)
 
 
-def convert_and_copy_all_files_to_tmp(dst_dir, patterns):
+def reference_converter(pattern_filename_lookup, text, target):
+    """Convert links to markdown files to cross-references. If the link matches 
+    the text, return '[]', otherwise return the '[pattern title]'."""
+    pattern = pattern_filename_lookup[target[1:-4]]
+    if text == make_title(pattern):
+        return "[]"
+    else:
+        return"[%s]" % make_title(pattern)
+    return target
+
+
+def convert_and_copy_all_files_to_tmp(dst_dir, patterns, refcon):
     """
     Copy all pattern and group--content files to handbook/tmp, 
-    convert front matter title to headline and adapt all headline levels as required.
+    convert front matter title to headline, adapt all headline levels as required
+    and process cross-reference links.
     """
     for pattern in patterns:
-        copy_and_fix_headlines(dst_dir, '%s.md' % make_pathname(pattern), 3)
+        copy_and_fix_headlines(dst_dir, '%s.md' % make_pathname(pattern), 3, reference_converter=refcon)
 
     for group in sorted(s3_patterns.keys()):
         copy_and_fix_headlines(
-            dst_dir, '%s--content.md' % make_pathname(group), 2)
+            dst_dir, '%s--content.md' % make_pathname(group), 2, reference_converter=refcon)
 
     for (filename, headline_level) in additional_texts_for_handbook: 
-        copy_and_fix_headlines(dst_dir, filename, headline_level)
+        copy_and_fix_headlines(dst_dir, filename, headline_level, reference_converter=refcon)
 
 
 def create_master_file_with_all_patterns(dst_dir):
@@ -51,6 +70,8 @@ def create_master_file_with_all_patterns(dst_dir):
 
 
 if __name__ == "__main__":
+
+
 
     # setup argparse
     parser = argparse.ArgumentParser(

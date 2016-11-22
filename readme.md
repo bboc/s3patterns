@@ -12,5 +12,9 @@ This work by Bernhard Bockelbrink is licensed under the Creative Commons Attribu
 
 
 
+## Cross-references
 
+Since the github pages use jekyll to build the site, and preprocessing the pages is not possible, links to patterns must be in a form jekyll understands, i.e. '[Link Text](filename.md)'. The handbook, however, needs MultiMarktdown crossreferences, i.e. [Pattern Name][] or [something][Pattern Name].
+
+The handbook builder attempts to parse all links to a Markdown file with an link to a pattern file using the pattern names in s3_patterns.py.
 
