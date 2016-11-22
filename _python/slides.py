@@ -64,7 +64,7 @@ def build_deckset_slides(args):
 class DecksetWriter(object):
     CONTENT_MARKER = "<!-- INSERT-CONTENT -->"
     PATTERN_NUMBER = ' P%s.%s:'
-    GROUP_TITLE_IMAGE = '\n![inline,fit](img/pattern-groups/group-%s.png)\n\n'
+    GROUP_TITLE_IMAGE = '\n![inline,fit](img/pattern-group-headers/header-group-%s.png)\n\n'
     GROUP_INDEX_IMAGE = '\n![inline,fit](img/grouped-patterns/group-%s.png)\n\n'
     GROUP_INDEX_FILENAME = 'index.md'
 
