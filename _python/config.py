@@ -31,6 +31,7 @@ additional_texts_for_handbook = [
 
  	('introduction.md', 1),
     ('seven-principles.md', 2),
+ 	('s3-in-a-nutshell.md', 1),
     ('changelog.md', 2),
 ]
 
