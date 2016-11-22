@@ -14,8 +14,8 @@ NAME=s3-patterns-handbook
 
 # render mmd file to latex trough master.md with metadata
 multimarkdown --to=latex --output=$NAME.tex master.md
-# make the pdf
-latexmk -pdf -silent $NAME.tex
+# make the pdf (pdflatex required to read image dimensions)
+pdflatex -pdf -silent $NAME.tex
 # copy pdf to output folder
 mv $NAME.pdf ../$NAME.pdf
 
