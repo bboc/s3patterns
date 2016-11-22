@@ -10,9 +10,9 @@ Effective meetings are a cornerstone of effective collaboration and continuous i
 * [Artful Participation](artful-participation.html)
 * [Logbook](logbook.html)
 * [Logbook Keeper](logbook-keeper.html)
+* [Meeting Evaluation](meeting-evaluation.html)
 * [Meeting Facilitation](meeting-facilitation.html)
-* [Meetingevaluation](meetingevaluation.html)
+* [Meeting Host](meeting-host.html)
 * [Rounds](rounds.html)
-* [Secretary](secretary.html)
 
 

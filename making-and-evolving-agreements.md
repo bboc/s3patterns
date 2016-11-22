@@ -16,7 +16,7 @@ S3 contains patterns to cover you from identifying the motive for your actions a
 * [Consent Decision Making](consent-decision-making.html)
 * [Deliverables](deliverables.html)
 * [Driver](driver.html)
-* [Evaluating Decisions](evaluating-decisions.html)
+* [Evaluate Agreements](evaluate-agreements.html)
 * [Evaluation Criteria](evaluation-criteria.html)
 * [Intended Outcome](intended-outcome.html)
 * [Objections](objections.html)
