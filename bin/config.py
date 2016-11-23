@@ -4,7 +4,7 @@
 # 1. upate new names in both structures above
 # 2. add renames to both structures below
 # 3. run the rename tool
-# 4. regenerate TOCs: python _python/build_patterns.py build --toc
+# 4. regenerate TOCs: python bin/build_patterns.py build --toc
 
 
 groups_to_rename = [

@@ -1,5 +1,5 @@
 # prepare handbook build
-python _python/prepare_handbook.py
+python bin/prepare_handbook.py
 
 if [ "$?" != "0" ]; then
 	echo "---error while preparing handbook! --" 1>&2
@@ -41,10 +41,4 @@ pandoc --epub-stylesheet=buttondown.css --epub-metadata=epub-metadata.xml --epub
 # # clean up
 # latexmk -C
 # pandoc handbook-epub-compiled.md -f markdown -t epub3 -s -o ../S3-patterns-handbook.epub
-
-
-
-
-
-
 

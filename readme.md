@@ -18,6 +18,6 @@ Since the github pages use jekyll to build the site, and preprocessing the pages
 
 The handbook builder attempts to parse all links to a Markdown file with an link to a pattern file using the pattern names in s3_patterns.py.
 
-To facilitate adding cross-references, add them in shortcode `[Name][]` and then convert them to jekyll syntax using `python _python/build_patterns.py references . tmp`
+To facilitate adding cross-references, add them in shortcode `[Name][]` and then convert them to jekyll syntax using `python bin/build_patterns.py references . tmp`
 
 
