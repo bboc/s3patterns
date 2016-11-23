@@ -8,4 +8,4 @@ When a team finds that a function required for them to deliver value needs more 
 
 ![A Nested Circle is Linked to the Parent Circle](img/structural-patterns/nested-circle.png)
 
-Coordination between the outer circle and the nested circle happens through one or several members of the outer team, who are also members of the nested circle. Often nested circles grow out of a role, so initially those who held that role are usually best suited for coordination. As with all other roles, it's a good idea to assign them for a limited term, and use [Role Selection][].
+Coordination between the outer circle and the nested circle happens through one or several members of the outer team, who are also members of the nested circle. Often nested circles grow out of a role, so initially those who held that role are usually best suited for coordination. As with all other roles, it's a good idea to assign them for a limited term, and use [Role Selection](role-selection.md).

@@ -3,7 +3,7 @@ title: Logbook Keeper
 ---
 
 
-The logbook keeper is responsible for maintaining a circle's logbook:
+The logbook keeper is responsible for maintaining a circle's [logbook][logbook.md]:
 
 * recording all relevant information and adding it to the logbook
     * all agreements, role descriptions, selections etc.

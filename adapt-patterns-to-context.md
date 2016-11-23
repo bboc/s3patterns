@@ -47,7 +47,7 @@ The proposal needs to be agreed upon by the circle, e.g. by using [Consent Decis
 
 ## Variants ##
 
-If you feel that everyone has a solid understanding of the context and the pattern anyway, e.g. because you are already using it for a while and experience limitations, you might skip the first part and go right into [Proposal Forming[].
+If you feel that everyone has a solid understanding of the context and the pattern anyway, e.g. because you are already using it for a while and experience limitations, you might skip the first part and go right into [Proposal Forming](proposal-forming.md).
 
 A circle might also appoint one or several members to create a proposal for an adaptation in any way they see fit, e.g. by using the activities for understanding pattern and context suggested above, and then present the proposal to the circle, e.g. in the [Governance Meeting](governance-meeting.md).
 

@@ -7,7 +7,8 @@ title: Changelog
 * updated illustrations to latest version
 * added pattern "Domain"
 * added introduction "S3 in a nutshell"
-* fixed several broken references, added new cross-references
+* added strategies for opening salaries to pattern "Transparent Salary"
+* added lots of cross-references between patterns, fixed several broken references and TOC
 
 **2016-09-05**
 

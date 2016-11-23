@@ -3,8 +3,8 @@ title: Support Roles
 ---
 
 
-Apply the idea of roles to external contractors: 
-    
+Apply the idea of [roles][role.md] to external contractors: 
+
 * identify function
 * create a role description
 * implement a selection process

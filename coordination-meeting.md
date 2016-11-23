@@ -3,7 +3,6 @@ title: Coordination Meeting
 ---
 
 
-
 Meet on a regular basis (usually weekly) for reporting on and coordinating work.
 
 * facilitate the meeting, use rounds instead of discussions

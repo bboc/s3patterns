@@ -130,12 +130,12 @@ Consider having an early review when people affected by the agreement raise conc
 
 ## Related patterns
 
-Agreements are evaluated in *Governance Meetings* by the *Circle* that created them.
+Agreements are evaluated in [Governance Meetings][governance-meeting.md] by the [Circle][circle.md] that created them.
 
-The description of an agreement can include the *Driver* it responds to, the *Agreement* itself, any *Intended Outcomes* and *Evaluation Criteria*.
+The description of an agreement can include the [Driver](driver.md) it responds to, the [Agreement](agreements.md) itself, any [Intended Outcomes][intended-outome.md] and [Evaluation Criteria](evaluation-criteria.md).
 
-In Step 2 people review the *Driver* of an agreement.
+In Step 2 people review the [Driver](driver.md) behind an agreement.
 
-In Step 4 *Consent Decision Making* can be used to test the agreement. 
+In Step 4 [Consent Decision Making](consent-decision-making.md) can be used to test the agreement. 
 
-If the circle decides a new agreement is needed, its members might use *Proposal Forming* to come up with one.
+If the circle decides a new agreement is needed, its members might use [Proposal Forming](proposal-forming.md) to come up with one.

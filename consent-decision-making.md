@@ -36,7 +36,7 @@ A __paramount__ objection is so important we cannot let it go, something I could
 
 As a rule of thumb, objections are raised when something is not *good enough for now and safe enough to try*, i.e. when one of the people affected cannot live with a decision.
 
-When new wisdom emerges, consent can be withdrawn at any time, usually by bringing a decision again on the agenda of a [Governance Meeting][].
+When new wisdom emerges, consent can be withdrawn at any time, usually by bringing a decision again on the agenda of a [Governance Meeting](governance-meeting.md).
 
 
 ###  Benefits ###
@@ -48,7 +48,7 @@ and integrates that wisdom into their decisions.
 
 Through this process, groups are often able to create solutions that are not merely acceptable to everyone[^i.e. a compromise], but  the expression of a synergy of all the diverse perspectives in the group.
 
-Establishing consent is a fairly quick and painless exercise for a group that is experienced with a good decision making process such as the [Decider and Resolution Protocols][] or [Consent Decision Making][] 
+Establishing consent is a fairly quick and painless exercise for a group that is experienced with a good decision making process such as the *Decider and Resolution Protocols* or *Consent Decision Making*
 
 
 ### Considerations ###
@@ -64,7 +64,7 @@ It is possible to establish consent without a formal process, but a following a 
 
 ### Other Applications ###
 
-The principle of consent can be applied with any decision or agreement, including, but not limited to  [Proposal Forming][], processing agenda items in the [Governance Meeting][], evaluating implemented agreements, the creation of a [Role][], selection of individuals to a role, or effectiveness reviews.
+The principle of consent can be applied with any decision or agreement, including, but not limited to  [Proposal Forming](proposal-forming.md), processing agenda items in the [Governance Meeting](governance-meeting.md), evaluating implemented agreements, the creation of a [Role](role.md), selection of individuals to a role, or effectiveness reviews.
 
 
 ## The Consent Decision Making Format ##

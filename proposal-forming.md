@@ -56,4 +56,4 @@ The finished proposal(s) are then shared with all members of the group.
 
 The whole group consents to the completeness of the proposal, either synchronously in a consent round or individually (e.g. via email). If the proposals are incomplete, the group gathers again to generate new ideas for proposals.
 
-If the proposals are complete, the whole group needs to consent to it, for that they usually go on the agenda in the [Governance Meeting][] and is processed using [Consent Decision Making][].
+If the proposals are complete, the whole group needs to consent to it, for that they usually go on the agenda in the [Governance Meeting](governance-meeting.md) and is processed using [Consent Decision Making](consent-decision-making.md).

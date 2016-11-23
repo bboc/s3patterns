@@ -95,7 +95,7 @@ If the role cannot be filled, the group might decide to use [Proposal Forming](p
 
 ## Goes well with... ##
 
-Elections benefit from a good [Role Description](role-description.md) and regular [Effectiveness Review](effectiveness-review.md). Both the facilitator and the group need to understand the pattern of [Rounds](reounds.md). 
+Elections benefit from a good [Role Description](role-description.md) and regular [Effectiveness Review](effectiveness-review.md). Both the facilitator and the group need to understand the pattern of [Rounds](rounds.md). 
 
 
 ### Other comments ###
