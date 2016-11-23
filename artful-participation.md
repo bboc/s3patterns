@@ -69,7 +69,7 @@ Although anyone can commit to artful participation on their own, the effect is m
 
 ## Related Patterns
 
-* [Adopt The Seven Principles][adopt-the-seven-principles.md] provides a powerful guiding framework around artful participation
+* [Adopt The Seven Principles](adopt-the-seven-principles.html) provides a powerful guiding framework around artful participation
 * [Agree on Values](agree-on-values.html) supports  a team align on their chosen values, which provides both focus and guide for artful participation
 * [Be the Change](be-the-change.html) is another pattern to support an individual in bringing S3 to their team or organization
 * [Effectiveness Review](effectiveness-review.html) provides feedback on one's participation in a role

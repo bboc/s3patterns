@@ -130,9 +130,9 @@ Consider having an early review when people affected by the agreement raise conc
 
 ## Related patterns
 
-Agreements are evaluated in [Governance Meetings][governance-meeting.md] by the [Circle][circle.md] that created them.
+Agreements are evaluated in [Governance Meetings](governance-meeting.html) by the [Circle](circle.html) that created them.
 
-The description of an agreement can include the [Driver](driver.html) it responds to, the [Agreement](agreements.html) itself, any [Intended Outcomes][intended-outome.md] and [Evaluation Criteria](evaluation-criteria.html).
+The description of an agreement can include the [Driver](driver.html) it responds to, the [Agreement](agreements.html) itself, any [Intended Outcomes](intended-outcome.html) and [Evaluation Criteria](evaluation-criteria.html).
 
 In Step 2 people review the [Driver](driver.html) behind an agreement.
 

@@ -3,7 +3,7 @@ title: Support Roles
 ---
 
 
-Apply the idea of [roles][role.md] to external contractors: 
+Apply the idea of [roles](role.html) to external contractors: 
 
 * identify function
 * create a role description
