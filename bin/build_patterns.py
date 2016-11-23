@@ -234,7 +234,7 @@ def match_and_rename(root, filename):
 
 def cmd_references(args):
     """Expand all cross-references [name][] to links that 
-    Jekyll understands [name][name.md].
+    Jekyll understands [name](name.html).
     if args.source is a folder, process all patterns within that folder,
     if it is a file, process that file (regardless of whether it is a pattern
     or not). If folder args.target is given, write output to that folder,

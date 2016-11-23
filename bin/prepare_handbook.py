@@ -35,12 +35,11 @@ def prepare_handbook(args):
 def reference_converter(pattern_filename_lookup, text, target):
     """Convert links to markdown files to cross-references. If the link matches 
     the text, return '[]', otherwise return the '[pattern title]'."""
-    pattern = pattern_filename_lookup[target[1:-4]]
+    pattern = pattern_filename_lookup[target[1:-6]]
     if text == make_title(pattern):
         return "[]"
     else:
-        return"[%s]" % make_title(pattern)
-    return target
+        return "[%s]" % make_title(pattern)
 
 
 def convert_and_copy_all_files_to_tmp(dst_dir, patterns, refcon):

@@ -46,3 +46,4 @@ artefacts_to_export = [
 ]
 
 MD_FILE_TEMPLATE = "%s.md"
+HTML_FILE_TEMPLATE = "%s.html"

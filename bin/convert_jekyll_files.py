@@ -4,7 +4,7 @@
 from __future__ import unicode_literals
 
 from common import make_pathname
-from config import MD_FILE_TEMPLATE
+from config import MD_FILE_TEMPLATE, HTML_FILE_TEMPLATE
 import codecs
 import os
 import re
@@ -32,7 +32,7 @@ class LineWriter(object):
         self.prev_line_empty = True
 
 
-FULL_CROSS_REFERENCE = re.compile("\[(.*?)\](\(.+?.md\))")
+FULL_CROSS_REFERENCE = re.compile("\[(.*?)\](\(.+?.html\))")
 
 def copy_and_fix_headlines(dst_dir, filename, headline_level=1, reference_converter=False):
     """
@@ -40,7 +40,6 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level=1, reference_conver
     move page headline from front matter.
     """
     result_path = os.path.join(dst_dir, filename)
-
     begin_front_matter = False
     end_front_matter = False
     with codecs.open(filename, 'r', 'utf-8') as source:
@@ -81,6 +80,7 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level=1, reference_conver
                     else: 
                         lw.write(line)
 
+
 SHORT_CROSS_REFERENCE = re.compile("(\[[\w\s\-]+?\]\[\])")
 
 def expand_cross_references(source_filename, target_filename):
@@ -95,11 +95,11 @@ def replace_references(line):
     result = SHORT_CROSS_REFERENCE.findall(line)
     for ref in result:
         title = ref[1:-3]
-        new_ref = "[%s](%s)" % (title, MD_FILE_TEMPLATE % make_pathname(title))
+        new_ref = "[%s](%s)" % (title, HTML_FILE_TEMPLATE % make_pathname(title))
         line = line.replace(ref, new_ref)
     return line
 
-
+ 
 def increase_headline_level(line, times):
     for x in range(times-1):
         line = '#' + line
