@@ -70,10 +70,10 @@ Although anyone can commit to artful participation on their own, the effect is m
 ## Related Patterns
 
 * [Adopt The Seven Principles][adopt-the-seven-principles.md] provides a powerful guiding framework around artful participation
-* [Agree on Values](agree-on-values.md) supports  a team align on their chosen values, which provides both focus and guide for artful participation
-* [Be the Change](be-the-change.md) is another pattern to support an individual in bringing S3 to their team or organization
-* [Effectiveness Review](effectiveness-review.md) provides feedback on one's participation in a role
-* [Meeting Evaluation](meeting-evaluation.md) supports learning about a group's participation after a meeting
-* Understanding the concept of [Objections](objections.md) helps to decide when the team needs to evolve an agreement
-* [Qualifying Drivers](qualifying-drivers.md) is a proactive way of  understanding things before bringing them to the team
+* [Agree on Values](agree-on-values.html) supports  a team align on their chosen values, which provides both focus and guide for artful participation
+* [Be the Change](be-the-change.html) is another pattern to support an individual in bringing S3 to their team or organization
+* [Effectiveness Review](effectiveness-review.html) provides feedback on one's participation in a role
+* [Meeting Evaluation](meeting-evaluation.html) supports learning about a group's participation after a meeting
+* Understanding the concept of [Objections](objections.html) helps to decide when the team needs to evolve an agreement
+* [Qualifying Drivers](qualifying-drivers.html) is a proactive way of  understanding things before bringing them to the team
 

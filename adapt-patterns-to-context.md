@@ -38,18 +38,18 @@ Here's a set of activities to guide you, pick those you find valuable for you. I
 
 ### Co-Create an Adaptation of the Pattern ###
 
-A simple and effective way for creating an adaptation of a pattern is [Proposal Forming](proposal-forming.md), where you can use the output of the first phase as considerations or ingredients for your adaptation.
+A simple and effective way for creating an adaptation of a pattern is [Proposal Forming](proposal-forming.html), where you can use the output of the first phase as considerations or ingredients for your adaptation.
 
-Considering [Intended Outcome](intended-outcome.md) and [Evaluation Criteria](evaluation-criteria.md)  of your proposed adaptation will help you evaluate and evolve the patterns later.
+Considering [Intended Outcome](intended-outcome.html) and [Evaluation Criteria](evaluation-criteria.html)  of your proposed adaptation will help you evaluate and evolve the patterns later.
 
-The proposal needs to be agreed upon by the circle, e.g. by using [Consent Decision Making](consent-decision-making.md)
+The proposal needs to be agreed upon by the circle, e.g. by using [Consent Decision Making](consent-decision-making.html)
 
 
 ## Variants ##
 
-If you feel that everyone has a solid understanding of the context and the pattern anyway, e.g. because you are already using it for a while and experience limitations, you might skip the first part and go right into [Proposal Forming](proposal-forming.md).
+If you feel that everyone has a solid understanding of the context and the pattern anyway, e.g. because you are already using it for a while and experience limitations, you might skip the first part and go right into [Proposal Forming](proposal-forming.html).
 
-A circle might also appoint one or several members to create a proposal for an adaptation in any way they see fit, e.g. by using the activities for understanding pattern and context suggested above, and then present the proposal to the circle, e.g. in the [Governance Meeting](governance-meeting.md).
+A circle might also appoint one or several members to create a proposal for an adaptation in any way they see fit, e.g. by using the activities for understanding pattern and context suggested above, and then present the proposal to the circle, e.g. in the [Governance Meeting](governance-meeting.html).
 
 
 ## Known Limitations ##

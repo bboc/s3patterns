@@ -10,7 +10,7 @@ Depending on the size of the organization, department or team affected, driver m
 
 Most of the activities described below are suitable for groups of 10-15 people (depending maturity of the group and skill of the facilitator), for larger groups consider having participants self-organize into groups of up to five people, and add activities to consolidate input of the groups and consent to the result.
 
-The implementation of driver mapping explained below is just one way to implement it, make sure to adapt it to your specific needs, e.g. using [Adapt Patterns To Context](adapt-patterns-to-context.md).
+The implementation of driver mapping explained below is just one way to implement it, make sure to adapt it to your specific needs, e.g. using [Adapt Patterns To Context](adapt-patterns-to-context.html).
 
 ## Step 1: Why are we here?
 

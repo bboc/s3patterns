@@ -27,7 +27,7 @@ This agreement would include three different aspects:
 * what can we do to help each other apply the 7 principles?
 * what do we do when we suspect one or more principles are violated in a certain situation?
 
-Each organization or group needs to find their own answers for these questions, e.g. through [Proposal Forming](proposal-forming.md), here's a few examples:
+Each organization or group needs to find their own answers for these questions, e.g. through [Proposal Forming](proposal-forming.html), here's a few examples:
 
 * learn and understand: print the descriptions of the principles form this handbook for everyone, then get together, pick a pattern from the handbook (at the beginning stick to those you already use), and discuss how this pattern relates to each of the principles
 * support each other in application: have a poster with the agreements in your meeting room, so when making an agreements, you are reminded to check how a proposal relates to each of the principles

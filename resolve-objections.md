@@ -59,6 +59,6 @@ If the group or the facilitator see any other way to move forward, they should t
 
 ## Related Patterns ##
 
-[Meeting Facilitation](meeting-facilitation.md), [Role Selection](role-selection), [Consent Decision Making](consent-decision-making), [Development Plan](development-plan), [Proposal Forming](proposal-forming)
+[Meeting Facilitation](meeting-facilitation.html), [Role Selection](role-selection), [Consent Decision Making](consent-decision-making), [Development Plan](development-plan), [Proposal Forming](proposal-forming)
 
 

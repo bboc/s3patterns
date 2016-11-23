@@ -46,4 +46,4 @@ Any organisation experimenting with agile is most likely already familiar with s
 
 ### What's next?
 
-As more and more organisations experiment with S3, the framework will  be expanded with more patterns, and existing patterns will be refined and updated with variants which proved to be useful.  One example for this is the [Driver Mapping](driver-mapping.md) pattern, which was discovered and evolved as  organisations wanted to dive deeper into S3 and needed a way to identify a circle structure that would make their organisation more effective.  
+As more and more organisations experiment with S3, the framework will  be expanded with more patterns, and existing patterns will be refined and updated with variants which proved to be useful.  One example for this is the [Driver Mapping](driver-mapping.html) pattern, which was discovered and evolved as  organisations wanted to dive deeper into S3 and needed a way to identify a circle structure that would make their organisation more effective.  

@@ -9,6 +9,6 @@ Linking is the practice of one circle selecting a delegate who takes part in all
 
 ##Related patterns
 
-* [Double Linking](double-linking.md)
-* [Delegate Circle](delegate-circle.md)
-* [Service Circle](service-circle.md)
+* [Double Linking](double-linking.html)
+* [Delegate Circle](delegate-circle.html)
+* [Service Circle](service-circle.html)

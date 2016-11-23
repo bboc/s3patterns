@@ -69,7 +69,7 @@ In order to make chosen values as helpful as possible, consider these guidelines
 
 ## Related patterns ##
 
-* [Open S3 Adoption](open-s3-adoption.md) helps with regular review of chosen values
-* a [Retrospective](retrospective.md) offers a space to observe the effect of adhering to or ignoring values
-* [Adopt the Seven Principles](adopt-the-seven-principles.md) may help with reducing the number of chosen values necessary by providing a set of principles beneficial to all organizations
-* [Driver](driver.md) helps understand and articulate motivation for chosen values
+* [Open S3 Adoption](open-s3-adoption.html) helps with regular review of chosen values
+* a [Retrospective](retrospective.html) offers a space to observe the effect of adhering to or ignoring values
+* [Adopt the Seven Principles](adopt-the-seven-principles.html) may help with reducing the number of chosen values necessary by providing a set of principles beneficial to all organizations
+* [Driver](driver.html) helps understand and articulate motivation for chosen values

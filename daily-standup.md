@@ -70,12 +70,12 @@ The daily standup can be combined with any of these approaches and can benefit a
 ## Related Patterns
 
 
-*Coordinating work* - Another way to coordinate daily activity is through assigning the function of coordination to the [Coordinator Role](coordinator-role.md), [Coordination Circle](coordination-circle.md).
+*Coordinating work* - Another way to coordinate daily activity is through assigning the function of coordination to the [Coordinator Role](coordinator-role.html), [Coordination Circle](coordination-circle.html).
 
 [Coordination meeting* for synchronizing, organizing and aligning daily workflow within and across teams.
 
-[Domain](domain.md) of semi-autonomous teams
+[Domain](domain.html) of semi-autonomous teams
 
-Some content from daily standups inform the [Planning and Review Meetings](planning-and-review-meetings.md)
+Some content from daily standups inform the [Planning and Review Meetings](planning-and-review-meetings.html)
 
-Work items can be visualized ([Visualize Work](visualize-work.md)) in a [Prioritized Backlog](prioritized-backlog.md), and can be dealt with through a [Pull-System for Work](pull-system-for-work.md).
+Work items can be visualized ([Visualize Work](visualize-work.html)) in a [Prioritized Backlog](prioritized-backlog.html), and can be dealt with through a [Pull-System for Work](pull-system-for-work.html).

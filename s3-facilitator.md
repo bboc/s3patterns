@@ -16,14 +16,14 @@ Often the actual facilitation is shared between several circle members.
 
 ![The Facilitator is often Part of the Circle They Facilitate](img/circle/facilitator.png)
 
-Facilitators support the circle in developing [Artful Participation](artful-participation.md).
+Facilitators support the circle in developing [Artful Participation](artful-participation.html).
 
 A facilitator should make themselves familiar with the following formats:
 
-* [Rounds](rounds.md)
-* [Proposal Forming](proposal-forming.md)
-* [Consent Decision Making](consent-decision-making.md)
-* [Role Selection](role-selection.md)
-* [Meeting Evaluation](meeting-evaluation.md)
-* [Resolve Objections](resolve-objections.md)
+* [Rounds](rounds.html)
+* [Proposal Forming](proposal-forming.html)
+* [Consent Decision Making](consent-decision-making.html)
+* [Role Selection](role-selection.html)
+* [Meeting Evaluation](meeting-evaluation.html)
+* [Resolve Objections](resolve-objections.html)
 

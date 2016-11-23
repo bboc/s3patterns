@@ -23,8 +23,8 @@ Delegates will be re-elected after their term expires. If a team does not feel r
 
 ## Related Patterns
 
-* [Representative](representative.md)
-* [Consent Decision Making](consent-decision-making.md) for decision making in the delegate circle
-* [Governance Meeting](governance-meeting.md)
-* [Governance Backlog](governance-backlog.md)
-* [Role Selection](role-selection.md)
+* [Representative](representative.html)
+* [Consent Decision Making](consent-decision-making.html) for decision making in the delegate circle
+* [Governance Meeting](governance-meeting.html)
+* [Governance Backlog](governance-backlog.html)
+* [Role Selection](role-selection.html)
