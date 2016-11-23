@@ -44,3 +44,5 @@ artefacts_to_export = [
     'S3-patterns-handbook.epub',
     'S3-patterns-handbook.pdf',
 ]
+
+MD_FILE_TEMPLATE = "%s.md"

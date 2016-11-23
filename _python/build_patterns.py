@@ -4,11 +4,19 @@ import argparse
 import os
 import shutil
 import re
+import os.path
+import sys
 
 from s3_patterns import s3_patterns, all_patterns, handbook_group_order
-from config import groups_to_rename, patterns_to_rename, artefacts_to_export, additional_content_to_export
+from config import (
+    additional_content_to_export,
+    artefacts_to_export, 
+    groups_to_rename, 
+    MD_FILE_TEMPLATE,
+    patterns_to_rename)
 from common import make_pathname, make_title, create_directory
 from slides import cmd_slides
+from convert_jekyll_files import expand_cross_references, replace_references
 
 
 def cmd_build(args):
@@ -38,7 +46,7 @@ def cmd_export(args):
         'S3-patterns-handbook.epub',
         'S3-patterns-handbook.pdf',
     ]
-    template = '%s.md'
+    template = MD_FILE_TEMPLATE
     patterns = all_patterns()
     dst_dir = '_export'
 
@@ -51,7 +59,7 @@ def cmd_export(args):
     create_directory(dst_dir)
 
     def copy_and_add_suffix(name):
-        shutil.copy('%s.md' % name,
+        shutil.copy(MD_FILE_TEMPLATE % name,
                     os.path.join(dst_dir, template % name))
 
     # copy patterns
@@ -121,7 +129,7 @@ def build_skeleton_files(args, patterns, groups, root='content-tmp'):
     create_directory(root)
 
     def make_file(filename_root, title_root):
-        with file(os.path.join(root, '%s.md' % make_pathname(filename_root)), 'w+') as fp:
+        with file(os.path.join(root, MD_FILE_TEMPLATE % make_pathname(filename_root)), 'w+') as fp:
             front_matter(fp, make_title(title_root))
             fp.write('\n\n...\n')
 
@@ -200,10 +208,10 @@ def match_and_rename(root, filename):
         os.rename(os.path.join(root, filename),
                   os.path.join(root, new_name))
 
-    GROUP_TEMPLATES = ['%s.md', '%s--master.md', '%s--toc.md']
+    GROUP_TEMPLATES = [MD_FILE_TEMPLATE, '%s--master.md', '%s--toc.md']
     GROUP_PREFIX_TEMPLATES = ['%s--content']
 
-    PATTERN_TEMPLATES = ['%s.md']
+    PATTERN_TEMPLATES = [MD_FILE_TEMPLATE]
     PATTERN_PREFIX_TEMPLATES = ['%s--original', '%s--draft']
 
     def process_class(items_to_rename, full_templates, prefix_templates):
@@ -224,17 +232,33 @@ def match_and_rename(root, filename):
     process_class(patterns_to_rename, PATTERN_TEMPLATES, PATTERN_PREFIX_TEMPLATES)
 
 
-CROSS_REFERENCE = re.compile("(\[[\w\s\-]+?\]\[\])")
 def cmd_references(args):
-    with file(args.source, 'r') as source:
-        for line in source:
-            line = line.rstrip()
-            result = CROSS_REFERENCE.findall(line)
-            for ref in result:
-                title = ref[1:-3]
-                new_ref = "[%s](%s)" % (title, make_pathname(title))
-                line = line.replace(ref, new_ref)
-            print line
+    """Expand all cross-references [name][] to links that 
+    Jekyll understands [name][name.md].
+    if args.source is a folder, process all patterns within that folder,
+    if it is a file, process that file (regardless of whether it is a pattern
+    or not). If folder args.target is given, write output to that folder,
+    print to stdout otherwise.
+    """
+    if os.path.isdir(args.source):
+        if not args.target:
+            print "please give a target"
+            sys.exit(1)
+        if not os.path.isdir(args.target):
+            print "target", args.target, "is not a directory"
+            sys.exit(1)
+        for pattern in all_patterns():
+            print "processing", pattern
+            source_file = os.path.join(args.source, make_pathname(pattern))
+            target_file = os.path.join(args.target, make_pathname(pattern))
+            expand_cross_references(MD_FILE_TEMPLATE % source_file, 
+                                    MD_FILE_TEMPLATE % target_file)
+    else:
+        with file(args.source, 'r') as source:
+            for line in source:
+                line = line.rstrip()
+                print replace_references(line)
+
 
 if __name__ == "__main__":
 
@@ -285,9 +309,11 @@ if __name__ == "__main__":
     update.set_defaults(func=cmd_update)
 
     references = subparsers.add_parser('references',
-                                   help="Expand all cross-references.")
+                                   help="Expand all cross-references in pattern files.")
     references.add_argument('source',
                         help='Source folder or file.')
+    references.add_argument('target', nargs='?', default=None,
+                        help='Target folder if source is a folder.')
 
     references.set_defaults(func=cmd_references)
 

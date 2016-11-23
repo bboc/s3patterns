@@ -3,6 +3,8 @@
 
 from __future__ import unicode_literals
 
+from common import make_pathname
+from config import MD_FILE_TEMPLATE
 import codecs
 import os
 import re
@@ -30,7 +32,7 @@ class LineWriter(object):
         self.prev_line_empty = True
 
 
-CROSS_REFERENCE = re.compile("\[(.*?)\](\(.+?.md\))")
+FULL_CROSS_REFERENCE = re.compile("\[(.*?)\](\(.+?.md\))")
 
 def copy_and_fix_headlines(dst_dir, filename, headline_level=1, reference_converter=False):
     """
@@ -71,13 +73,31 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level=1, reference_conver
                     lw.write(increase_headline_level(l, headline_level))
                 else:
                     if callable(reference_converter):
-                        result = CROSS_REFERENCE.findall(l)
+                        result = FULL_CROSS_REFERENCE.findall(l)
                         # replace all link targets
                         for (text, target) in result:
                             l = l.replace(target, reference_converter(text,target))
                         lw.write(l)
                     else: 
                         lw.write(line)
+
+SHORT_CROSS_REFERENCE = re.compile("(\[[\w\s\-]+?\]\[\])")
+
+def expand_cross_references(source_filename, target_filename):
+
+    with codecs.open(source_filename, 'r', 'utf-8') as source:
+        with codecs.open(target_filename, 'w', 'utf-8') as target:
+            for line in source:
+                target.write(replace_references(line))
+
+
+def replace_references(line):
+    result = SHORT_CROSS_REFERENCE.findall(line)
+    for ref in result:
+        title = ref[1:-3]
+        new_ref = "[%s](%s)" % (title, MD_FILE_TEMPLATE % make_pathname(title))
+        line = line.replace(ref, new_ref)
+    return line
 
 
 def increase_headline_level(line, times):
