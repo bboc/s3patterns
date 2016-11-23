@@ -23,10 +23,10 @@ Having a regular cadence of making and evolving agreements supports a circle in 
 
 The following structure has proven to be effective for governance meetings.
 
-1. __Opening round:__ any "ritual" that allows the group to attune to each other and become present, e.g. a round of check-ins
-2. __Administrative Concerns__: announcements, consent to minutes of the last governance meeting, accepting  the agenda
-3. __Agenda Items__: each agenda item should have an "owner" who can present the item and answer questions about it
-4. __Closing:__ review of meeting [Meeting Evaluation](meeting-evaluation.html) and results, future agenda items
+1. __Opening round:__ any "ritual" that allows the group to attune to each other and become present, e.g. a round of check-ins.
+2. __Administrative Concerns__: announcements, consent to minutes of the last governance meeting, accepting  the agenda.
+3. __Agenda Items__: each agenda item should have an "owner" who can present the item and answer questions about it.
+4. __Closing:__ review of meeting [Meeting Evaluation](meeting-evaluation.html) and results, future agenda items.
 
 ![Format of a Governance Meeting](img/meetings/governance-meeting.png)
 
