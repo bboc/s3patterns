@@ -24,6 +24,9 @@ patterns_to_rename = [
     ('organize in nested domains', 'domain'),
     ('role descriptions', 'role description'),
     ('secretary', 'meeting host'),
+    ('agreements', 'agreement'),
+    ('role description', 'domain description'),
+    ('qualifying drivers', 'qualifying organizational drivers'),
 ]
 
 

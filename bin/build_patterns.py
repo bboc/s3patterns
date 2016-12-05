@@ -34,6 +34,9 @@ def cmd_build(args):
     if args.index:
         generate_index_files()
 
+    if args.graph:
+        generate_graph()
+
 
 def cmd_export(args):
     """Export all content files to a separate folder, optionally suffix with --original."""
@@ -153,6 +156,16 @@ def generate_index_files(root='content'):
         # output multimarkdown command to create build group index files
         print 'multimarkdown --to=mmd --output=%(group)s.md %(group)s--master.md' % {'group': make_pathname(group)}
 
+def generate_graph():
+    for group in handbook_group_order:
+        filename = "%s.gv.txt" % make_pathname(group)
+        with file(filename, 'w') as dst:
+            dst.write('graph {\n')
+            #dst.write('digraph "%s" {\n' % make_title(group))
+            for pattern in s3_patterns[group]:
+                dst.write('"%s" -- "%s"\n' % (make_title(group), make_title(pattern)))
+            dst.write("}\n")
+            print "neato -Tpng %s -o%s.png" % (filename, make_pathname(group))
 
 def list_excluded_files(args, groups):
 
@@ -278,6 +291,9 @@ if __name__ == "__main__":
                        help='Create exclude list for _config.yaml.')
     build.add_argument('--index', action='store_true',
                        help='Output commands for generate-index-files.')
+    build.add_argument('--graph', action='store_true',
+                       help='Output files to generate illustrations.')
+
     build.set_defaults(func=cmd_build)
 
     export = subparsers.add_parser('export',

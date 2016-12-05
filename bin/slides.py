@@ -68,6 +68,11 @@ class DecksetWriter(object):
     GROUP_INDEX_IMAGE = '\n![inline,fit](img/grouped-patterns/group-%s.png)\n\n'
     GROUP_INDEX_FILENAME = 'index.md'
 
+    # configuration
+    INSERT_GROUP_TEXT_TITLE_SLIDE = False
+    INSERT_GROUP_IMG_TITLE_SLIDE = True
+    INSERT_ILLUSTRATIONS_FOR_PATTERN_GROUPS = False
+
     def __init__(self, args):
         self.args = args
         self.source = self.args.source
@@ -75,7 +80,6 @@ class DecksetWriter(object):
             os.path.dirname(self.args.target), 'deckset_template.md')
 
     def build(self):
-        print self.args.target
         with codecs.open(self.args.target, 'w+', 'utf-8') as self.target:
             with codecs.open(self.template_path, 'r', 'utf-8') as self.template:
 
@@ -83,10 +87,11 @@ class DecksetWriter(object):
                 # insert title slides
                 self._copy_markdown(self.source, 'title.md')
 
-                # insert all pattern groups
-                for i, group in enumerate(handbook_group_order):
-                    self.target.write(self.GROUP_INDEX_IMAGE % str(i + 1))
-                    self.target.write('\n\n---\n\n')
+                # insert illustrations for all pattern groups
+                if self.INSERT_ILLUSTRATIONS_FOR_PATTERN_GROUPS:
+                    for i, group in enumerate(handbook_group_order):
+                        self.target.write(self.GROUP_INDEX_IMAGE % str(i + 1))
+                        self.target.write('\n\n---\n\n')
 
                 # add all the groups
                 for i, group in enumerate(handbook_group_order):
@@ -120,13 +125,15 @@ class DecksetWriter(object):
         folder = os.path.join(self.source, make_pathname(group))
 
         # group title and index slides
-        # self.target.write('\n# %s. %s \n\n---\n\n' % (group_index,
-        # make_title(group)))
         if write_title_slide:
-            self.target.write(self.GROUP_TITLE_IMAGE % str(group_index))
+            if self.INSERT_GROUP_TEXT_TITLE_SLIDE:
+                self.target.write('\n# %s. %s \n\n---\n\n' % (group_index, make_title(group)))
+            if self.INSERT_GROUP_IMG_TITLE_SLIDE:
+                self.target.write(self.GROUP_TITLE_IMAGE % str(group_index))
+                self.target.write('\n\n---\n\n')
+        if self.INSERT_ILLUSTRATIONS_FOR_PATTERN_GROUPS:
+            self.target.write(self.GROUP_INDEX_IMAGE % str(group_index))
             self.target.write('\n\n---\n\n')
-        self.target.write(self.GROUP_INDEX_IMAGE % str(group_index))
-        self.target.write('\n\n---\n\n')
 
         # insert group preamble if present
         if os.path.exists(os.path.join(folder, self.GROUP_INDEX_FILENAME)):
@@ -136,6 +143,7 @@ class DecksetWriter(object):
         for pattern_index, pattern in enumerate(s3_patterns[group]):
             self._copy_markdown(folder, '%s.md' % make_pathname(
                 pattern), self.PATTERN_NUMBER % (group_index, pattern_index + 1))
+
 
     def _copy_markdown(self, folder, name, headline_prefix=''):
         with codecs.open(os.path.join(folder, name), 'r', 'utf-8') as section:
