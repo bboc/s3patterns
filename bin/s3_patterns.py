@@ -33,7 +33,7 @@ s3_patterns = {
     ],
     "enablers of co-creation": [
         "artful participation",
-        "S3 facilitator",
+        "governance facilitator",
         "be the change",
         "adopt the seven principles",
         "agree on values",
@@ -95,7 +95,7 @@ s3_patterns = {
     "organizational structure": [
         "delegate circle",
         "service circle",
-        "helping circle",
+        "helping team",
         "coordination circle",
         "peach organization",
         "double-linked hierarchy",
